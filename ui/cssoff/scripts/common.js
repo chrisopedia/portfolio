@@ -16,7 +16,6 @@ $(document).ready(function(){
 		if (time != 0) {
 			time--;
 		}
-		console.log(time);
 		$('#be-a-contestant time').html(time);
 		return time;
 	}
@@ -24,7 +23,6 @@ $(document).ready(function(){
 	$('#navigation .section').each(function(index) {
 		$(this).click(function() {
 			$.scrollTo($('.Section').eq(index), {duration:1000});	
-			console.log($('.Section').eq(index));
 		});
 	});
 	$('#back-to-top').click(function () {
