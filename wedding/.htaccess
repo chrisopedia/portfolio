@@ -1,0 +1,8 @@
+Options +FollowSymLinks
+Options -MultiViews
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(www\.newtonwedding\.com)(:80)? [NC]
+RewriteRule ^(.*) http:/newtonwedding.com/$1 [R=301,L]
+order deny,allow
+

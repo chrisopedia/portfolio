@@ -1,0 +1,77 @@
+Wedding Doc
+
+Title: Chris & Kate
+SubTitle: set a date
+
+Brief:
+	The idea behind the site would be a one page for all the information for the wedding.  We have half the family from Boston and the other half from California, so we want to cater to both sides.  Guests should be able to RSVP and/or contact us (either by form of by emails depending on design); we'll be sending out "Save The Date" cards that will point people to this site for the Registry info/links.
+
+Sections:
+	Details (must have)
+		Who: Chris Newton & Kate Koumantzelis
+		What: Getting Married
+		Where: Sheraton Hotel (Boston) 39 Dalton St. Boston, MA 02199
+		When: August 6, 2011
+	RSVP/Contact Us (must have)
+		To: mail@thenewtonwedding.com
+		From field
+		Subject field
+		Message field
+	Registry (must have)
+		Crate & Barrel
+		Macy's
+		Amazon
+	How We Met (like to have)
+		Kate &amp; I met in a somewhat conventional sense, at a bar, through mutual friends; yet nothing about this story is short of what you'd expect from these love-stricken kid. Chance meetings, food fights, missed opportunities, scheduling snafus, and the explosive food that ignited the passion. The tale is less of a love story and more of a page from the 80s romantic comedy playbook.
+		a "continue reading" will either click through to a new page if you want or it can reveal the rest of the story
+	Things to Do in Boston (like to have)
+		Categories of Things
+			Sports
+			Musuems
+			Recreational
+			Tourists spots
+			Live Entertainment
+		SAMPLE
+		Boston Red Sox
+		The Boston Red Sox are in town for the entire week leading up to the wedding and the Sunday immediately following the wedding. From Monday, August 1st, to Thursday, August 4th, they'll be hosting the Cleveland Indians at historic Fenway Park.  Tickets are already on sale for those games <span class="Note">(<a href="http://purchase.tickets.com/buy/MLBEventInfo?pid=6904043&agency=MLB&tfl=Boston_Red_Sox-Schedule-2011_Red_Sox_Schedule-na-x0">Monday</a>, <a href="http://purchase.tickets.com/buy/MLBEventInfo?pid=6904044&agency=MLB&tfl=Boston_Red_Sox-Schedule-2011_Red_Sox_Schedule-na-x0">Tuesday</a>, <a href="http://purchase.tickets.com/buy/MLBEventInfo?pid=6904045&agency=MLB&tfl=Boston_Red_Sox-Schedule-2011_Red_Sox_Schedule-na-x0">Wednesday</a>, <a href="http://purchase.tickets.com/buy/MLBEventInfo?pid=6904046&agency=MLB&tfl=Boston_Red_Sox-Schedule-2011_Red_Sox_Schedule-na-x0">Thursday</a>)</span>. But the game of the year starts on Friday night when the rival New York Yankees (insert boos and hisses here) come to town for the 3-game weekend series.  These tickets may be hard to come by as this is one of the biggest rivalries in sports.  And given the fact the wedding is on Saturday, during the game, Sunday may be the best choice for attending.  Kate &amp; I are trying to plan for Sunday's game with a group of people.  If you're interested in attending with us, <a href="#rsvp">contact us</a> and let us know so we can get a headcount for tickets.
+
+	Resources for Travel (nice to have)
+		Hotels
+			<a href="http://www.starwoodhotels.com/sheraton/property/overview/index.html?propertyID=430" data-tooltip="The wedding will take place here">Sheraton</a>*
+			<a href="http://innatstbotolph.com/">The Inn @ St. Botolph</a>
+			<a href="http://colonnadehotel.com/">Colonnade</a>
+			<a href="http://www.fairmont.com/copleyplaza/">Fairmont, Copley Plaza</a>
+			<a href="http://lenoxhotel.com/">The Lenox Hotel</a>
+			<a href="http://www.starwoodhotels.com/westin/property/overview/index.html?propertyID=1035">Westin, Copley Place</a>
+			<a href="http://mandarinoriental.com">Mandarin Oriental</a>
+			<a href="http://www.marriott.com/hotels/travel/bosco-boston-marriott-copley-place/">Marriott, Copley Place</a>
+			<a href="http://www.commonwealthcourt.com/">Commonwealth Court</a>
+			<a href="http://backbaysuites.com/">Back Bay Suites</a>
+		Car Rental
+			<a href="http://www.advantage.com/">Advantage Rent-a-Car</a>
+			<a href="http://www.alamo.com/">Alamo Car Rental</a>
+			<a href="http://www.avis.com/">Avis Car Rental</a>
+			<a href="http://www.budget.com/">Budget Rent-a-Car</a>
+			<a href="http://www.dollarrentacar.com/">Dollar Rent-a-Car</a>
+			<a href="http://www.enterpriserentacar.com/">Enterprise Rent-a-Car</a>
+			<a href="http://www.hertz.com/">Hertz Rent-a-Car</a>
+			<a href="http://www.nationalcarrental.com/">National Car Rental</a>
+			<a href="http://www.thrifty.com/">Thrifty Car Rental</a>
+		Air Travel
+			<a href="http://virginamerica.com/flights/" title="Flys out of LAX &amp; SFO nonstop to BOS">Virgin America</a>
+			<a href="http://www.jetblue.com/UBF/flights/flights.asp" title="Flys out of LAX &amp; Long Beach nonstop to BOS">JetBlue Airlines</a>
+			<a href="http://travel.united.com/ube/core/us/shop.do" title="Flys out of most airports nonstop to BOS">United Airlines</a>
+			<a href="http://www.delta.com/booking/searchFlights.do" title="Flys out of most airports nonstop to BOS">Delta Airlines</a>
+			<a href="http://www.aa.com/reservation/roundTripSearchAccess.do" title="Flys out of most airports nonstop to BOS">American Airlines</a>
+			<a href="http://kayak.com">Kayak.com</a>
+			<a href="http://travelocity.com">Travelocity.com</a>
+			<a href="http://expedia.com">Expedia.com</a>
+			<a href="http://orbitz.com">Orbitz.com</a>
+			<a href="http://priceline.com">Priceline.com</a>
+		Other
+			<a href="http://www.massport.com/logan-airport/Pages/Default.aspx" data-tooltip="test">Logan Airport</a>
+			<a href="http://www.mbta.com/">Mass Transit</a>
+			<a href="http://www.cityofboston.gov/Police/hackney/taxi_rates.asp">Boston Taxi Rates</a>
+			<a href="http://www.bostonloganairportshuttle.com/index.html">Super Shuttle</a>
+			<a href="http://retailmenot.com/">Retail Me Not</a>
+	Wedding Countdown (nice to have)

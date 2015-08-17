@@ -1,0 +1,5 @@
+AddType application/vnd.ms-fontobject .eot
+AddType font/truetype .ttf
+AddType font/opentype .otf
+AddType font/woff .woff
+#AddType application/octet-stream .otf .ttf

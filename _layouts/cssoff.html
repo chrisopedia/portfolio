@@ -1,0 +1,51 @@
+---
+layout: default
+site_id: cssoff
+site_title: CSS Off | Triple Dare - The Web's Messiest Challenge
+site_ui_dir: /cssoff/
+site_stylesheet: cssoff
+description: Triple Dare - The Web's Messiest Challenge. Airing Thursdays on the Knucklelodeon Network&trade;.
+font_link: true
+metadata: itemscope itemprop="http://schema.org/TVSeries"
+---
+
+<header id="header">
+    <h1 class="heading" itemprop="name"><a class="url" href="/cssoff/" itemprop="url">Triple Dare</a></h1>
+    <meta itemprop="isFamilyFriendly" content="true" />
+    <hgroup class="tagline" itemprop="description">
+        <h2 class="header">The Web's Messiest Challenge!</h2>
+        <h3 class="subheader">Airing Thursdays on the Knucklelodeon Network&trade;</h3>
+    </hgroup>
+    <nav id="navigation">
+        <ul class="list">
+            <li class="item"><a class="section url" href="#obstacles" title="Jump to the Obstacles section">Obstacles</a></li>
+            <li class="item"><a class="section url" href="#prizes" title="Jump to the Prizes section">Prizes</a></li>
+            <li class="item"><a class="section url" href="#be-a-contestant" title="Jump to the Be a Contestant section">Be a Contestant</a></li>
+            <li class="item"><a class="url" id="back-to-top" href="#" title="Jump back to top">Back to Top</a></li>
+        </ul>
+    </nav>
+</header>
+
+{{ content }}
+
+<footer id="footer" itemprop="productionCompany" itemscope itemtype="http://schema.org/TelevisionStation">
+    <h1 itemprop="name">The Knucklelodeon Network</h1>
+    <p class="finePrint"><small>The Knucklelodeon Network is not affiliated with Nickelodeon, nor is it an actual television network.</small></p>
+    <p class="finePrint"><small>Triple Dare contestents consent to potential physical bodily harm, like being burried alive by a giant waffle.</small></p>
+    <address>
+        <dl>
+            <dt>Visit our Studios</dt>
+            <dd class="location" itemprop="location" itemscope itemtype="http://schema.org/PostalAddress">
+                <span class="street" itemprop="streetAddress">11 Slime Time Way</span>
+                <span itemprop="addressLocality">Sacramento</span>, <abbr title="California" itemprop="addressRegion">CA</abbr> <span itemprop="postalCode">92403</span>
+            </dd>
+            <dd class="location" itemprop="location" itemscope itemtype="http://schema.org/PostalAddress">
+                <span class="street" itemprop="streetAddress">329 Gunk Road</span>
+                <span itemprop="addressLocality">Jacksonville</span>, <abbr title="Florida" itemprop="addressRegion">FL</abbr> <span itemprop="postalCode">32099</span>
+            </dd>
+        </dl>
+    </address>
+    <p class="copyright"><small>This design is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</small></p>
+</footer>
+
+{% include cssoff/scripts.html %}

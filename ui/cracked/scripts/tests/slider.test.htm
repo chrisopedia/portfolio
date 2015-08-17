@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SliderClass Test</title>
+	<script src="../external/jquery.js"></script>
+	<script src="../external/plugins/jquery.easing.js"></script>
+	<script src="../external/class.js"></script>
+	
+	<script src="../class/slider.class.js"></script>
+	
+	<script>
+	(function($){
+		$(function(){
+			var slider = new SliderClass($(".sliderContainer"));
+		});
+	})(jQuery);
+	</script>
+	
+	<style> 
+	.sliderContainer { overflow: hidden; width: 600px; height: 400px; position: relative; }
+		.sliderContainer .prev, .sliderContainer .next { position: absolute; top: 50%; z-index: 99; }
+		.sliderContainer .prev { left: 0; }
+		.sliderContainer .next { right: 0; }
+		.sliderContainer .sliderWindow { width: 90000px; list-style: none; margin: 0; padding: 0; position: absolute; }
+			.sliderContainer .sliderWindow li { width: 600px; height: 400px; float: left; }
+	</style>
+</head>
+<body>
+	<div class="sliderContainer">
+		<ul class="sliderWindow">
+			<li class="page"><a data-url="http://www.ehow.com"><img src="http://dummyimage.com/600x400/d63/fff"></a></li>
+			<li class="page"><a data-url="http://www.ehow.com"><img src="http://dummyimage.com/600x400/644/fff"></a></li>
+			<li class="page"><a data-url="http://www.ehow.com"><img src="http://dummyimage.com/600x400/995/fff"></a></li>
+			<li class="page"><a data-url="http://www.ehow.com"><img src="http://dummyimage.com/600x400/354/fff"></a></li>
+			<li class="page"><a data-url="http://www.ehow.com"><img src="http://dummyimage.com/600x400/223/fff"></a></li>
+		</ul>
+	</div>
+	<button class="prev" data-slider="prev">Prev</button>
+	<button class="next" data-slider="next">Next</button>
+</body
+</html>

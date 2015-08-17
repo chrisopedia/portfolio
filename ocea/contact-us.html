@@ -1,0 +1,49 @@
+---
+layout: ocea
+stylesheet: contact
+id: Template2b
+content_id: Contact
+title: Contact Us
+breadcrumb_enabled: true
+---
+
+<div class="column1">
+
+    <h1 class="Heading2a">Contact Us</h1>
+    
+    <p>Please enter your name and email address and select a subject.  The subject will correspond to the receipient.</p>
+    
+    <form action="" method="post" class="Form1">
+        <fieldset>
+            <label for="name">Name</label>
+            <input name="name" id="name" type="text" />
+        </fieldset>
+
+        <fieldset>
+            <label for="email">Email</label>
+            <input name="email" id="email" type="text" class="" />
+
+        <fieldset>
+            <label for="select">Subject</label>
+            <select name="subject" id="subject">
+                <option value="General Inquiry">General Inquiry</option>
+                <option value="Reservations">Reservations</option>
+                <option value="News Desk">News Desk</option>
+                <option value="Web Site">Web Site</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" value=""></textarea>
+        </fieldset>
+        <input name="send" id="send" type="submit" value="send" />
+    </form>
+
+    <p>Looking to contact one of our board members or committee chairs?<br />Head over to the  <a href="/about/committees.html">committees page</a> or <a href="/about/meet-the-board.html">board members page</a> and send them an email at the addresses listed.</p>
+
+</div>
+
+<div class="column2">
+    {% include ocea/upcoming-events.html %}
+</div>

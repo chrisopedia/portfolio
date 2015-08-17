@@ -1,0 +1,12 @@
+<ul class="listing">
+    {% for item in site.projects %}
+        <li class="item">
+            <a href="{{ item.url }}">{{ item.title }}</a>
+            <ul class="listing">
+                {% for site in item.sites %}
+                    <li class="item"><a href="{{ site.url }}">{{ site.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
+</ul>

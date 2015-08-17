@@ -1,0 +1,122 @@
+#NewsletterArchive .Nav2 li { margin: 0 0 15px; }
+	#NewsletterArchive .Nav2 li a:hover { text-decoration: none; }
+		#NewsletterArchive .Nav2 li .Nav4 { height: 94px; margin: 0 0 10px; }
+			#NewsletterArchive .Nav2 li .Nav4 li { margin: 0; }
+				#NewsletterArchive .Nav2 li .Nav4 li a:hover { text-decoration: underline; }
+    #NewsletterArchive .CurrentNewsletter .Heading4a { margin: 0 0 10px; }
+.download { float: right; }
+
+.Nav3 { width: 292px; margin: 20px auto; }
+a[rel~="pdf"] { background-position: right center; padding-right: 20px; }
+
+.slideshow { list-style: none; width: 512px; margin: 20px auto 0; border: 1px solid #000; -moz-border-radius: 5px; -webkit-border-radius: 5px; padding: 5px; }
+	.slideshow li img {  }
+	
+/* after JS delete this */
+	.slideshow li { display: none;  }
+	.slideshow li:first-child { display: block; }
+
+.legend { float: right; margin: 0 20px 20px 40px; }
+    .legend h2 { margin: 0 0 10px; font-weight: bold; font-size: 1.2em; }
+    .legend ul { list-style: none;  }
+        .legend ul li { border-left: 5px solid #fff; padding-left: 10px; margin: 0 0 5px; }
+        .legend ul li.deadlines { border-left-color: #d96666; }
+        .legend ul li.oceaEvents { border-left-color: #B1440E; }
+        .legend ul li.cseaEvents { border-left-color: #668CD9; }
+        .legend ul li.naeaEvents { border-left-color: #E0C240; }
+
+#Resources {}
+	#Resources .calendar { margin: 10px 0 20px; }
+		#Resources .calendar iframe { display: block; width: 610px; height: 617px;}
+
+#Newsletter {}
+    #Newsletter .Title1a { text-align: center; }
+    #Newsletter .articleInfo { height: 2.5em; line-height: 2.5em; }
+        #Newsletter .articleInfo .Pagination1 { padding: 5px 0; height: 1.5em; line-height: 1.5em; }
+        #Newsletter .articleInfo .Title4a { text-align: center; padding: 5px 0 5px 90px; margin: 5px 0 10px; border: 1px solid #000; border-width: 1px 0; font-style: italic; }
+        #Newsletter .articleInfo .pageNo { float: left; }
+    #Newsletter .lowerPager {  }
+    
+    #Newsletter #page01 { margin: 10px 0; }
+        #Newsletter #page01 .column1 { width: 20%; text-align: center; }
+            #Newsletter #page01 .column1 ul { list-style: none; margin: 10px 0; }
+            #Newsletter #page01 .column1 img { margin: 10px 0; }
+            #Newsletter #page01 .column1 p { text-align: left; font-size: 11px; }
+        #Newsletter #page01 .column2 { width: 75%; border-left: 1px solid #000; padding-left: 20px; }
+            #Newsletter #page01 .column2 .headline { text-align: center; }
+            #Newsletter #page01 .column2 .Heading2a {}
+                #Newsletter #page01 .column2 .Heading2a span { display: block; font-size: .8em; }
+            #Newsletter #page01 .column2 .summary { font-size: 16px; }
+                #Newsletter #page01 .column2 .summary img { float: left; margin-right: 20px; }
+            #Newsletter #page01 .column2 .meetingAgenda { clear: both; margin: 20px 0 0; padding: 20px 0 0; border: 1px solid #000; border-width: 1px 0 0; }
+                #Newsletter #page01 .column2 .meetingAgenda .map { float: left; width: 332px; margin-right: 20px; }
+                    #Newsletter #page01 .column2 .meetingAgenda iframe { border: 1px solid #000; padding: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+                    #Newsletter #page01 .column2 .meetingAgenda .map a { display: block; float: left; }
+                    #Newsletter #page01 .column2 .meetingAgenda .map a:last-child { float: right; }
+                #Newsletter #page01 .column2 .meetingAgenda .info { text-align: center; }
+                    #Newsletter #page01 .column2 .meetingAgenda .info .Heading5a { margin: 10px 0 5px; }
+                    #Newsletter #page01 .column2 .meetingAgenda .info .Heading5a:first-child { margin: 0; }
+                    #Newsletter #page01 .column2 .meetingAgenda .info ul { list-style: none; margin: 0 0 10px; }
+                    #Newsletter #page01 .column2 .meetingAgenda .info p { font-size: 11px; margin: 0; text-align: left; }
+
+    #Newsletter #page02 { margin: 10px 0; }
+        #Newsletter #page02 .column1 { width: 70%; font-size: 16px; }
+            #Newsletter #page02 .column1 .Title3a { background-color: #E88C14; padding: 5px 10px; }
+                #Newsletter #page02 .column1 .Title3a span { display: block; font-size: .6em; padding-left: 20px; }
+            #Newsletter #page02 .column1 p { margin: 20px 0; }
+            #Newsletter #page02 .column1 img { float: right; padding: 15px 20px 10px 20px; }
+            #Newsletter #page02 .column1 .signature { background-color: #fff; float: right; font-style: italic; }
+            #Newsletter #page02 .column1 .signature:before { content: "- "; }
+
+        #Newsletter #page02 .column2 { width: 25%; border-left: 1px solid #000; padding-left: 20px; text-align: center; }
+            #Newsletter #page02 .column2 img { margin: 0 0 5px; width: 120px; }
+            #Newsletter #page02 .column2 ul { list-style: none; text-align: left; }
+                #Newsletter #page02 .column2 ul li { margin: 10px 0; font-weight: bold; }
+                    #Newsletter #page02 .column2 ul li ul { margin-left: 15px; }
+                        #Newsletter #page02 .column2 ul li ul li { margin: 0; font-weight: normal; }
+    #Newsletter #page03 {}
+        #Newsletter #page03 ul { list-style: none; }
+            #Newsletter #page03 ul li { float: left; margin: 10px 10px 10px 0; }
+            #Newsletter #page03 ul li.odd { margin-right: 0; }
+    
+    #Newsletter #page04 {}
+        #Newsletter #page04 .title { text-align: center; margin: 10px 0 20px; }
+            #Newsletter #page04 .title .Title5a { margin: 10px 0; }
+        #Newsletter #page04 .summary { margin: 20px 0; font-size: 20px; line-height: 2em; }
+            #Newsletter #page04 .summary p,
+            #Newsletter #page04 .summary div { float: left; width: 32%; margin: 90px 0; }
+            #Newsletter #page04 .summary div { margin: 50px 0; }
+                #Newsletter #page04 .summary div span { display: block; font-weight: bold; }
+            #Newsletter #page04 .summary img { float: left; width: 302px; margin: 0 20px; border: 1px solid #000; }
+        #Newsletter #page04 .info { clear: both; margin: 20px 0; }
+            #Newsletter #page04 .info ul { float: left; width: 60%; margin-left: 15px; }
+                #Newsletter #page04 .info ul li { margin: 10px 0; }
+            #Newsletter #page04 .contactInfo { float: right; width: 37%; font-size: 1.2em; }
+    
+    #Newsletter #page05 { margin: 20px 0 10px; }
+        #Newsletter #page05 .column1 { width: 48%; text-align: center; border-right: 1px solid #000; padding-right: 20px; }
+            #Newsletter #page05 .column1 img { margin: 0 0 10px; width: 200px; }
+            #Newsletter #page05 .column1 p { text-align: left; }
+        #Newsletter #page05 .column2 { width: 48%; }
+    
+    #Newsletter #page06 { margin: 20px 0 10px; }
+
+    #Newsletter #page07 { margin: 20px 0 10px; font-size: 16px; }
+        #Newsletter #page07 .column1 p:first-line { text-transform: uppercase; font-weight: bold; }
+        #Newsletter #page07 .column2 ul { list-style: upper-alpha; margin-left: 25px; }
+        #Newsletter #page07 .column2 dt { float: left; width: 50%; clear: left; }
+        #Newsletter #page07 .column2 dd { float: right; width: 50%; }
+
+#SignUp {}
+    #SignUp .Heading2a { margin: 0 0 20px; }
+    
+#Links {}
+    #Links .links { list-style: none; }
+        #Links .links li { float: left; width: 25%; margin: 0 0 20px; }
+            #Links .links li .Heading5a { margin: 0 0 5px; }
+            #Links .links li ul { list-style: disc; margin: 0 0 0 15px; line-height: 1.5em; }
+                #Links .links li ul li { float: none; width: 100%; margin: 0; }
+
+#Documents {}
+    #Documents .column2 div { float: left; width: 50%; margin: 0 0 20px; }
+        #Documents .column2 div h2 { margin: 10px 0; }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ShowHideClass Test</title>
+	<script src="../external/jquery.js"></script>
+	<script src="../external/class.js"></script>
+	
+	<script src="../class/showhide.class.js"></script>
+	
+	<script>
+	(function($){
+		$(function(){
+			var showHide = new ShowHideClass();
+		});
+	})(jQuery);
+	</script>
+	
+	<style>
+	.hidden { display: none; }
+	</style>
+</head>
+<body>
+	<div>
+		<ul data-type="more">
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+			<li>Item 5</li>
+			<li>Item 6</li>
+		</ul>
+		<button class="hidden" data-type="more-button">More</button>
+	</div>
+	<div>
+		<ul data-type="more">
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+			<li>Item 5</li>
+			<li>Item 6</li>
+		</ul>
+		<button class="hidden" data-type="more-button">More</button>
+	</div>
+</body
+</html>

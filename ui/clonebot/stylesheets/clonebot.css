@@ -1,0 +1,339 @@
+body {
+	margin: 20px 0;
+	font-family: Arial;
+	font-weight: bold;
+	color: rgb(255,255,255);
+	text-shadow: 1px -1px 0 rgb(0,0,0);
+	background: url(noise.png) repeat left top, radial-gradient(50% 50%, 0, 50% 50%,800, from(#cde6f9), to(#6191bf));
+	background: url(noise.png) repeat left top, -o-radial-gradient(50% 50%, 0, 50% 50%,800, from(#cde6f9), to(#6191bf));
+	background: url(noise.png) repeat left top, -moz-radial-gradient(50% 50%, 0, 50% 50%,800, from(#cde6f9), to(#6191bf));
+	background: url(noise.png) repeat left top, -webkit-radial-gradient(50% 50%, 0, 50% 50%,800, from(#cde6f9), to(#6191bf));
+	background: url(noise.png) repeat left top, -ms-radial-gradient(50% 50%, 0, 50% 50%,800, from(#cde6f9), to(#6191bf));
+	background: url(noise.png) repeat left top, -webkit-gradient(radial, 50% 50%, 0, 50% 50%,800, from(#cde6f9), to(#6191bf));
+}
+#Calculator {
+	position: relative;
+	width: 562px;
+	height: 614px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 14px 14px 80px;
+    background: url(noise.png) repeat left top, linear-gradient(bottom, rgb(133,134,136) 100%, rgb(99,99,99) 50%, rgb(37,37,37) 0%);
+    background: url(noise.png) repeat left top, -o-linear-gradient(bottom, rgb(133,134,136) 100%, rgb(99,99,99) 50%, rgb(37,37,37) 0%);
+    background: url(noise.png) repeat left top, -moz-linear-gradient(bottom, rgb(133,134,136) 100%, rgb(99,99,99) 50%, rgb(37,37,37) 0%);
+    background: url(noise.png) repeat left top, -webkit-linear-gradient(bottom, rgb(133,134,136) 100%, rgb(99,99,99) 50%, rgb(37,37,37) 0%);
+    background: url(noise.png) repeat left top, -ms-linear-gradient(bottom, rgb(133,134,136) 100%, rgb(99,99,99) 50%, rgb(37,37,37) 0%);
+    background: url(noise.png) repeat left top, -webkit-gradient(
+        linear,
+            left bottom,
+            left top,
+            color-stop(1, rgb(133,134,136)),
+            color-stop(0.5, rgb(99,99,99)),
+            color-stop(0, rgb(37,37,37))
+        );
+    }
+    #Calculator .display {
+        height: 175px;
+		margin-bottom: 10px;
+        border: 2px solid rgb(145,146,148);
+        border-radius: 15px;
+        padding: 3px;
+        background-color: rgb(1,1,1);
+    }
+		#Calculator .display #result {
+			height: 100px;
+			border-width: 1px 1px 2px;
+			border-style: solid; 
+			border-color: rgb(79,79,79) rgb(88,88,88) rgb(83,83,83) rgb(47,47,47);
+			border-radius: 10px 10px 0 0;
+			padding: 0 10px;
+			background-image: linear-gradient(bottom, rgb(71,71,71) 100%, rgb(36,36,36) 0%);
+			background-image: -o-linear-gradient(bottom, rgb(71,71,71) 100%, rgb(36,36,36) 0%);
+			background-image: -moz-linear-gradient(bottom, rgb(71,71,71) 100%, rgb(36,36,36) 0%);
+			background-image: -webkit-linear-gradient(bottom, rgb(71,71,71) 100%, rgb(36,36,36) 0%);
+			background-image: -ms-linear-gradient(bottom, rgb(71,71,71) 100%, rgb(36,36,36) 0%);
+			background-image: -webkit-gradient(
+				linear,
+				left bottom,
+				left top,
+				color-stop(1, rgb(71,71,71)),
+				color-stop(0, rgb(36,36,36))
+			);
+			font-size: 60px;
+			line-height: 100px;
+			text-align: right;
+		}
+		#Calculator .display #equation {
+			height: 72px;
+			padding: 0 10px;
+            border-width: 0 1px 1px;
+            border-color: transparent rgb(34,34,34) rgb(23,23,23) rgb(32,32,32);
+            border-radius: 0 0 10px 10px;
+            background-image: linear-gradient(bottom, rgb(22,22,22) 100%, rgb(16,16,16) 0%);
+            background-image: -o-linear-gradient(bottom, rgb(22,22,22) 100%, rgb(16,16,16) 0%);
+            background-image: -moz-linear-gradient(bottom, rgb(22,22,22) 100%, rgb(16,16,16) 0%);
+            background-image: -webkit-linear-gradient(bottom, rgb(22,22,22) 100%, rgb(16,16,16) 0%);
+            background-image: -ms-linear-gradient(bottom, rgb(22,22,22) 100%, rgb(16,16,16) 0%);
+            background-image: -webkit-gradient(
+                linear,
+                left bottom,
+                left top,
+                color-stop(1, rgb(22,22,22)),
+                color-stop(0, rgb(16,16,16))
+            );
+			font-size: 24px;
+			color: rgb(151,197,247);
+			line-height: 72px;
+			text-shadow: 2px 2px 5px rgba(151,197,247,.8);
+			text-align: right;
+		}
+	#Calculator .container {
+		height: 462px;
+		border-width: 1px;
+		border-style: solid;
+		border-color: rgb(110,111,113) rgb(77,79,78) rgb(50,50,52);
+		border-radius: 10px;
+	}
+	#Calculator .numberPad {
+		position: relative;
+		height: 448px;
+		margin: 0;
+		border-width: 1px;
+		border-style: solid;
+		border-color: rgb(29,30,32) rgb(19,19,19) rgb(11,11,11) rgb(20,20,22);
+		border-radius: 10px;
+		padding: 6px;
+		background: ;
+		background: url(noise.png) repeat left top, linear-gradient(bottom, rgb(79,80,82) 100%, rgb(29,29,29) 0%);
+		background: url(noise.png) repeat left top, -o-linear-gradient(bottom, rgb(79,80,82) 100%, rgb(29,29,29) 0%);
+		background: url(noise.png) repeat left top, -moz-linear-gradient(bottom, rgb(79,80,82) 100%, rgb(29,29,29) 0%);
+		background: url(noise.png) repeat left top, -webkit-linear-gradient(bottom, rgb(79,80,82) 100%, rgb(29,29,29) 0%);
+		background: url(noise.png) repeat left top, -ms-linear-gradient(bottom, rgb(79,80,82) 100%, rgb(29,29,29) 0%);
+		background: url(noise.png) repeat left top, -webkit-gradient(
+			linear,
+			left bottom,
+			left top,
+			color-stop(1, rgb(79,80,82)),
+			color-stop(0, rgb(29,29,29))
+		);
+	}
+	#Calculator .item {
+		position: absolute;
+		border-width: 1px;
+		border-style: solid;
+		border-color: rgb(66,66,66) rgb(72,72,72) rgb(66,66,66) rgb(63,63,63);
+		border-radius: 10px;
+		padding: 2px;
+		background-color: rgb(0,0,0);
+		list-style: none;
+	}
+	#Calculator .item:active {
+		transform: translateY(2px) scale(.99);
+		-o-transform: translateY(2px) scale(.99);
+		-moz-transform: translateY(2px) scale(.99);
+		-webkit-transform: translateY(2px) scale(.99);
+		-ms-transform: translateY(2px) scale(.99);
+	}
+	#Calculator .wrap {
+		border-width: 1px;
+		border-style: solid;
+		border-color: rgb(167,167,167) rgb(128,128,128) rgb(96,96,96) rgb(134,134,134);
+		border-radius: 8px;
+		padding: 4px;
+		background-image: linear-gradient(bottom, rgb(137,137,137) 100%, rgb(79,79,79) 0%);
+		background-image: -o-linear-gradient(bottom, rgb(137,137,137) 100%, rgb(79,79,79) 0%);
+		background-image: -moz-linear-gradient(bottom, rgb(137,137,137) 100%, rgb(79,79,79) 0%);
+		background-image: -webkit-linear-gradient(bottom, rgb(137,137,137) 100%, rgb(79,79,79) 0%);
+		background-image: -ms-linear-gradient(bottom, rgb(137,137,137) 100%, rgb(79,79,79) 0%);
+		background-image: -webkit-gradient(
+			linear,
+			left bottom,
+			left top,
+			color-stop(1, rgb(137,137,137)),
+			color-stop(0, rgb(79,79,79))
+		);
+	}
+    #Calculator .button {
+        width: 112px;
+        height: 64px;
+        border-width: 1px;
+        border-style: solid; 
+        border-color: rgb(105,105,105) rgb(85,85,85) rgb(63,63,63) rgb(82,82,82);
+        border-radius: 4px;
+        background-image: linear-gradient(bottom, rgb(114,114,114) 100%, rgb(70,70,70) 0%);
+        background-image: -o-linear-gradient(bottom, rgb(114,114,114) 100%, rgb(70,70,70) 0%);
+        background-image: -moz-linear-gradient(bottom, rgb(114,114,114) 100%, rgb(70,70,70) 0%);
+        background-image: -webkit-linear-gradient(bottom, rgb(114,114,114) 100%, rgb(70,70,70) 0%);
+        background-image: -ms-linear-gradient(bottom, rgb(114,114,114) 100%, rgb(70,70,70) 0%);
+        background-image: -webkit-gradient(
+            linear,
+            left bottom,
+            left top,
+            color-stop(1, rgb(114,114,114)),
+            color-stop(0, rgb(70,70,70))
+        );
+        background-color: rgb(1,1,1);
+		font-size: 36px;
+        color: rgb(255,255,255);
+		text-shadow: 1px -1px 1px rgb(0,0,0);
+    }
+    #Calculator .button:active {
+        background-image: linear-gradient(top, rgb(114,114,114) 100%, rgb(70,70,70) 0%);
+        background-image: -o-linear-gradient(top, rgb(114,114,114) 100%, rgb(70,70,70) 0%);
+        background-image: -moz-linear-gradient(top, rgb(114,114,114) 100%, rgb(70,70,70) 0%);
+        background-image: -webkit-linear-gradient(top, rgb(114,114,114) 100%, rgb(70,70,70) 0%);
+        background-image: -ms-linear-gradient(top, rgb(114,114,114) 100%, rgb(70,70,70) 0%);
+        background-image: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            color-stop(1, rgb(114,114,114)),
+            color-stop(0, rgb(70,70,70))
+        );
+    }
+	#Calculator .equate .wrap {
+		border-color: rgb(215,104,32) rgb(161,54,0) rgb(139,47,0);
+		background-image: linear-gradient(bottom, rgb(171,37,0) 100%, rgb(118,24,0) 0%);
+		background-image: -o-linear-gradient(bottom, rgb(171,37,0) 100%, rgb(118,24,0) 0%);
+		background-image: -moz-linear-gradient(bottom, rgb(171,37,0) 100%, rgb(118,24,0) 0%);
+		background-image: -webkit-linear-gradient(bottom, rgb(171,37,0) 100%, rgb(118,24,0) 0%);
+		background-image: -ms-linear-gradient(bottom, rgb(171,37,0) 100%, rgb(118,24,0) 0%);
+		background-image: -webkit-gradient(
+			linear,
+			left bottom,
+			left top,
+			color-stop(1, rgb(171,37,0)),
+			color-stop(0, rgb(118,24,0))
+		);
+	}
+	#Calculator .equate .button {
+		width: 526px;
+		border-color: rgb(130,29,1) rgb(112,24,0) rgb(90,19,1);
+		background-image: linear-gradient(bottom, rgb(145,29,0) 100%, rgb(90,19,1) 0%);
+		background-image: -o-linear-gradient(bottom, rgb(145,29,0) 100%, rgb(90,19,1) 0%);
+		background-image: -moz-linear-gradient(bottom, rgb(145,29,0) 100%, rgb(90,19,1) 0%);
+		background-image: -webkit-linear-gradient(bottom, rgb(145,29,0) 100%, rgb(90,19,1) 0%);
+		background-image: -ms-linear-gradient(bottom, rgb(145,29,0) 100%, rgb(90,19,1) 0%);
+		background-image: -webkit-gradient(
+			linear,
+			left bottom,
+			left top,
+			color-stop(1, rgb(145,29,0)),
+			color-stop(0, rgb(90,19,1))
+			);
+		color: rgb(229,124,56);
+		text-shadow: 1px -1px 1px rgb(84,18,2);
+	}
+	#Calculator .equate .button:active {
+		background-image: linear-gradient(top, rgb(145,29,0) 100%, rgb(90,19,1) 0%);
+		background-image: -o-linear-gradient(top, rgb(145,29,0) 100%, rgb(90,19,1) 0%);
+		background-image: -moz-linear-gradient(top, rgb(145,29,0) 100%, rgb(90,19,1) 0%);
+		background-image: -webkit-linear-gradient(top, rgb(145,29,0) 100%, rgb(90,19,1) 0%);
+		background-image: -ms-linear-gradient(top, rgb(145,29,0) 100%, rgb(90,19,1) 0%);
+		background-image: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			color-stop(1, rgb(145,29,0)),
+			color-stop(0, rgb(90,19,1))
+			);
+	}
+	#Calculator .operation .wrap {
+		border-color: rgb(119,138,155) rgb(79,100,119) rgb(54,69,88) rgb(78,95,113);
+		background-image: linear-gradient(bottom, rgb(78,100,123) 100%, rgb(37,51,64) 0%);
+		background-image: -o-linear-gradient(bottom, rgb(78,100,123) 100%, rgb(37,51,64) 0%);
+		background-image: -moz-linear-gradient(bottom, rgb(78,100,123) 100%, rgb(37,51,64) 0%);
+		background-image: -webkit-linear-gradient(bottom, rgb(78,100,123) 100%, rgb(37,51,64) 0%);
+		background-image: -ms-linear-gradient(bottom, rgb(78,100,123) 100%, rgb(37,51,64) 0%);
+		background-image: -webkit-gradient(
+			linear,
+			left bottom,
+			left top,
+			color-stop(1, rgb(78,100,123)),
+			color-stop(0, rgb(37,51,64))
+		);
+	}
+	#Calculator .operation .button {
+		border-color: rgb(59,76,94) rgb(46,70,73) rgb(26,43,51) rgb(44,60,75);
+		background-image: linear-gradient(bottom, rgb(69,86,102) 100%, rgb(32,45,54) 0%);
+		background-image: -o-linear-gradient(bottom, rgb(69,86,102) 100%, rgb(32,45,54) 0%);
+		background-image: -moz-linear-gradient(bottom, rgb(69,86,102) 100%, rgb(32,45,54) 0%);
+		background-image: -webkit-linear-gradient(bottom, rgb(69,86,102) 100%, rgb(32,45,54) 0%);
+		background-image: -ms-linear-gradient(bottom, rgb(69,86,102) 100%, rgb(32,45,54) 0%);
+		background-image: -webkit-gradient(
+			linear,
+			left bottom,
+			left top,
+			color-stop(1, rgb(69,86,102)),
+			color-stop(0, rgb(32,45,54))
+		);
+		color: rgb(164,185,204);
+		text-shadow: 1px -1px 1px rgb(18,28,37);
+	}
+	#Calculator .operation .button:active {
+		background-image: linear-gradient(top, rgb(69,86,102) 100%, rgb(32,45,54) 0%);
+		background-image: -o-linear-gradient(top, rgb(69,86,102) 100%, rgb(32,45,54) 0%);
+		background-image: -moz-linear-gradient(top, rgb(69,86,102) 100%, rgb(32,45,54) 0%);
+		background-image: -webkit-linear-gradient(top, rgb(69,86,102) 100%, rgb(32,45,54) 0%);
+		background-image: -ms-linear-gradient(top, rgb(69,86,102) 100%, rgb(32,45,54) 0%);
+		background-image: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			color-stop(1, rgb(69,86,102)),
+			color-stop(0, rgb(32,45,54))
+		);
+	}
+	#Calculator .special .character {
+		position: absolute;
+		top: 25%;
+		left: 42%;
+		font-size: 36px;
+		color: rgb(164,185,204);
+		text-shadow: 1px -1px 1px rgb(18,28,37);
+	}
+	#Calculator .special .button {
+		text-indent: -999em;
+	}
+	#Calculator .clear .button {
+		width: 250px;
+	}
+    #Calculator .number:nth-child(3n+2) {
+        clear: left;
+    }
+
+.Github {
+	position: absolute;
+	top: -3px;
+	left: -3px;
+}
+
+/* Layout */
+.Row1 {
+	top: 10px;
+}
+.Row2 {
+	top: 100px;
+}
+.Row3 {
+	top: 190px;
+}
+.Row4 {
+	top: 280px;
+}
+.Row5 {
+	top: 370px;
+}
+.Col1 {
+	left: 10px;
+}
+.Col2 {
+	left: 148px;
+}
+.Col3 {
+	left: 286px;
+}
+.Col4 {
+	left: 424px;
+}

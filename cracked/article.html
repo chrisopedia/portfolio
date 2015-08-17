@@ -1,0 +1,75 @@
+---
+layout: cracked
+title: Article
+stylesheet: article
+---
+
+<section id="Article" class="Body FLC">
+
+    {% include cracked/new_article_carousel.html %}
+    {% include cracked/breadcrumb.html %}
+
+    <section id="PrimaryContent">
+
+        <article class="Article Module" role="main">
+            <section class="body">
+                <header>
+                    <img src="http://dummyimage.com/620x80/000/fff.jpg&text=Editor+Logo" id="editorLogo" />
+                    <h1 id="articleTitle" class="Heading1">Article Title</h1>
+                </header>
+
+                <footer id="metadata" class="ArticlePreview Inline">
+                    <div class="meta">
+                        <address class="byline"><a href="" rel="author" class="Heading5">By: Dan O'Brien</a></address>
+                        <time datetime="" class="date">July 19, 2010</time>
+                        <span class="views">125,000 views</span>
+                    </div>
+                    <div class="Thumbnail">
+                        <img src="http://dummyimage.com/40x40/000/fff.jpg&text=Avatar" class="avatar" alt="" />
+                    </div>
+                    <a href="" class="favorites">Add to Favorites</a>
+                </footer>
+
+                <section>
+
+                    <section>
+                        <figure>
+                            <img src="http://dummyimage.com/610x127/000/fff.jpg&text=Article+Image" alt="" />
+                        </figure>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </section>
+
+                    <section>
+                        <header>
+                            <h2 class="Heading3 subheading">#5. Sub Heading</h2>
+                        </header>
+
+                        <figure>
+                            <img src="http://dummyimage.com/610x127/000/fff.jpg&text=Article+Image" alt="" />
+                        </figure>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </section>
+
+                </section>
+
+                <div>facebook like button</div>
+
+                {% include cracked/pagination.html %}
+
+            </section>
+        </article>
+
+        {% include cracked/recommended_articles.html %}
+        {% include cracked/comments.html %}
+
+    </section>
+
+    {% include cracked/secondary_content.html %}
+
+</section>

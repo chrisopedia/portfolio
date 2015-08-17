@@ -1,0 +1,25 @@
+<section id="Login" class="Modal"{% if page.title == 'Register' %}style="display:block;"{% endif %}>
+    <header class="header">
+        <h5 class="Heading2 heading">Log In</h5>
+    </header>
+    <article class="body">
+        <header class="header">
+            <h6 class="Heading3">Members, log in here</h6>
+        </header>
+        <form action="" method="post" class="FLC">
+            <label for="loginUser">Username</label>
+            <input type="text" id="loginUser" />
+            <label for="loginPass">Password</label>
+            <input type="text" id="loginPass" />
+            <div class="remember">
+                <label for="rememberUser">Remember Me</label>
+                <input type="checkbox" id="rememberUser" />
+            </div>
+            <input type="submit" class="Button2" value="Log In!" />
+            <a href="" class="Heading5 forgot">Forgot Password?</a>
+        </form>
+        <p class="Heading3 register">Or
+        <span class="box"><a href="" class="Button2">Register</a> or <span class="facebook">Connect with Facebook</span></span>
+        </p>
+    </article>
+</section>

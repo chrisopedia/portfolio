@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html id="{{ page.site_id }}">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Newton, of A Permanent Wreck (http://wrck.me)" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+
+        <!-- Facebook og tags -->
+        <meta property="fb:app_id" content="266115080103149" />
+        <meta property="og:site_name" content="A Permanent Wreck">
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://wrck.me/">
+        <meta property="og:title" content="{% if page.site_title %}{{ page.site_title }} | {% endif %}{% if page.title %}{{ page.title }} | {% endif %}wrck.us" />
+        <meta property="og:description" content="{{ page.description }}" />
+        <meta property="og:image" content="http://wrck.me/media/me.png" />
+
+        <!-- Twitter card -->
+        <meta name="twitter:site" content="@apermanentwreck" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:url" content="http://wrck.me/" />
+        <meta name="twitter:title" content="A Permanent Wreck" />
+        <meta name="twitter:description" content="{{ page.description }}" />
+        <meta name="twitter:image" content="http://wrck.me/media/me.png" />
+
+        <!-- Google Direct Connect -->
+        <link rel="publisher" href="https://plus.google.com/103387176241530356440" />
+        {% if page.description %}
+            <meta name="description" content="{{ page.description }}" />
+        {% endif %}
+
+        <title>{% if page.site_title %}{{ page.site_title }} | {% endif %}{% if page.title %}{{ page.title }} | {% endif %}wrck.us</title>
+
+        <link href="/ui{{ page.site_ui_dir }}stylesheets/{{page.site_stylesheet}}.css" rel="stylesheet" />
+        {% if page.stylesheet %}
+            <link href="/ui/{{ page.site_ui_dir }}/stylesheets/pages/{{ page.stylesheet }}.css" rel="stylesheet" />
+        {% endif %}
+        {% if page.font_link %}
+            <link href="http://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet" />
+        {% endif %}
+        {% if page.profile_links %}
+            <link rel="profile" href="http://microformats.org/profile/hcard">
+            <link rel="profile" href="http://microformats.org/profile/hcalendar">
+        {% endif %}
+
+        <link rel="shortcut" href="favicon.ico" />
+
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+        <script>
+            ( function( i, s, o, g, r, a, m ) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    ( i[r].q = i[r].q || [] ).push( arguments )
+                }, i[r].l = 1 * new Date();
+                a = s.createElement( o ), m = s.getElementsByTagName( o )[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore( a, m )
+            } )( window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga' );
+            ga( 'create', 'UA-42582877-2', 'wrck.us' );
+            ga( 'send', 'pageview' );
+        </script>
+    </head>
+
+    <body{% if page.id %} id="{{ page.id }}"{% endif %}{% if page.metadata %} {{ page.metadata }}{% endif %}>
+
+        {{ content }}
+
+    </body>
+</html>

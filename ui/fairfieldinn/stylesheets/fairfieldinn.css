@@ -1,0 +1,704 @@
+    /*--------------------------------------------
+     * Global Common
+     *
+     * version:     1.0
+     * author:      Chris Newton
+     * website:     Fairfield Inn Infographic
+     * --------------------------------------------*/
+
+    /* =Reset 
+     * --------------------------------------------*/
+    html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, figure, pre, a, abbr, button, address, cite, code, del, dfn, img, ins, kbd, q, samp, strike, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, header, nav, article, section, aside, footer {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-weight: inherit;
+        font-style: inherit;
+        font-size: 100%;
+        font-family: inherit;
+        vertical-align: baseline;
+    }
+
+    header, 
+    nav, 
+    article, 
+    section, 
+    figure, 
+    aside, 
+    footer { 
+        display: block; 
+    }
+
+    a { 
+        cursor: pointer; 
+    }
+    a img { 
+        vertical-align: bottom;
+        border: none; 
+    }
+
+    button { 
+        cursor: pointer; 
+        background-color: transparent; 
+    }
+
+    table { 
+        border-collapse: collapse; 
+    }
+    th { 
+        text-align: left; 
+        font-weight: normal; 
+    }
+    ol { 
+        margin-left: 25px; 
+    }
+
+    /* =Float Container */
+    .FLC { 
+        clear: both; 
+    }
+    .FLC:after { 
+        display: block; 
+        visibility: hidden; 
+        clear: both; 
+        height: 0; 
+        font-size: 0; 
+        content: " "; 
+    }
+    @font-face {
+        font-family: "ITC Franklin Gothic Book";
+        src: url("/ui/fairfieldinn/fonts/25b07660-96a5-4eed-bcfd-fc4f0e97098a.eot?iefix") format("eot");
+    }
+    @font-face {
+        font-family: "ITC Franklin Gothic Book";
+        src: url("/ui/fairfieldinn/fonts/25b07660-96a5-4eed-bcfd-fc4f0e97098a.eot?iefix");
+        src: url("/ui/fairfieldinn/fonts/de902d7e-9849-4880-b8fe-966b186b110c.woff") format("woff"),
+             url("/ui/fairfieldinn/fonts/fdec17bc-6f6c-4b7c-bbc1-8f2ec6c7931c.ttf") format("truetype"),
+             url("/ui/fairfieldinn/fonts/3b330c74-12e3-423e-9785-d817a41a9a24.svg#3b330c74-12e3-423e-9785-d817a41a9a24") format("svg");
+    }
+    @font-face {
+        font-family: "ITC Franklin Gothic Book Italic";
+        src: url("/ui/fairfieldinn/fonts/7306de32-c033-4beb-935b-9450a69833ce.eot?iefix") format("eot");
+    }
+    @font-face {
+        font-family: "ITC Franklin Gothic Book Italic";
+        src: url("/ui/fairfieldinn/fonts/7306de32-c033-4beb-935b-9450a69833ce.eot?iefix");
+        src: url("/ui/fairfieldinn/fonts/ad3568fc-e8d1-4f2a-991a-73b2c1579d2d.woff") format("woff"),
+             url("/ui/fairfieldinn/fonts/29efa8aa-9c14-47a3-bc87-fefc803189e0.ttf") format("truetype"),
+             url("/ui/fairfieldinn/fonts/8cdd992f-b574-4529-b237-4a0ab066d8f5.svg#8cdd992f-b574-4529-b237-4a0ab066d8f5") format("svg");
+    }
+    @font-face {
+        font-family: "ITC Franklin Gothic Demi";
+        src: url("/ui/fairfieldinn/fonts/05bfbc51-0c0b-440a-8a25-45b86f0289d5.eot?iefix") format("eot");
+    }
+    @font-face {
+        font-family: "ITC Franklin Gothic Demi";
+        src: url("/ui/fairfieldinn/fonts/05bfbc51-0c0b-440a-8a25-45b86f0289d5.eot?iefix");
+        src: url("/ui/fairfieldinn/fonts/b547d31d-69fc-40d6-8013-e9b6f0b38df0.woff") format("woff"),
+             url("/ui/fairfieldinn/fonts/8e90e5d2-659a-4b9f-b68a-8ae72539e7b4.ttf") format("truetype"),
+             url("/ui/fairfieldinn/fonts/125eafff-7b5a-4c56-8a3a-d3fe11d8c3cc.svg#125eafff-7b5a-4c56-8a3a-d3fe11d8c3cc") format("svg");
+    }
+    @font-face {
+        font-family: "ITC Franklin Gothic Demi Italic";
+        src: url("/ui/fairfieldinn/fonts/721c755e-eb3b-4ca0-b709-17464d40b416.eot?iefix") format("eot");
+    }
+    @font-face {
+        font-family: "ITC Franklin Gothic Demi Italic";
+        src: url("/ui/fairfieldinn/fonts/721c755e-eb3b-4ca0-b709-17464d40b416.eot?iefix");
+        src: url("/ui/fairfieldinn/fonts/c7eb9d8d-6dea-4484-b775-9542a1571a8a.woff") format("woff"),
+             url("/ui/fairfieldinn/fonts/e1ab3288-7287-4732-b338-08f7ba152f8a.ttf") format("truetype"),
+             url("/ui/fairfieldinn/fonts/a7d47205-7be9-48ab-bf9d-db13411bebb6.svg#a7d47205-7be9-48ab-bf9d-db13411bebb6") format("svg");
+    }
+    /* =Typography 
+     * --------------------------------------------*/
+    html,
+    body {
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    p {
+        margin: 10px 0;
+        font-family: 'ITC Franklin Gothic Book';
+        font-size: 18px;
+        line-height: 1.4;
+        text-transform: none;
+    }
+    a {
+        text-decoration: underline;
+        text-transform: none;
+    }
+    .Heading1,
+    .Heading2,
+    .Heading3,
+    .Heading4,
+    .Heading5,
+    .Heading6 {
+        font-family: 'ITC Franklin Gothic Demi', arial, sans-serif;
+    }
+    .Heading1 {
+        font-size: 60px;
+    }
+    .Heading2 {
+        font-size: 48px;
+    }
+    .Heading3 {
+        font-size: 32px;
+    }
+    .Heading4 {
+        font-size: 24px;
+    }
+    .Heading5 {
+        font-size: 18px;
+    }
+    .Marketing .subheader {
+        font-family: 'ITC Franklin Gothic Demi Italic';
+    }
+    .Tagline {
+        line-height: .9;
+    }
+        .Tagline strong {
+            font-family: 'ITC Franklin Gothic Demi';
+            font-weight: normal;
+        }
+    .Body .winner .label {
+        font-family: 'ITC Franklin Gothic Book Italic';
+    }
+    .Tagline,
+    .Marketing .facts,
+    .Body .winner .user {
+        font-family: 'ITC Franklin Gothic Book';
+    }
+    .Footer,
+    .Footer .url {
+        font-family: Arial;
+        font-size: 12px;
+        text-transform: none;
+    }
+    /* =Color Scheme 
+     * --------------------------------------------*/
+    html,
+    body {
+        background-color: rgb(252,252,252);
+    }
+    p {
+        color: rgb(136,136,136);
+    }
+    .Heading1,
+    .Heading2,
+    .Heading3,
+    .Heading4,
+    .Heading5,
+    .Heading6 {
+        color: rgb(73,73,73);
+    }
+    .Header {
+        background-color: rgb(30,110,167);
+        color: rgb(255,255,255);
+    }
+        .Header .cta {
+            color: rgb(255,255,255);
+        }
+    .SubHeader,
+    .Body {
+        border-color: rgb(202,206,217);
+    }
+    .SubHeader .header {
+        color: rgb(30,110,167);
+    }
+    .Column1 {
+        border-color: rgb(197,197,197);
+    }
+    .Marketing {
+        background-color: rgb(108,174,223);
+        color: rgb(255,255,255);
+    }
+        .Marketing .Heading1,
+        .Marketing .Heading2,
+        .Marketing .Heading3,
+        .Marketing .Heading4,
+        .Marketing .Heading5,
+        .Marketing .Heading6,
+        .Body .winner .label,
+        .Body .winner .user {
+            color: inherit;
+        }
+        .Marketing p {
+            color: rgb(226,243,255);
+        }
+    .Footer {
+        border-color: rgb(201,205,217);
+    }
+        .Footer .item {
+            border-color: rgb(187,189,192);
+        }
+        .Footer .url {
+            color: rgb(187,189,192);
+        }
+    /*--------------------------------------------
+     * Layout
+     *
+     * version:     1.0
+     * author:      Chris Newton
+     * website:     Fairfield Inn Infographic
+     * --------------------------------------------*/
+
+
+    /* =Layout 
+     * --------------------------------------------*/
+    body {
+        position: relative;
+        width: 850px;
+        margin: 20px auto;
+    }
+    .Header {
+        min-height: 80px;
+        border-radius: 4px 4px 0 0;
+        padding: 15px 25px;
+    }
+        .Header .logo {
+            float: left;
+        }
+        .Header .cta {
+            float: right;
+            height: 80px;
+            font-size: 40px;
+            line-height: 80px;
+            text-transform: uppercase;
+        }
+        .Header .cta i {
+            float: left;
+            position: relative;
+            top: 20px;
+            width: 14px;
+            height: 34px;
+            text-indent: -999em;
+        }
+        .Header .ShareTools {
+            position: relative;
+            top: 20px;
+            float: right;
+            margin-left: 10px;
+        }
+    .Marketing {
+        position: relative;
+        padding: 50px;
+    }
+        .Marketing .subheader,
+        .Marketing .ShareTools {
+            display: inline-block;
+            margin-right: 10px;
+        }
+    .SubHeader {
+        position: relative;
+        min-height: 40px;
+        padding: 10px 50px;
+        line-height: 40px;
+    }
+        .SubHeader .photo {
+            position: absolute;
+            top: 10px;
+            left: 50px;
+        }
+        .SubHeader .header {
+            margin-left: 60px;
+        }
+    .SubHeader,
+    .Body {
+        border-width: 0 1px;
+        border-style: solid;
+    }
+    .Body {
+        text-align: center;
+    }
+    .Column1,
+    .Column2 {
+        display: inline;
+        float: left;
+        width: 380px;
+        margin-bottom: 50px;
+        padding: 0 21px;
+    }
+    .Column1 {
+        border-right-width: 1px;
+        border-style: solid;
+    }
+    .Footer {
+        border-radius: 0 0 4px 4px;
+        border-width: 1px;
+        border-style: solid;
+        padding: 25px;
+    }
+        .Footer .links {
+            text-align: center;
+        }
+        .Footer .item {
+            display: inline-block;
+        }
+        .Footer .url {
+            border-style: solid;
+            border-width: 0 0 0 1px;
+            padding: 0 2px 0 5px;
+        }
+        .Footer .item:first-child .url {
+            border-width: 0;
+        }
+    .Header .cta i,
+    #LikeLock .Header .cta::after,
+    .Marketing,
+    .IconEquation::after,
+    .Overview .winner::before,
+    .Overview .listing .item::before,
+    .StatGroup .stat::before,
+    .StatGroup .item::before {
+      background-image: url(/ui/fairfieldinn/images/sprite.png);
+      background-repeat: no-repeat;
+    }
+    .Header .cta i {
+      background-position: -1190px -414px;
+    }
+    #LikeLock .Header .cta::after {
+      background-position: -1141px -414px;
+    }
+    #LikeLock .Marketing {
+      background-position: 0px 374px;
+    }
+    #Homepage .Marketing {
+      background-position: 0px 449px;
+    }
+    #Generating .Marketing {
+      background-position: 0px 321px;
+    }
+    #Results .Marketing {
+      background-position: 0px 120px;
+    }
+    .IconEquation::after {
+      background-position: -852px -414px;
+    }
+    .Overview .winner.jackofalltrades::before {
+      background-position: 0px -161px;
+    }
+    .Overview .winner.messenger::before {
+      background-position: -852px 0px;
+    }
+    .Overview .winner.socialite::before {
+      background-position: 0px -575px;
+    }
+    .Overview .winner.storyteller::before {
+      background-position: -831px -575px;
+    }
+    .StatGroup .comments::before {
+      background-position: -1180px -491px;
+    }
+    .StatGroup .likes::before {
+      background-position: -1262px -491px;
+    }
+    .StatGroup .total::before {
+      background-position: -855px -989px;
+    }
+    .Overview .listing .jackofalltrades::before {
+      background-position: -163px -1203px;
+    }
+    .Overview .listing .messenger::before {
+      background-position: -326px -1203px;
+    }
+    .Overview .listing .socialite::before {
+      background-position: -489px -1203px;
+    }
+    .Overview .listing .storyteller::before {
+      background-position: -652px -1203px;
+    }
+    .StatGroup .stat.nature::before {
+      background-position: 0px -989px;
+    }
+    .StatGroup .item.nature::before {
+      background-position: -852px -491px;
+    }
+    .StatGroup .stat.professional::before {
+      background-position: -214px -989px;
+    }
+    .StatGroup .item.professional::before {
+      background-position: -934px -491px;
+    }
+    .StatGroup .stat.weekend::before {
+      background-position: -428px -989px;
+    }
+    .StatGroup .item.weekend::before {
+      background-position: -1016px -491px;
+    }
+    .StatGroup .item.wildcard::before {
+      background-position: -642px -989px;
+    }
+    .StatGroup .item.wildcard::before {
+      background-position: -1098px -491px;
+    }
+    .TimeOfDay .early::before {
+      background-position: -1069px -989px;
+    }
+    .TimeOfDay .late::before {
+      background-position: -1232px -989px;
+    }
+    .TimeOfDay .often::before {
+      background-position: -1395px -989px;
+    }
+    .TimeOfDay .rarely::before {
+      background-position: 0px -1203px;
+    }
+    /* =Modules 
+     * --------------------------------------------*/
+    .Tagline {
+        margin-bottom: 50px;
+    }
+    .IconEquation::after {
+        display: block;
+        width: 284px;
+        height: 75px;
+        margin-top: 40px;
+        content: '';
+    }
+    .Button {
+        display: inline-block;
+        position: relative;
+        height: 72px;
+        border: 1px solid rgb(25,77,1);
+        border-radius: 4px;
+        padding: 0 45px;
+        /* repeating background, no sprite */
+        background: url(/ui/fairfieldinn/images/bg-button.jpg) repeat-x left top;
+        line-height: 72px;
+        text-align: center;
+        text-decoration: none;
+        text-shadow: 0 1px 0 rgba(0,0,0,.32);
+        text-transform: uppercase;
+        color: rgb(255,255,255);
+    }
+        .Button:active {
+            -webkit-transform: translateY(2px);
+        }
+    .ShareTools .item {
+        display: inline-block;
+        margin-left: 2px;
+    }
+    .Border {
+        display: inline-block;
+        width: 90%;
+        height: 1px;
+        margin: 30px auto;
+        border: 0;
+        background-color: rgb(197,197,197);
+    }
+    .Loading {
+        padding-left: 25px;
+        /* animated gif, no sprite */
+        background: url(/ui/fairfieldinn/images/ajax-loader.gif) no-repeat left center;
+        font-family: 'ITC Franklin Gothic Book';
+        font-size: 16px;
+        font-style: italic;
+    }
+    /* Overview */
+        .Overview .winner {
+            position: relative;
+            height: 372px;
+            padding-top: 50px;
+            color: rgb(255,255,255);
+        }
+        .Overview .winner::before {
+            display: inline-block;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 1;
+            width: 829px;
+            height: 412px;
+            content: '';
+        }
+        .Overview .winner .label {
+            text-transform: lowercase;
+        }
+        .Overview .listing {
+            position: relative;
+            z-index: 2;
+            margin-top: -81px;
+        }
+        .Overview .item {
+            display: inline;
+            float: left;
+            position: relative;
+            width: 190px;
+            margin: 0 11px;
+            padding-top: 190px;
+        }
+        .Overview .item::before {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            display: inline-block;
+            width: 161px;
+            height: 161px;
+            margin-left: -80px;
+            content: '';
+        }
+        .Overview .summary {
+            width: 160px;
+            margin: 20px auto;
+        }
+        .Overview .stat .type {
+            display: block;
+        }
+    /* StatGroup */
+    .StatGroup .header {
+        margin-bottom: 20px;
+    }
+    .StatGroup .stat {
+        position: relative;
+        padding-top: 232px;
+    }
+    .StatGroup .stat::before {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 212px;
+        height: 212px;
+        margin-left: -106px;
+        content: '';
+    }
+    .StatGroup .item {
+        position: relative;
+        padding-top: 100px;
+    }
+    .StatGroup .item::before {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 80px;
+        height: 80px;
+        margin-left: -40px;
+        content: '';
+    }
+    .StatGroup .label {
+        display: block;
+    }
+    .StatGroup .breakdown .item {
+        display: inline-block;
+        min-width: 80px;
+        margin: 0 20px;
+        vertical-align: top;
+    }
+    .StatGroup .photo {
+        border-radius: 212px;
+    }
+    .StatGroup.horizontal {
+        clear: both;
+        position: relative;
+        height: 490px;
+        margin-bottom: 30px;
+    }
+        .StatGroup.horizontal .header {
+            display: inline-block;
+            position: relative;
+            z-index: 2;
+            margin-bottom: 50px;
+            padding: 0 35px;
+            background-color: rgb(255,255,255);
+        }
+        .StatGroup.horizontal .Border {
+            position: absolute;
+            top: -13px;
+            left: 5%;
+            z-index: 1;
+        }
+        .StatGroup.horizontal .item {
+            display: inline;
+            float: left;
+            position: relative;
+            width: 190px;
+            margin: 0 11px;
+        }
+        .StatGroup.horizontal .item::before {
+            display: inline-block;
+            position: absolute;
+            top: 40px;
+            left: 50%;
+            width: 161px;
+            height: 161px;;
+            margin-left: -80px;
+            content: '';
+        }
+        .StatGroup.photoGroup .item {
+            padding-top: 0;
+        }
+        .StatGroup.photoGroup .item::before {
+            display: none;
+        }
+        .TimeOfDay .heading {
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+        .TimeOfDay .item {
+            padding-top: 220px;
+            background-position: center 40px;
+        }
+    .Branding {
+        margin-top: 120px;
+    }
+        .Branding .ShareTools {
+            margin: 20px 0;
+        }
+    /*--------------------------------------------
+     * Page Overrides
+     *
+     * version:     1.0
+     * author:      Chris Newton
+     * website:     Fairfield Inn Infographic
+     * --------------------------------------------*/
+
+    /* =Pages 
+     * --------------------------------------------*/
+    #LikeLock .Header .cta::after {
+        display: inline-block;
+        width: 47px;
+        height: 36px;
+        margin-left: 20px;
+        content: '';
+    }
+    #LikeLock .Marketing,
+    #Homepage .Marketing,
+    #Generating .Marketing {
+        background-color: rgb(108,174,223); 
+    }
+    #LikeLock .Marketing,
+    #Generating .Marketing,
+    #Homepage .Marketing {
+        padding: 30px 80px 100px;
+    }
+    #Homepage .Button {
+        top: 30px;
+    }
+    #Generating .Loading {
+        position: absolute;;
+        top: 30px;;
+        margin-left: -25px;
+    }
+    .Slider {
+        position: relative;
+        width: 650px;
+        height: 270px;
+        overflow: hidden;
+        margin-top: 80px;
+        text-transform: none;
+    }
+        .Slider .window {
+            position: absolute;
+            left: 0;
+            width: 90000px;
+            list-style: none;
+        }
+        .Slider .item {
+            display: inline;
+            float: left;
+            width: 650px;
+        }

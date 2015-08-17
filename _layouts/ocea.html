@@ -1,0 +1,183 @@
+---
+layout: default
+site_id: orange-county-enrolled-agents.com
+site_title: Orange County Enrolled Agents
+site_ui_dir: /ocea/
+site_stylesheet: ocea
+---
+
+<div class="Header">
+    <div class="FrameL">
+        <div class="FrameR">
+            <div class="Container FLC">
+
+                <div class="logo">
+                    <a href="/">
+                        <img src="/ui/ocea/images/logos/logo.png" alt="Orange County Enrolled Agents logo" width="110" height="106" />
+                        <h1>Orange County Enrolled Agents</h1>
+                    </a>
+                </div>
+
+                <div class="tagline">
+                    <div class="temple">The Temple of Taxes</div>
+                    <div class="text"><h2>The Tax Professionals</h2></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="PrimaryNav">
+    <div class="FrameL">
+        <div class="FrameR">
+            <div class="Container FLC">
+
+                <!-- Nav1 : start -->
+                <ul class="Nav1">
+                    <li><a href="/ocea/">Home</a></li>
+                    <li><a href="/ocea/about/">About</a></li>
+                    <li><a href="/ocea/resources/">Resources</a></li>
+                    <li><a href="/ocea/contact-us.html">Contact</a></li>
+                </ul>
+                <!-- Nav1 : end -->
+
+                <form action="/ocea/search.html" id="cse-search-box">
+                    <input type="hidden" name="cx" value="000146299394850461925:--teuzgdvky" />
+                    <input type="hidden" name="cof" value="FORID:9" />
+                    <input type="hidden" name="ie" value="UTF-8" />
+                    <input type="text" name="q" size="31" id="search" />
+                    <input type="submit" name="sa" value="Search" />
+                </form>
+            
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="SubNav">
+    <div class="FrameL">
+        <div class="FrameR">
+            <div class="Container FLC">
+
+                {% if page.directory == "About" %}
+                    <ul class="Nav5">
+                        <li><a href="how-to-join.html">How to Join</a></li>
+                        <li><a href="meet-the-board.html">Meet the Board</a></li>
+                        <li><a href="committees.html">Committees</a></li>
+                        <li><a href="http://picasaweb.google.com/ocEnrolledAgents">Photo Gallery</a></li>
+                    </ul>
+                {% elsif page.directory == "Resources" %}
+                    <ul class="Nav5">
+                        <li><a href="newsletter-archive.html">Newsletter Archive</a></li>
+                        <li><a href="calendar.html">Calendar</a></li>
+                        <li><a href="documents.html">Documents</a></li>
+                        <li><a href="links.html">Links</a></li>
+                    </ul>
+                {% else %}
+                    <div class="border"></div>
+                {% endif %}
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Content : start -->
+<div class="Content" id="{{ page.content_id }}">
+    <div class="FrameL">
+        <div class="FrameR">
+            <div class="Container FLC">
+
+                {% if page.breadcrumb_enabled %}
+                <ul class="Breadcrumb">
+                    <li><a href="/ocea/">Home</a> &raquo;</li>
+                    {% if page.directory %}
+                    <li><a href="{{ page.directory | downcase }}/">{{ page.directory }}</a> &raquo;</li>
+                    {% endif %}
+                    <li>{{ page.title}}</li>
+                </ul>
+                {% endif %}
+
+                {{ content }}
+
+                {% if page.tombstone_enabled %}
+                <!-- Tombstones : start -->
+                <div class="Tombstone FLC">
+
+                    <div class="Heading3a">Resource Center</div>
+                    <ul>
+                        <li>
+                            <div>Resources</div>
+                            <ul>
+                                <li><a href="resources/calendar.html">Calendar</a></li>
+                                <li><a href="resources/documents.html">Documents</a></li>
+                                <li><a href="resources/newsletter-archive.html">Newsletters</a></li>
+                                <li><a href="about/how-to-join.html" >How to Join <abbr title="Orange County Enrolled Agents">OCEA</abbr></a></li>
+                                <li><a href="http://www.csea.org/FindanEA/tabid/105/Default.aspx">Find an EA</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div>Federal</div>
+                            <ul>
+                                <li><a href="http://www.irs.gov" rel="external"><abbr title="Internal Revenue Service">IRS</abbr></a></li>
+                                <li><a href="http://www.naea.org" rel="external"><abbr title="National Association of Enrolled Agents">NAEA</abbr></a></li>
+                                <li><a href="http://www.irs.gov/taxpros/index.html" rel="external"><abbr title="Internal Revenue Service">IRS</abbr> Tax Pro Info</a></li>
+                                <li><a href="http://www.irs.ustreas.gov/formspubs/index.html" rel="external"><abbr title="Internal Revenue Service">IRS</abbr> Forms</a></li>
+                                <li><a href="http://www.fourmilab.ch/ustax/ustax.html" rel="external"><abbr title="United States of America">US</abbr> Tax Code</a></li>
+                                <li><a href="http://thomas.loc.gov/" rel="external">Thomas (<abbr title="Library of Congress">LOC</abbr>)</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div>State</div>
+                            <ul>
+                                <li><a href="http://www.ftb.ca.gov" rel="external"><abbr title="Franchise Tax Board">FTB</abbr></a></li>
+                                <li><a href="http://www.edd.ca.gov" rel="external"><abbr title="Employment Development Department">EDD</abbr></a></li>
+                                <li><a href="http://www.boe.ca.gov" rel="external"><abbr title="Board of Equalization">BOE</abbr></a></li>
+                                <li><a href="http://www.ss.ca.gov/" rel="external">Secretary of State</a></li>
+                                <li><a href="http://www.ss.ca.gov/business/" rel="external"><abbr title="California">CA</abbr title="California"> Business Portal</a></li>
+                                <li><a href="http://www.dca.ca.gov/cba/" rel="external">Board of Accountacy</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div>Local</div>
+                            <ul>
+                                <li><a href="http://www.cseasandiego.org" rel="external"><abbr title="San Diego Enrolled Agents">SDEA</abbr></a></li>
+                                <li><a href="http://www.laareacsea.org/" rel="external"><abbr title="Los Angeles Enrolled Agents">LAEA</abbr></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div>Other</div>
+                            <ul>
+                                <li><a href="http://www.kbb.com" rel="external">Kelly Blue Book</a></li>
+                                <li><a href="https://sa2.www4.irs.gov/modiein/individual/index.jsp" rel="external">Online <abbr title="Employee Identification Number">EIN</abbr> Application</a></li>
+                                <li><a href="http://www.gsa.gov/Portal/gsa/ep/contentView.do?programId=9704&amp;channelId=-15943&amp;ooid=16365&amp;contentId=17943&amp;pageTypeId=8203&amp;contentType=GSA_BASIC&amp;programPage=%252Fep%252Fprogram%252FgsaBasic.jsp&amp;P=MTT" rel="external">Per Diem Rates</a></li>
+                                <li><a href="http://aoprals.state.gov/content.asp?content_id=184&amp;menu_id=78" rel="external">Foreign Per Diems</a></li>
+                                <li><a href="http://www.aarp.org/money/revmort/" rel="external">Reverse Mortgage</a></li>
+                                <li><a href="http://www.mortgageloan.com/disabilities/">Mortgage Loan Disabilities</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Tombstones : end -->
+                {% endif %}
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Content : end -->
+
+<!-- Footer : start -->
+<div class="Footer">
+    <div class="FrameL">
+        <div class="FrameR">
+            <div class="Container FLC">
+
+                <p>(c) 2009. Orange County Enrolled Agents. <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">All Rights Reserved</a></p>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer : end -->

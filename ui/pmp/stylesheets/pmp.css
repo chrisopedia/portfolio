@@ -1,0 +1,46 @@
+/* =Reset 
+--------------------------------------------*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, del, dfn, img, ins, kbd, q, samp, strike, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+header, nav, section, footer { display: block; }
+:-moz-any-link:focus, input:focus, textarea:focus, a, a:active, a:focus { outline: none; }	
+
+html { background-color:#000; }
+    body { position: relative; font-family: Helvetica; font-size: medium; background: #000; color: #fff; }
+
+a { cursor:pointer; text-decoration: none; }
+    a img { border:none; }	
+
+header { position: fixed; width: 80%; top: 0; left: 0; z-index: 100; opacity: .75; background-color: #000; box-shadow: 0 10px 15px #000; -moz-box-shadow: 0 10px 15px #000; -webkit-box-shadow: 0 10px 15px #000; border-bottom: 1px solid #fff; padding: 0 10%; }
+    h1 { float: left; padding: 15px 0 30px; }
+    nav { height: 100%; margin-top: 30px; float: right; font: 18px/1 'Times New Roman'; text-transform: uppercase; line-height: 65px; }
+        nav li { float: left; list-style: none; border-right: 1px solid #101010; margin-right: 10px; padding-right: 10px; }
+        nav li:last-child { border-right: none; margin-right: 0; padding-right: 0; }
+            nav a { display: block; color: #fefefe; }
+
+section { min-height: 980px; clear: both; background-color: #000; background-position: center center; background-repeat: no-repeat; background-attachment: fixed; -moz-background-size: cover; background-size: cover; padding: 10% 10% 0; }
+    section div { width: 50%; background: #000; opacity: .8; -moz-box-shadow: 5px 5px 5px rgba(0,0,0,.5), 5px 5px 5px rgba(255,255,255,.1) inset; border-radius: 5px; -moz-border-radius: 5px; padding: 20px; }
+        h2 { background: url(/ui/pmp/images/text-decoration.png) no-repeat center bottom; margin: 0 0 20px; padding: 0 0 20px; font: normal 24px/1 'Times New Roman'; text-align: center; text-transform: uppercase; }
+        section p { line-height: 1.4em; }
+        section li { list-style: none; margin: 10px 0; line-height: 1.4em; }
+        
+.section1 { background-image: url(/ui/pmp/images/section-1_bg.png) }
+.section2 { background-image: url(/ui/pmp/images/section-2_bg.png) }
+.section3 { background-image: url(/ui/pmp/images/section-3_bg.png) }
+.section4 { background-image: url(/ui/pmp/images/section-4_bg.png) }
+
+footer { position: fixed; bottom: 0; left: 0; z-index: 100; padding: 1% 10% .5%; font-size: small; text-shadow: 2px 2px 5px rgba(0,0,0,.85); }
+    footer small { font-size: small; margin-right: 2px; }
+    footer a { color: #fff; text-shadow: 2px 2px 5px rgba(0,0,0,.85); margin-right: 5px; }
+        footer a:after { content: "."; }
+    footer ul { display: inline-block; }
+    footer li { display: inline; }

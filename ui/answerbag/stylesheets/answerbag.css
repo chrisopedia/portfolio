@@ -1,0 +1,655 @@
+/*--------------------------------------------
+Reset Style Sheet (for FF3, Safari 3, Chrome 1)
+
+version:     1.0
+author:      Chris Newton, Cody Silva (credit to Eric Meyer (http://www.meyerweb.com)
+website:     http://www.answerbag.com
+--------------------------------------------*/
+
+/* =Reset 
+--------------------------------------------*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+ small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+html { background-color:#fff; }
+
+a { text-decoration:none; cursor:pointer; }
+	a:visited { text-decoration:none; }
+	a:hover { text-decoration:underline; }
+	a:focus { outline-style:none; }
+	a:active { outline:none; }
+
+	a img { border:none; }
+	
+p { margin:10px 0px; }
+
+h1, h2, h3, h4, h5 { font-weight:normal; font-size:100%; margin:0px; padding:0px; }
+
+table { border-collapse:collapse; }
+
+ul { list-style-type:none; }
+ol { margin-left: 25px; }
+
+.Img1 { border: 1px solid #bdc3c5; padding: 4px; }
+/* =Generic Tags 
+--------------------------------------------*/
+
+.CLR { clear:both; }
+
+/* Float Container */
+.FLC { clear:both; }
+.FLC:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+	/* IE6 work-around \*/
+	* html .FLC { height:1%; }
+	
+	/* IE7 work-around */
+	html > body .FLC { height:auto; max-height:12000000px; }
+
+.UGC {}
+    .UGC ul { list-style: disc; margin-left: 25px; }
+    .UGC em { font-style: italic; }
+    .UGC strong { font-weight: bold; }
+
+/*--------------------------------------------
+Template Style Sheet (for FF3, Safari 3, Chrome 1)
+
+version:     1.0
+author:      Chris Newton, Cody Silva
+website:     http://www.answerbag.com
+--------------------------------------------*/
+
+.Frame { width:960px; margin:0 auto; padding: 0 20px; }
+
+.Column1,
+.Column2,
+.Column3 { float:left; display:inline; margin: 0; }
+
+#Template2a {  } /* 2 column - version a layout */
+	#Template2a .Column1 { width:630px; }
+	#Template2a .Column2 { float:right; width:300px; }
+
+.Header { background-color: rgb(80, 166, 224); }
+    .Header .logo { float: left; width: 300px; margin: 24px 0; }
+    .Header .SearchAnswers { float: right; width: 425px; margin: 0; padding: 10px 20px 20px; }
+        .Header .SearchAnswers .textInput { width: 258px; }
+
+.Navigation { background: #fff url(../images/bg/navigation.jpg) repeat-x top center; position: relative; z-index: 1000; height: 212px; }
+    .Navigation li { height: 45px; }
+        .Navigation li a { margin-top: 10px; color: #fff; font-weight: bold; }
+    .Navigation .Nav1 { float: left; }
+    .Navigation .Login { float: right; }
+        .Navigation .Login .IconFacebook1 { background-position: left 10px; }
+    .Navigation .CategoryNav { -moz-border-radius: 0 0 5px 5px; -webkit-border-radius: 0 0 5px 5px; border-width: 0 1px 1px; margin: 0; }
+
+.Content {}
+    .Content .Frame { padding: 20px 20px 40px; }
+
+.Footer { background: #529dca url(../images/bg/footer.jpg) repeat-x top center; color: #fff; }
+    .Footer .Frame { padding: 30px 20px; }
+    .Footer a { color: #142631; }
+    .Footer li { float: left; display: inline; width: 300px; margin-right: 30px; }
+        .Footer li dd { margin: 0 0 2px; }
+    .Footer li.latestTweets { margin-right: 0; }
+        .Footer li.latestTweets .tweet { background: url(../images/misc/footer_quotes.jpg) no-repeat left top; padding: 10px 10px 20px 40px; }
+
+.SubFooter { background: #142631 url(../images/bg/subfooter.jpg) repeat-x top center; color: #fff; }
+    .SubFooter .Frame { padding: 20px; }
+    .SubFooter a { color: #b0dbf5; }
+    .SubFooter .categories { position: relative; }
+        .SubFooter .categories dd { float: left; display: inline; width: 150px; margin: 0 7px 2px 0; }
+        .SubFooter .categories .seeAll { position: absolute; bottom: -15px; right: 0; }
+    .SubFooter .legal {}
+        .SubFooter .legal dd { margin: 0 0 2px; }
+
+/*--------------------------------------------
+Typography Style Sheet (for FF3, Safari 3, Chrome 1)
+
+version:     1.0
+author:      Chris Newton, Cody Silva
+website:     http://www.answerbag.com
+--------------------------------------------*/
+
+html { color:#333; }
+
+body { font-family:Arial, Helvetica, sans-serif; font-size:small; color:#333; }
+* html body { font-size:x-small; f\ont-size:small; }
+
+a { color:#1b608a; }
+
+.Heading1a { font: 25px 'Trebuchet MS'; color: #273f5e; } 
+    .Heading1a .Note { color: #666; text-transform: none; } 
+.Heading1b { font: 25px 'Trebuchet MS'; color: #1b608a; }
+.Heading1c { font: 25px 'Trebuchet MS'; color: #0b9a47; }
+.Heading1d { font: 25px 'Trebuchet MS'; color: #333; }
+.Heading2a { font: 20px 'Trebuchet MS'; color: #273f5e; } 
+.Heading2b { font: 20px 'Trebuchet MS'; color: #1b608a; }
+.Heading2c { font: 20px 'Trebuchet MS'; color: #0b9a47; }
+.Heading2d { font: 20px 'Trebuchet MS'; color: #333; }
+.Heading3a { font: 18px 'Trebuchet MS'; color: #273f5e; } 
+.Heading3b { font: 18px 'Trebuchet MS'; color: #1b608a; } 
+.Heading3c { font: 18px 'Trebuchet MS'; color: #0b9a47; }
+.Heading3d { font: 18px 'Trebuchet MS'; color: #333; }
+.Heading4a { font: 16px 'Trebuchet MS'; color: #273f5e; }
+.Heading4b { font: 16px 'Trebuchet MS'; color: #1b608a; } 
+.Heading4c { font: 16px 'Trebuchet MS'; color: #0b9a47; }
+.Heading4d { font: 16px 'Trebuchet MS'; color: #333; }
+.Heading5a { font: 14px 'Trebuchet MS'; color: #273f5e; } 
+.Heading5b { font: 14px 'Trebuchet MS'; color: #1b608a; }
+.Heading5c { font: 14px 'Trebuchet MS'; color: #0b9a47; }
+.Heading5d { font: 14px 'Trebuchet MS'; color: #333; }
+.Heading6a { font: 12px 'Trebuchet MS'; color: #273f5e; } 
+.Heading6b { font: 12px 'Trebuchet MS'; color: #1b608a; }
+.Heading6c { font: 12px 'Trebuchet MS'; color: #0b9a47; }
+.Heading6d { font: 12px 'Trebuchet MS'; color: #333; }
+
+.Title1a { font: 25px 'Arial'; color: #273f5e; } 
+.Title1b { font: 25px 'Arial'; color: #1b608a; }
+.Title1c { font: 25px 'Arial'; color: #0b9a47; }
+.Title1d { font: 25px 'Arial'; color: #333; }
+.Title2a { font: 20px 'Arial'; color: #273f5e; } 
+.Title2b { font: 20px 'Arial'; color: #1b608a; }
+.Title2c { font: 20px 'Arial'; color: #0b9a47; }
+.Title2d { font: 20px 'Arial'; color: #333; }
+.Title3a { font: 18px 'Arial'; color: #273f5e; } 
+.Title3b { font: 18px 'Arial'; color: #1b608a; } 
+.Title3c { font: 18px 'Arial'; color: #0b9a47; }
+.Title3d { font: 18px 'Arial'; color: #333; }
+.Title4a { font: 16px 'Arial'; color: #273f5e; }
+.Title4b { font: 16px 'Arial'; color: #1b608a; } 
+.Title4c { font: 16px 'Arial'; color: #0b9a47; }
+.Title4d { font: 16px 'Arial'; color: #333; }
+.Title5a { font: bold 14px 'Arial'; color: #273f5e; } 
+.Title5b { font: bold 14px 'Arial'; color: #1b608a; }
+.Title5c { font: bold 14px 'Arial'; color: #0b9a47; }
+.Title5d { font: bold 14px 'Arial'; color: #333; }
+.Title6a { font: 12px 'Arial'; color: #273f5e; } 
+.Title6b { font: 12px 'Arial'; color: #1b608a; }
+.Title6c { font: 12px 'Arial'; color: #0b9a47; }
+.Title6d { font: 12px 'Arial'; color: #333; }
+
+
+.Note { font-size: 11px; }
+
+.SectionTitle { background: url(../images/bg/section_titles.png) no-repeat left 30px; padding: 0 0 18px; margin: 0 0 10px; text-transform: uppercase; }
+    .SectionTitle .float { float: right; font-size: 13px; text-transform: none; }
+    .SectionTitle .IconRSS1 { background-position: left -56px; padding: 12px 0 0 20px;  }
+    .SectionTitle .IconGoogleCSE { margin-top: 2px; }
+#Template2a .Column2 .SectionTitle { background-position: left -28px; padding: 0 0 10px; }
+#Template2a #Home .Column2 .SectionTitle { background-position: left 30px; padding: 0 0 18px; }
+.Footer .SectionTitle { background-position: left -90px; padding: 0 0 10px; color: #fff; }
+#Template2a .SubFooter .Column2 .SectionTitle,
+.SubFooter .SectionTitle { background-position: left -145px; padding: 0 0 10px; color: #fff; }
+
+.Choice1,
+.ChoiceYes { color: #56b716; }
+.Choice2 { color: #f2780a; }
+.Choice3 { color: #206893; }
+.Choice4,
+.ChoiceNo { color: #e54242; }
+.Choice5 { color: #51aab0; }
+
+/*--------------------------------------------
+Buttons Style Sheet (for FF3, Safari 3, Chrome 1)
+
+version:     1.0
+author:      Chris Newton, Cody Silva
+website:     http://www.answerbag.com
+--------------------------------------------*/
+
+.Button1a { background: #2e5771 url(../images/buttons/buttons.jpg) repeat-x bottom center; border: 1px solid #142631; -moz-border-radius: 3px; -webkit-border-radius: 3px; padding: 5px 10px; font-weight: bold; color: #fff; }
+
+
+/* Iconset 1 */
+.IconFacebook1,
+.IconRSS1 { background: url(../images/icons/icon_set1.png) no-repeat; }
+
+.IconFacebook1 { background-position: left 0; padding-left: 20px; }
+.IconRSS1 { background-position: left -65px; padding-left: 20px; }
+
+/*Iconset 2a - 77x50 */
+.IconQuestions,
+.IconPolls,
+.IconDebates { background: url(../images/icons/icon_set2a.png) no-repeat; }
+
+.IconQuestions { background-position: left 0; }
+.IconPolls { background-position: left -79px; }
+.IconDebates { background-position: left -158px; }
+
+/*Iconset 2b 32x26 */
+.IconQuestionsSmall,
+.IconPollsSmall,
+.IconDebatesSmall,
+.IconProfilesSmall,
+.IconArticlesSmall,
+.IconTopicsSmall { background: url(../images/icons/icon_set2b.png) no-repeat; }
+
+.IconQuestionsSmall { background-position: left 0; }
+.IconPollsSmall { background-position: left -77px; }
+.IconDebatesSmall { background-position: left -150px; }
+.IconProfilesSmall { background-position: left -225px; }
+.IconArticlesSmall { background-position: left -302px; }
+.IconTopicsSmall { background-position: left -383px; }
+
+/*Iconset 3 */
+.IconEmail3,
+.IconFacebook3,
+.IconTwitter3,
+.IconThumbsUp3,
+.IconWarning3a,
+.IconWarning3b,
+.IconComment3 { background: url(../images/icons/icon_set3.png) no-repeat; }
+
+.IconEmail3 { background-position: left 0; }
+.IconFacebook3 { background-position: left -60px; }
+.IconTwitter3 { background-position: left -121px; }
+.IconThumbsUp3 { background-position: left -183px; }
+.IconWarning3a { background-position: left -247px; }
+.IconWarning3b { background-position: left -310px; }
+.IconComment3 { background-position: left -371px; }
+
+
+/*Iconset 4 */
+.IconBlueQuestion { background: url(../images/icons/icon_set4.png) no-repeat; }
+
+.IconBlueQuestion { background-position: left top; }
+
+/*Iconset 5 - thumbs up/thumbs down */
+.IconThumbsUp5,
+.IconThumbsDown5 { background: url(../images/icons/icon_set5.png) no-repeat; }
+
+.IconThumbsUp5 { background-position: left top; }
+.IconThumbsDown5 { background-position: left bottom; }
+
+/*--------------------------------------------
+Modules Style Sheet (for FF3, Safari 3, Chrome 1)
+
+version:     1.0
+author:      Chris Newton, Cody Silva
+website:     http://www.answerbag.com
+--------------------------------------------*/
+
+/* =Navigations */
+.Nav1 { }
+    .Nav1 li { display: inline; float: left; }
+        .Nav1 li a { display: block; margin-left: 40px; text-transform: uppercase; }
+        .Nav1 li:first-child a { border-left: 0; margin-left: 0; padding-left: 0; }
+    .Nav1 li.selected { background: url(../images/navigation/blue_down_tick.png) no-repeat center 35px; }
+        .Nav1 li.selected a { color: #ffde02; }
+
+.Nav2 {}
+    .Nav2 li { float: left; display: inline; margin-left: 5px; }
+        .Nav2 li a { display: block; width: 8px; height: 8px; background: url(../images/navigation/nav2.png) no-repeat bottom center; text-indent: -5000px; }
+        .Nav2 li.selected a { background-position: top center; }
+        
+.Nav3 {}
+    .Nav3 li { float: left; display: inline; height: 31px; margin: 9px 0 0; background: #ecf6fa; border: 1px solid #e5e9ec; border-width: 1px 1px 1px 0; line-height: 31px; padding: 0 20px; }
+        .Nav3 li a { display: block; font-weight: bold; }
+        .Nav3 li:first-child { border-width: 1px; }
+    .Nav3 li.selected { height: 41px; background: url(../images/navigation/nav3.jpg) no-repeat left top; border-width: 0 0 1px; border-color: #e5e9ec #e5e9ec #fff; padding: 0 0 0 2px; margin: 0; line-height: 50px; }
+        .Nav3 li.selected a { height: 100%; background: url(../images/navigation/nav3.jpg) no-repeat right top; padding: 0 20px 0 18px; border: none; }
+
+.Nav4 { margin: 0 0 10px; }
+    .Nav4 dt { display: inline; font-weight: bold; margin-right: 5px; }
+    .Nav4 dd { display: inline; margin-right: 5px; padding-right: 5px; border-right: 1px solid #99c3dc; }
+    .Nav4 dd.last { border-right: none; padding-right: 0; margin-right: 0; }
+.Box2 .box2Footer .Nav4 { margin: 0 0 5px; }
+
+.CategoryNav { position: relative; }
+    .CategoryNav ul { float: left; width: 134px; height: 124px; border-right: 1px solid #d8dfe1; margin-right: 20px; padding: 0 20px; }
+    .CategoryNav ul.first { padding: 0 20px 0 0; }
+    .CategoryNav ul.last { padding: 0 0 0 20px; margin-right: 0; border-right: none; }
+    .CategoryNav li { margin: 0 0 10px; height: auto; }
+    .CategoryNav li:last-child { margin: 0; }
+        .CategoryNav li a { color: #3487ba; }
+    .CategoryNav .close { position: absolute; right: 10px; bottom: 5px; }
+.Content .CategoryNav { margin: 0; }
+
+.Pagination1 { list-style: none; float: right; margin-left: 0; }
+    .Pagination1 li { float: left; display: inline; margin-left: 6px; }
+        .Pagination1 li a { display: block; width: 18px; height: 18px; border: 1px solid #3487ba; -moz-border-radius: 2px; -webkit-border-radius: 2px; text-align: center; line-height: 18px; }
+    .Pagination1 li.current {}
+        .Pagination1 li.current a { background-color: #3487ba; color: #fff; }
+        
+
+.Breadcrumbs { margin: 0 0 10px; }
+    .Breadcrumbs li { display: inline; color: #3487BA; }
+
+/* =Boxes */
+.Box1 { background-color: #ebf4f8; border: 1px solid #bfe0ee; -moz-border-radius: 5px; -webkit-border-radius: 5px; margin: 0 0 20px; padding: 20px; }
+
+.Box2 { background-color: #fef5a8; border: 1px solid #dad16f; -moz-border-radius: 5px; -webkit-border-radius: 5px; margin: 0 0 20px; padding: 10px 20px 5px; }
+    .Box2 .box2Header { margin: 0 0 10px; }
+        .Box2 .box2Header .title { color: #fe3f04; text-transform: uppercase; }
+    .Box2 .box2Content { background-color: #fff; border: 1px solid #dad16f; padding: 10px; margin: 0 0 10px; }
+
+.Box3 { background-color: #ebf4f8; border: 1px solid #d0ecf8; -moz-border-radius: 5px; -webkit-border-radius: 5px; margin: 0 0 20px; padding: 10px 20px 5px; }
+    .Box3 .box3Header { margin: 0 0 10px; }
+        .Box3 .box3Header .title { color: #0b9a47; text-transform: uppercase; }
+    .Box3 .box3Content { background-color: #fff; border: 1px solid #d0ecf8; padding: 10px; margin: 0 0 10px; }
+
+.Box4 { background: #fff url(../images/bg/box4.jpg) repeat-x bottom left; border: 1px solid #bfe0ee; -moz-border-radius: 3px; -webkit-border-radius: 3px; padding: 5px 10px; margin: 0 0 20px; }
+.Footer .Box4 { background: #3485b6; border-color: #65a9d3; }
+
+.Tab1,
+    .Tab1 .tab1Right { background: url(../images/bg/tabs1.jpg) no-repeat top left; }
+.Tab1 { background-position: top left; padding-left: 10px; height: 43px; }
+    .Tab1 .tab1Right { background-position: top right; padding-right: 10px; height: 100%; }
+#Home .sections .questions .Tab1 { width: 90px; }
+#Home .sections .polls .Tab1 { width: 85px; }
+#Home .sections .debates .Tab1 { width: 115px; }
+
+/* =Modules */
+.Login {}
+    .Login li { display: inline; float: left; }
+        .Login li a { display: block; margin-left: 10px; padding-left: 10px; border-left: 1px solid #fff; }
+        .Login li:first-child a { border-left: 0; margin-left: 0; padding-left: 0; }
+        
+.SearchAnswers { margin: 0 0 20px; }
+    .SearchAnswers label { display: block; margin: 0 0 2px; font-weight: bold; text-transform: capitalize; }
+        .SearchAnswers label span { font-weight: normal; text-transform: none; }
+    .SearchAnswers div { background-color: #2d4956; border: 1px solid #2d4956; -moz-border-radius: 2px; -webkit-border-radius: 2px; padding: 1px; }
+    .SearchAnswers .textInput { height: 48px; border: 0; padding: 0 10px; color: #666; font-size: 18px; line-height: 48px; }
+    .SearchAnswers .textInput:focus { color: #333; }
+    .SearchAnswers .submitButton { margin: 0 0 0 -3px; border: 0; background: url(../images/buttons/buttons.jpg) repeat-x 0 0; height: 45px; padding: 0 10px; color: #fff; }
+    .SearchAnswers .Button1a { -moz-border-radius: 0 3px 3px 0; -webkit-border-radius: 0 3px 3px 0; }
+#Template2a .Content .SearchAnswers .textInput { width: 463px; }
+#Template2a #Home .SearchAnswers .textInput { width: 751px; }
+
+
+.PopularQuestions { margin: 0 0 20px; }
+    .PopularQuestions .questions {}
+        .PopularQuestions .questions li { background-position: right top; padding: 0 40px 10px 0; margin: 0 0 10px; border-bottom: 1px solid #efeff0; }
+        .PopularQuestions .questions .IconPollsSmall { background-position: right -77px; }
+        .PopularQuestions .questions .IconDebatesSmall { background-position: right -150px; }
+        .PopularQuestions .questions .IconProfilesSmall { background-position: right -225px; }
+        .PopularQuestions .questions .IconArticlesSmall { background-position: right -302px; }
+        .PopularQuestions .questions .IconTopicsSmall { background-position: right -383px; }
+            .PopularQuestions .questions li img { float: left; margin-right: 10px; }
+            .PopularQuestions .questions li p { margin: 0 0 0 35px; color: #666; }
+                .PopularQuestions .questions li p .title { font-weight: bold; font-size: 14px; }
+        .PopularQuestions .questions .footer { padding: 0 0 10px; margin: 0; }
+            .PopularQuestions .questions .footer .more { float: right; }
+            .PopularQuestions .questions .footer .proContent { float: left; }
+
+
+.Feedback { margin: 0 0 20px; }
+    .Feedback dt { margin: 0 0 10px; }
+        .Feedback dt strong { font-weight: bold; }
+        .Feedback dt span { display: block; }
+        .Feedback dt .info { font-style: italic; color: #333; }
+    .Feedback dd { margin: 0 0 5px; }
+    .Feedback dd.other { margin: 0 0 10px; }
+        .Feedback dd.other .checkbox { display: inline; float: left; }
+        .Feedback dd.other div { margin-left: 24px; }
+            .Feedback dd.other div label { display: block; }
+            .Feedback dd.other div input { border: 1px solid #999; -moz-border-radius: 2px; -webkit-border-radius: 2px; padding: 2px 5px; }
+    .Feedback .submit { margin-left: 24px; }
+
+.ShareTools {}
+    .ShareTools dd.email { padding-left: 18px; background-position: left 2px; }
+    .ShareTools dd.facebook { padding-left: 16px; }
+    .ShareTools dd.twitter { padding-left: 14px; }
+    .ShareTools dd.more { margin-right: 0; padding-right: 0; border-right: none; }
+
+.Tools { float: right; }
+    .Tools li { float: left; display: inline; margin-left: 10px; padding-left: 18px; font-size: 11px; }
+
+.CommentTool { margin: 0; font-size: 11px; }
+
+.FeaturedQuestion { margin: 0 0 20px; }
+    .FeaturedQuestion .question { margin: 0; }
+        .FeaturedQuestion .question .author { float: right; height: 25px; line-height: 25px; }
+            .FeaturedQuestion .question .author p { float: left; }
+            .FeaturedQuestion .question .author img { float: left; display: inline; margin-left: 10px; }
+        .FeaturedQuestion .question p { margin: 0 0 10px; }
+        .FeaturedQuestion .question .content {  }
+            .FeaturedQuestion .question .content .questionText { margin: 0; }
+            .FeaturedQuestion .question .content .related { margin: 0 0 10px; font-size: 12px; }
+                .FeaturedQuestion .question .content .related dt { display: inline; font-weight: bold; }
+                .FeaturedQuestion .question .content .related dd { display: inline; }
+            .FeaturedQuestion .question .content .answerThis { display: block; }
+#Template2a .Column1 .FeaturedQuestion .question .content .AnswerForm { margin: 0; }
+#Debate .FeaturedQuestion .question .content .itemAvatar { float: left; margin-right: 10px; }
+#Debate .FeaturedQuestion .question .content .itemContent { float: left; display: inline; width: 406px; }
+
+.RelatedQuestions { margin: 0 0 20px; }
+    .RelatedQuestions li { padding: 0 0 6px 25px; margin: 0 0 10px; }
+    .RelatedQuestions li:last-child { margin: 0; }
+        .RelatedQuestions li a { font-weight: bold; }
+    .RelatedQuestions p { margin: 5px 0 10px; }
+
+.RelatedTopics { margin: 0 0 20px; }
+    .RelatedTopics .SectionTitle { margin: 0 0 5px; }
+    .RelatedTopics li { margin: 0 0 10px; }
+       .RelatedTopics li a { font-weight: bold; }
+        .RelatedTopics li a:hover { text-decoration: none; }
+#Template2a .Column1 .RelatedTopics li { float: left; display: inline; width: 200px; margin-right: 15px; }
+    #Template2a .Column1 .RelatedTopics li.last { margin-right: 0; }
+
+.AskModule { margin: 0 0 20px; }
+    .AskModule form {}
+        .AskModule label { display: block; margin: 0 0 5px; }
+        .AskModule textarea { width: 98%; }
+        .AskModule form p { margin: 0 0 10px; color: #666; }
+        .AskModule form input { width: 50px; }
+
+.Filter {}
+    .Filter dt { font-weight: bold; margin: 0 0 5px; }
+    .Filter dd { padding: 0; }
+        .Filter dd li { float: left; display: inline; border-right: 1px solid #bfe0ee; }
+        .Filter dd li.last { border-right: none; }
+            .Filter dd li a { display: block; padding: 8px 18px; color: #333; font-size: 11px; }
+
+
+.Answers {}
+    .Answers .SectionTitle {}
+        .Answers .SectionTitle .sorter { float: right; margin: 5px 0 0; font-size: 12px; text-transform: none; }
+            .Answers .SectionTitle .sorter label { font-weight: bold; color: #273f5e; }
+            
+    .Answers .answer { margin: 0 0 20px; }
+         .Answers .answer p { margin: 0; }
+       .Answers .answer .author { float: left; height: 25px; line-height: 25px; }
+       #Poll .Answers .author { line-height: normal; }
+            .Answers .answer .author p { float: right; }
+            .Answers .answer .author img { float: left; display: inline; margin-right: 10px; }
+       .Answers .answer .content {  }
+           .Answers .answer .content .answerText { margin: 0 0 10px; }
+    
+    .Answers .professional { position: relative; }
+       .Answers .professional .author { float: right; text-align: right; }
+            .Answers .professional .author p { float: left; }
+            .Answers .professional .author img { margin-left: 10px; margin-right: 0; }    
+        .Answers .professional .banner { position: absolute; top: -3px; left: 20px; }
+        .Answers .professional .title,
+        .Answers .professional .researched { margin-left: 25px; }
+        .Answers .professional .researched { font-style: italic; }
+            .Answers .professional .researched span { font-style: normal; }
+
+    .Answers .sponsoredAnswer { position: relative; margin: 0 0 20px; }
+        .Answers .sponsoredAnswer .close { position: absolute; right: 0; }
+        .Answers .sponsoredAnswer .itemAvatar { float: left; display: inline; margin-right: 10px; }
+        .Answers .sponsoredAnswer .itemContent { margin-left: 190px; }
+            .Answers .sponsoredAnswer .itemContent h6 { font-weight: bold; }
+                .Answers .sponsoredAnswer .itemContent h6 span { font-weight: normal; }
+
+.AnswerForm { width: 100%; }
+    .AnswerForm textarea { width: 98%; color: #999; border: 1px solid #cce6f1; -moz-border-radius: 3px; -webkit-border-radius: 3px; margin: 0 0 5px; padding: 5px; }
+    .AnswerForm textarea:focus { width: 98%; color: #333; }
+#Template2a .Column1 .AnswerForm { margin: 0 0 20px; }
+#Template2a #Debate .Column1 .AnswerForm { margin: 0 0 20px 20px; }
+
+.Comments { margin-left: 20px; }
+    .Comments h6 { font-weight: bold; }
+    .Comments .comment { margin: 0 0 20px; padding: 0 0 10px; border-bottom: 1px solid #efeff0; }
+    .Comments .comment:last-child { padding: 0; border-bottom: none; }
+       .Comments .comment .commentText { margin: 0 0 10px; }
+       .Comments .comment .Tools { float: right; height: 25px; line-height: 25px; padding-left: 18px; font-size: 11px; }
+           .Comments .comment .Tools .IconThumbsUp3 { background-position: left -180px; }
+           .Comments .comment .Tools .IconWarning3a { background-position: left -243px; }
+           .Comments .comment .Tools .IconWarning3b { background-position: left -305px; }
+       .Comments .comment .author { float: left; clear: left; margin: 0 0 10px; text-align: left; }
+           .Comments .comment .author img { float: left; display: inline; margin-left: 0; margin-right: 10px; }
+           .Comments .comment .author p { float: right; margin: 0; }
+    .Comments form { clear: both; margin: 0 0 10px; }
+       .Comments .inputText { width: 408px; padding: 5px; }
+       .Comments .submit { -moz-border-radius: 0 3px 3px 0; margin-left: -4px; }
+#Debate .Comments .comment .author { line-height: normal; }
+
+.Poll { margin: 0 0 20px }
+    .Poll dl { margin: 0 0 15px; }
+    .Poll dt { margin: 0 0 10px; }
+        .Poll dt a { font-weight: bold; }
+            .Poll dt .Note a { font-weight: normal; }
+    .Poll dd { margin: 0 0 10px; font-size: 12px; }
+        .Poll dd input { float: left; display: inline; margin: 20px 5px 0 0; }
+        .Poll dd label { float: left; display: inline; width: 95%; margin-left: 5px; font-weight: bold; }
+        #Template2a .Column2 .Poll dd label { width: 92%; }
+        #Template2a .Column1 .FeaturedQuestion .Poll { margin: 0; }
+            #Template2a .Column1 .FeaturedQuestion .Poll dd label { width: 94%; }
+        .Poll dd span { font-size: 11px; font-style: italic; } 
+    .Poll .submit { margin-left: 23px; }
+    .Poll .Choice1 {}
+        .Poll .Choice1 .result { background-color: #56b716; background-image: -moz-linear-gradient(left, right, from(#56b716), to(#65e63d)); background-image: -webkit-gradient(linear, left top, right top, color-stop(0.00, #56b716), color-stop(1.00, #65e63d)); border: 1px solid #56b716; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+    .Poll .Choice2 {}
+        .Poll .Choice2 .result { background-color: #f2780a; border: 1px solid #f2780a; -moz-border-radius: 3px; -webkit-border-radius: 3px; background-image: -moz-linear-gradient(left, right, from(#f2780a), to(#f7b901)); background-image: -webkit-gradient(linear, left top, right top, color-stop(0.00, #f2780a), color-stop(1.00, #f7b901)); }
+    .Poll .Choice3 {}
+        .Poll .Choice3 .result { background-color: #206893; border: 1px solid #206893; -moz-border-radius: 3px; -webkit-border-radius: 3px; background-image: -moz-linear-gradient(left, right, from(#206893), to(#52a7dc)); background-image: -webkit-gradient(linear, left top, right top, color-stop(0.00, #206893), color-stop(1.00, #52a7dc)); }
+    .Poll .Choice4 {}
+        .Poll .Choice4 .result { background-color: #e54242; border: 1px solid #e54242; -moz-border-radius: 3px; -webkit-border-radius: 3px; background-image: -moz-linear-gradient(left, right, from(#e54242), to(#fc7c7c)); background-image: -webkit-gradient(linear, left top, right top, color-stop(0.00, #e54242), color-stop(1.00, #fc7c7c)); }
+    .Poll .Choice5 {}
+        .Poll .Choice5 .result { background-color: #51aab0; border: 1px solid #51aab0; -moz-border-radius: 3px; -webkit-border-radius: 3px; background-image: -moz-linear-gradient(left, right, from(#51aab0), to(#8ddfe4)); background-image: -webkit-gradient(linear, left top, right top, color-stop(0.00, #51aab0), color-stop(1.00, #8ddfe4)); }
+    .Poll .result { display: block; margin: 2px 0 0; padding: 4px; text-indent: -5000px; }
+
+    /* percentages */
+    	.Poll dd .p0 { width: 0%; }
+    	.Poll dd .p1 { width: 1%; }
+    	.Poll dd .p2 { width: 2%; }
+    	.Poll dd .p3 { width: 3%; }
+    	.Poll dd .p4 { width: 4%; }
+    	.Poll dd .p5 { width: 5%; }
+    	.Poll dd .p6 { width: 6%; }
+    	.Poll dd .p7 { width: 7%; }
+    	.Poll dd .p8 { width: 8%; }
+    	.Poll dd .p9 { width: 9%; }
+    	.Poll dd .p10 { width: 10%; }
+    	.Poll dd .p11 { width: 11%; }
+    	.Poll dd .p12 { width: 12%; }
+    	.Poll dd .p13 { width: 13%; }
+    	.Poll dd .p14 { width: 14%; }
+    	.Poll dd .p15 { width: 15%; }
+    	.Poll dd .p16 { width: 16%; }
+    	.Poll dd .p17 { width: 17%; }
+    	.Poll dd .p18 { width: 18%; }
+    	.Poll dd .p19 { width: 19%; }
+    	.Poll dd .p20 { width: 20%; }
+    	.Poll dd .p21 { width: 21%; }
+    	.Poll dd .p22 { width: 22%; }
+    	.Poll dd .p23 { width: 23%; }
+    	.Poll dd .p24 { width: 24%; }
+    	.Poll dd .p25 { width: 25%; }
+    	.Poll dd .p26 { width: 26%; }
+    	.Poll dd .p27 { width: 27%; }
+    	.Poll dd .p28 { width: 28%; }
+    	.Poll dd .p29 { width: 29%; }
+    	.Poll dd .p30 { width: 30%; }
+    	.Poll dd .p31 { width: 31%; }
+    	.Poll dd .p32 { width: 32%; }
+    	.Poll dd .p33 { width: 33%; }
+    	.Poll dd .p34 { width: 34%; }
+    	.Poll dd .p35 { width: 35%; }
+    	.Poll dd .p36 { width: 36%; }
+    	.Poll dd .p37 { width: 37%; }
+    	.Poll dd .p38 { width: 38%; }
+    	.Poll dd .p39 { width: 39%; }
+    	.Poll dd .p40 { width: 40%; }
+    	.Poll dd .p41 { width: 41%; }
+    	.Poll dd .p42 { width: 42%; }
+    	.Poll dd .p43 { width: 43%; }
+    	.Poll dd .p44 { width: 44%; }
+    	.Poll dd .p45 { width: 45%; }
+    	.Poll dd .p46 { width: 46%; }
+    	.Poll dd .p47 { width: 47%; }
+    	.Poll dd .p48 { width: 48%; }
+    	.Poll dd .p49 { width: 49%; }
+    	.Poll dd .p50 { width: 50%; }
+    	.Poll dd .p51 { width: 51%; }
+    	.Poll dd .p52 { width: 52%; }
+    	.Poll dd .p53 { width: 53%; }
+    	.Poll dd .p54 { width: 54%; }
+    	.Poll dd .p55 { width: 55%; }
+    	.Poll dd .p56 { width: 56%; }
+    	.Poll dd .p57 { width: 57%; }
+    	.Poll dd .p58 { width: 58%; }
+    	.Poll dd .p59 { width: 59%; }
+    	.Poll dd .p60 { width: 60%; }
+    	.Poll dd .p61 { width: 61%; }
+    	.Poll dd .p62 { width: 62%; }
+    	.Poll dd .p63 { width: 63%; }
+    	.Poll dd .p64 { width: 64%; }
+    	.Poll dd .p65 { width: 65%; }
+    	.Poll dd .p66 { width: 66%; }
+    	.Poll dd .p67 { width: 67%; }
+    	.Poll dd .p68 { width: 68%; }
+    	.Poll dd .p69 { width: 69%; }
+    	.Poll dd .p70 { width: 70%; }
+    	.Poll dd .p71 { width: 71%; }
+    	.Poll dd .p72 { width: 72%; }
+    	.Poll dd .p73 { width: 73%; }
+    	.Poll dd .p74 { width: 74%; }
+    	.Poll dd .p75 { width: 75%; }
+    	.Poll dd .p76 { width: 76%; }
+    	.Poll dd .p77 { width: 77%; }
+    	.Poll dd .p78 { width: 78%; }
+    	.Poll dd .p79 { width: 79%; }
+    	.Poll dd .p80 { width: 80%; }
+    	.Poll dd .p81 { width: 81%; }
+    	.Poll dd .p82 { width: 82%; }
+    	.Poll dd .p83 { width: 83%; }
+    	.Poll dd .p84 { width: 84%; }
+    	.Poll dd .p85 { width: 85%; }
+    	.Poll dd .p86 { width: 86%; }
+    	.Poll dd .p87 { width: 87%; }
+    	.Poll dd .p88 { width: 88%; }
+    	.Poll dd .p89 { width: 89%; }
+    	.Poll dd .p90 { width: 90%; }
+    	.Poll dd .p91 { width: 91%; }
+    	.Poll dd .p92 { width: 92%; }
+    	.Poll dd .p93 { width: 93%; }
+    	.Poll dd .p94 { width: 94%; }
+    	.Poll dd .p95 { width: 95%; }
+    	.Poll dd .p96 { width: 96%; }
+    	.Poll dd .p97 { width: 97%; }
+    	.Poll dd .p98 { width: 98%; }
+    	.Poll dd .p99 { width: 99%; }
+    	.Poll dd .p100 { width: 100%; }
+    	
+.Twitter { margin: 0 0 20px; }
+    .Twitter .topicFeed { margin: 0 0 20px; }
+    .Twitter .TwitterFollowUs { margin: 0; }
+
+.TwitterFollowUs { }
+    .TwitterFollowUs p { background: url(../images/icons/twitter_bird.png) no-repeat left center; padding: 15px 0 15px 65px; margin: 0; }
+
+
+/* =Ads */
+.SuperButtonAd { margin: 0 0 20px; }
+.RelatedAds { margin: 0 0 20px; }
+    .RelatedAds li { margin: 0 0 5px; }
+.SponsoredLinks { margin: 0 0 20px; }
+.BannerAd { margin: 0 0 20px; clear: both; }

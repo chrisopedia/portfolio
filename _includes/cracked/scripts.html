@@ -1,0 +1,17 @@
+<script src="/ui/cracked/scripts/external/jquery.tools.min.js" ></script>
+<script>
+    $(function() {
+        $("#NewArticles .window").scrollable({speed: 700, circular: true });
+        $("#Recommended .window").scrollable({speed: 700, circular: true });
+        $("#CrackedStuff .window").scrollable({speed: 700, circular: true });
+        $("#LoginButton[rel]").overlay({
+            mask: {
+                    color: '#000',
+                    loadSpeed: 200,
+                    opacity: 0.9
+                },
+            top: 'center'});
+        $("#RegisterButton[rel]").overlay({mask: '#000', top: '0'});
+        $(".Sort").tabs(".body > .ArticleListing");
+    });
+</script>

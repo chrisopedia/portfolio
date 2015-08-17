@@ -1,0 +1,295 @@
+<mockup version="1.0" skin="sketch" measuredW="1275" measuredH="2076" mockupW="1153" mockupH="2047">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="305" y="19" w="960" h="2047" measuredW="450" measuredH="400" zOrder="0" locked="true" isInGroup="-1">
+      <controlProperties>
+        <text>Chris%20%26%20Kate%20Get%20Hitched%21%0Ahttp%3A//thenewtonwedding.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="__group__" x="439" y="1597" w="632" h="368" measuredW="632" measuredH="368" zOrder="1" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="71" w="-1" h="-1" measuredW="22" measuredH="23" zOrder="0" locked="false" isInGroup="12">
+          <controlProperties>
+            <bold>true</bold>
+            <text>To%3A</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="107" w="67" h="23" measuredW="38" measuredH="23" zOrder="1" locked="false" isInGroup="12">
+          <controlProperties>
+            <text>From%3A</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::TextInput" x="68" y="104" w="564" h="-1" measuredW="126" measuredH="27" zOrder="2" locked="false" isInGroup="12">
+          <controlProperties>
+            <bold>false</bold>
+            <italic>true</italic>
+            <text>your%20email%20address</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="68" y="70" w="-1" h="-1" measuredW="175" measuredH="23" zOrder="3" locked="false" isInGroup="12">
+          <controlProperties>
+            <bold>false</bold>
+            <text>%5Bmail@thenewtonwedding.com%5D</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="0" y="147" w="-1" h="-1" measuredW="55" measuredH="23" zOrder="4" locked="false" isInGroup="12">
+          <controlProperties>
+            <text>Subject%3A</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::TextInput" x="68" y="144" w="564" h="-1" measuredW="192" measuredH="27" zOrder="5" locked="false" isInGroup="12">
+          <controlProperties>
+            <bold>false</bold>
+            <italic>true</italic>
+            <text>registry%20questions%2C%20RSVP%2C%20etc.</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="0" y="185" w="-1" h="-1" measuredW="60" measuredH="23" zOrder="6" locked="false" isInGroup="12">
+          <controlProperties>
+            <text>Message%3A</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::TextArea" x="67" y="185" w="565" h="140" measuredW="200" measuredH="140" zOrder="7" locked="false" isInGroup="12">
+          <controlProperties>
+            <bold>false</bold>
+            <italic>true</italic>
+            <text>your%202%20cents%20here...</text>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Button" x="563" y="340" w="69" h="28" measuredW="53" measuredH="28" zOrder="8" locked="false" isInGroup="12">
+          <controlProperties>
+            <text>Send</text>
+          </controlProperties>
+        </control>
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::Title" x="0" y="0" w="-1" h="-1" measuredW="125" measuredH="37" zOrder="9" locked="false" isInGroup="12">
+          <controlProperties>
+            <bold>false</bold>
+            <size>24</size>
+            <text>Contact%20Us</text>
+            <underline>false</underline>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Title" x="424" y="108" w="-1" h="-1" measuredW="500" measuredH="56" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Chris%20%26%20Kate%20Get%20Hitched%21%21%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::VerticalTabBar" x="337" y="178" w="-1" h="-1" measuredW="200" measuredH="232" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <text>Details%0AThe%20Story%0AThings%20To%20Do%0AResources%0ARegistry%0AContact</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::VRule" x="419" y="385" w="-1" h="1613" measuredW="5" measuredH="100" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="22" controlTypeID="__group__" x="442" y="240" w="-1" h="-1" measuredW="632" measuredH="222" zOrder="5" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Map" x="380" y="0" w="-1" h="-1" measuredW="252" measuredH="222" zOrder="0" locked="false" isInGroup="22"/>
+        <control controlID="1" controlTypeID="__group__" x="0" y="0" w="-1" h="-1" measuredW="358" measuredH="140" zOrder="1" locked="false" isInGroup="22">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="0" w="64" h="140" measuredW="200" measuredH="140" zOrder="0" locked="false" isInGroup="1">
+              <controlProperties>
+                <size>16</size>
+                <text>Who%3A%0AWhen%3A%0AWhere%3A</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="84" y="0" w="274" h="140" measuredW="200" measuredH="140" zOrder="1" locked="false" isInGroup="1">
+              <controlProperties>
+                <bold>false</bold>
+                <size>16</size>
+                <text>Chris%20Newton%20%26%20Kate%20Koumantzelis%0AAugust%206th%2C%202011%0A%5BSheraton%20Hotel%5D%0A39%20Dalton%20St.%0ABoston%2C%20MA%2002199</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::Label" x="442" y="178" w="-1" h="-1" measuredW="129" measuredH="37" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>24</size>
+        <text>The%20Details</text>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::HRule" x="442" y="502" w="666" h="-1" measuredW="100" measuredH="5" zOrder="7" locked="false" isInGroup="-1"/>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Label" x="442" y="539" w="-1" h="-1" measuredW="115" measuredH="37" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>24</size>
+        <text>The%20Story</text>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Title" x="442" y="591" w="-1" h="-1" measuredW="134" measuredH="29" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <size>18</size>
+        <text>%5BHow%20I%20Purposed%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Paragraph" x="442" y="635" w="632" h="140" measuredW="200" measuredH="140" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <text>%09%09lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt%20ut%20labore%20et%20dolore%20magna%20aliqua.%20Ut%20enim%20ad%20minim%20veniam%2C%20quis%20nostrud%20exercitation%20ullamco%20laboris%20nisi%20ut%20aliquip%20ex%20ea%20commodo%20consequat.%20Duis%20aute%20irure%20dolor%20in%20reprehenderit%20in%20voluptate%20velit%20esse%20cillum%20dolore%20eu%20fugiat%20nulla%20pariatur.%20Excepteur%20sint%20occaecat%20cupidatat%20non%20proident%2C%20sunt%20in%20culpa%20qui%20officia%20deserunt%20mollit%20anim%20id%20est%20laborum%u2026%20%5Bread%20more%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::HRule" x="439" y="770" w="666" h="-1" measuredW="100" measuredH="5" zOrder="11" locked="false" isInGroup="-1"/>
+    <control controlID="42" controlTypeID="__group__" x="439" y="802" w="-1" h="-1" measuredW="666" measuredH="368" zOrder="12" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="141" measuredH="37" zOrder="0" locked="false" isInGroup="42">
+          <controlProperties>
+            <size>24</size>
+            <text>Things%20to%20Do</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::TabBar" x="0" y="66" w="642" h="185" measuredW="514" measuredH="100" zOrder="1" locked="false" isInGroup="42">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <selectedIndex>0</selectedIndex>
+            <text>Sports%2C%20Musuems%2C%20Recreational%2C%20Tourist%20Spots%2C%20Live%20Entertainment</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Title" x="0" y="113" w="-1" h="-1" measuredW="133" measuredH="29" zOrder="2" locked="false" isInGroup="42">
+          <controlProperties>
+            <bold>false</bold>
+            <size>18</size>
+            <text>%5BBoston%20Red%20Sox%5D</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="142" w="632" h="84" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="42">
+          <controlProperties>
+            <bold>false</bold>
+            <text>ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt%20ut%20labore%20et%20dolore%20magna%20aliqua.%20Ut%20enim%20ad%20minim%20veniam%2C%20quis%20nostrud%20exercitation%20ullamco%20laboris%20nisi%20ut%20aliquip%20ex%20ea%20commodo%20consequat.%20Duis%20aute%20irure%20dolor%20in%20reprehenderit%20in%20voluptate%20velit%20esse%20cillum%20dolore%20eu%20fugiat%20nulla%20pariatur.</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Title" x="0" y="226" w="-1" h="-1" measuredW="139" measuredH="29" zOrder="4" locked="false" isInGroup="42">
+          <controlProperties>
+            <bold>false</bold>
+            <size>18</size>
+            <text>%5BBoston%20Breakers%5D</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="255" w="632" h="84" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="42">
+          <controlProperties>
+            <bold>false</bold>
+            <text>ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt%20ut%20labore%20et%20dolore%20magna%20aliqua.%20Ut%20enim%20ad%20minim%20veniam%2C%20quis%20nostrud%20exercitation%20ullamco%20laboris%20nisi%20ut%20aliquip%20ex%20ea%20commodo%20consequat.%20Duis%20aute%20irure%20dolor%20in%20reprehenderit%20in%20voluptate%20velit%20esse%20cillum%20dolore%20eu%20fugiat%20nulla%20pariatur.</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="363" w="666" h="-1" measuredW="100" measuredH="5" zOrder="6" locked="false" isInGroup="42"/>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::HRule" x="309" y="1996" w="956" h="-1" measuredW="100" measuredH="5" zOrder="13" locked="false" isInGroup="-1"/>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::HRule" x="307" y="2034" w="956" h="-1" measuredW="100" measuredH="5" zOrder="14" locked="false" isInGroup="-1"/>
+    <control controlID="52" controlTypeID="__group__" x="431" y="1200" w="674" h="237" measuredW="674" measuredH="237" zOrder="15" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="8" y="0" w="-1" h="-1" measuredW="114" measuredH="37" zOrder="0" locked="false" isInGroup="52">
+          <controlProperties>
+            <size>24</size>
+            <text>Resources</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Title" x="8" y="53" w="-1" h="-1" measuredW="55" measuredH="29" zOrder="1" locked="false" isInGroup="52">
+          <controlProperties>
+            <bold>false</bold>
+            <size>18</size>
+            <text>Hotels</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::HRule" x="8" y="232" w="666" h="-1" measuredW="100" measuredH="5" zOrder="2" locked="false" isInGroup="52"/>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::List" x="0" y="83" w="132" h="126" measuredW="100" measuredH="126" zOrder="3" locked="false" isInGroup="52">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <text>%5BSheraton%20Hotel%5D%0A%5BHotel%202%5D%0A%5BHotel%203%5D%0A%5BHotel%204%5D</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Title" x="145" y="54" w="-1" h="-1" measuredW="102" measuredH="29" zOrder="4" locked="false" isInGroup="52">
+          <controlProperties>
+            <bold>false</bold>
+            <size>18</size>
+            <text>Car%20Rentals</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::List" x="137" y="83" w="132" h="126" measuredW="100" measuredH="126" zOrder="5" locked="false" isInGroup="52">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <text>%5BSheraton%20Hotel%5D%0A%5BHotel%202%5D%0A%5BHotel%203%5D%0A%5BHotel%204%5D</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Title" x="302" y="52" w="-1" h="-1" measuredW="87" measuredH="29" zOrder="6" locked="false" isInGroup="52">
+          <controlProperties>
+            <bold>false</bold>
+            <size>18</size>
+            <text>Air%20Travel</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::List" x="294" y="81" w="132" h="126" measuredW="100" measuredH="126" zOrder="7" locked="false" isInGroup="52">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <text>%5BSheraton%20Hotel%5D%0A%5BHotel%202%5D%0A%5BHotel%203%5D%0A%5BHotel%204%5D</text>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Title" x="463" y="50" w="-1" h="-1" measuredW="53" measuredH="29" zOrder="8" locked="false" isInGroup="52">
+          <controlProperties>
+            <bold>false</bold>
+            <size>18</size>
+            <text>Other</text>
+          </controlProperties>
+        </control>
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::List" x="455" y="81" w="132" h="126" measuredW="100" measuredH="126" zOrder="9" locked="false" isInGroup="52">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <text>%5BSheraton%20Hotel%5D%0A%5BHotel%202%5D%0A%5BHotel%203%5D%0A%5BHotel%204%5D</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="53" controlTypeID="__group__" x="439" y="1462" w="666" h="105" measuredW="666" measuredH="105" zOrder="16" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="146" measuredH="37" zOrder="0" locked="false" isInGroup="53">
+          <controlProperties>
+            <size>24</size>
+            <text>The%20Registry</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Title" x="0" y="50" w="-1" h="-1" measuredW="57" measuredH="29" zOrder="1" locked="false" isInGroup="53">
+          <controlProperties>
+            <bold>false</bold>
+            <size>18</size>
+            <text>Macys</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="100" w="666" h="-1" measuredW="100" measuredH="5" zOrder="2" locked="false" isInGroup="53"/>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Title" x="103" y="49" w="-1" h="-1" measuredW="60" measuredH="29" zOrder="3" locked="false" isInGroup="53">
+          <controlProperties>
+            <bold>false</bold>
+            <size>18</size>
+            <text>Target</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Title" x="228" y="49" w="-1" h="-1" measuredW="79" measuredH="29" zOrder="4" locked="false" isInGroup="53">
+          <controlProperties>
+            <bold>false</bold>
+            <size>18</size>
+            <text>Best%20Buy</text>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Title" x="382" y="52" w="-1" h="-1" measuredW="136" measuredH="29" zOrder="5" locked="false" isInGroup="53">
+          <controlProperties>
+            <bold>false</bold>
+            <size>18</size>
+            <text>William%20Sonoma</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::VCurly" x="112" y="1427" w="-1" h="-1" measuredW="180" measuredH="140" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <direction>right</direction>
+        <text>Here%20will%20be%20a%20listing%20of%20logos%20in%20B%26W%2C%20then%20they%20will%20light%20up%20in%20color%20on%20hover</text>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::Paragraph" x="417" y="2006" w="200" h="21" measuredW="200" measuredH="140" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%A92011.%20Chris%20%26%20Kate.</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

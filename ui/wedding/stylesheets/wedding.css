@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "BentonSansBook";
+    font-style: normal;
+    font-weight: normal;
+    src: local("☺"), url("/ui/wedding/fonts/bentonsans-book-webfont.woff") format("woff"), url("/ui/wedding/fonts/bentonsans-book-webfont.ttf") format("truetype"), url("/ui/wedding/fonts/bentonsans-book-webfont.svg") format("svg");
+}
+@font-face {
+    font-family: "EdwardianScriptITC";
+    font-style: normal;
+    font-weight: normal;
+    src: local("☺"), url("/ui/wedding/fonts/itcedscr-webfont.woff") format("woff"), url("/ui/wedding/fonts/itcedscr-webfont.ttf") format("truetype"), url("/ui/wedding/fonts/itcedscr-webfont.svg") format("svg");
+}
+/* =Reset
+--------------------------------------------*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, del, dfn, img, ins, kbd, q, samp, strike, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, header, nav, article, section, figure, aside, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+:-moz-any-link:focus, input:focus, textarea:focus, a, a:active, a:focus { outline: none; }
+
+header, nav, article, section, figure, aside, footer { display: block; }
+
+html { background: #eff5fd url(/ui/wedding/images/background.png) no-repeat center top; }
+    body { width: 640px; box-shadow: 0px -5px 10px rgba(0,0,0,.12); margin: 90px auto 30px; padding: 7px; background-color: #fff; font-family: Georgia, serif; font-size: 14px; color: #838383; }
+    * html body { font-size: small; f\ont-size: medium; }
+
+a { cursor: pointer; font-style: italic; text-decoration: none; color: #f28423; }
+    a:hover { text-decoration: underline; }
+    a img { border:none; }
+button{ cursor: pointer; background-color: transparent; }
+
+p { margin: 20px 0; line-height: 1.5em; }
+table { border-collapse:collapse; }
+th { text-align: left; }
+ol { margin-left: 25px; }
+
+/* Float Container */
+.FLC { clear:both; }
+.FLC:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+/* =Typography
+--------------------------------------------*/
+.Heading1, .Heading2, .Heading4, .Form .label, .Form .submit { font-family: BentonSansBook; color: #5f82b2; }
+.Heading1 { margin-bottom: 23px; font-size: 97.5px; font-family: EdwardianScriptITC; }
+.Heading2 { font-size: 20px; }
+.Heading3 { font-size: 18px; font-family: Georgia; font-style: italic; }
+.Heading4 { margin: 20px 0; font-size: 16px; text-transform: capitalize; }
+.Warning, .Success { font-style: italic; }
+.Warning { color: #f28423; }
+.Note { font-size: 12px; font-style: italic; }
+
+/* =Modules
+--------------------------------------------*/
+/* @Module: Content */
+.Content { border: 1px solid #d4ddea; border-width: 0 1px; padding: 0 20px 40px; }
+    .Content .Heading2 { margin-bottom: 20px; border-bottom: 1px solid #d9e1ec; padding-bottom: 5px; }
+    .Content .Heading3 { margin-bottom: 20px; }
+    .Content .tick { display: inline-block; width: 0; margin-left: 2px; border-top: 4px solid transparent; border-left: 4px solid #f28423; border-bottom: 4px solid transparent; line-height: 0; font-size: 0; }
+
+/* @Module: Form */
+.Form .item { list-style: none; }
+.Form .label { display: block; margin-bottom: 2px; font-style: normal; text-transform: uppercase; cursor: pointer; }
+.Form .label .Warning { margin-left: 10px; font-size: 11px; font-family: Georgia; text-transform: none; }
+.Form .input, .Form .textarea { display: block; box-shadow: 2px 2px 4px rgba(0,0,0,.2) inset; margin-bottom: 10px; border: 1px solid #d3d3d3; padding: 5px 10px; }
+.Form .input { width: 250px; font: 14px/1 Georgia; color: #838383; }
+.Form span.input { font-style: italic; }
+.Form .textarea { width: 400px; height: 150px; font: 14px/1 Georgia; color: #838383; }
+.Form .submit { border: none; padding: 2px 15px; background: -moz-linear-gradient(top, #87a7d2, #7294c3); background: -webkit-linear-gradient(top, #87a7d2, #7294c3); background: linear-gradient(top, #87a7d2, #7294c3); font-size: 14px; color: #fff; cursor: pointer; }
+
+.List { margin: 0 auto; }
+.List .item { float: left; margin-left: 25px; padding-left: 5px; }
+.List .item:first-child { list-style: none; margin-left: 0; padding-left: 0; }
+
+.ResourceList .item { display: inline; float: left; width: 299px; margin-bottom: 2px; list-style: none; }
+
+.ModalOverlay { position: fixed; z-index: 9998; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,.6); }
+
+.Modal { display: block; position: fixed; top: 50%; left: 50%; z-index: 9999; -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.3); -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.3); box-shadow: 0px 0px 8px rgba(0,0,0,.3); border: 1px solid #000; padding: 10px; background-color: #fff; }
+.Modal .close { position: absolute; display: block; width: 28px; height: 28px; top: -15px; right: -15px; background: #959595 url(/ui/wedding/images/background.png) no-repeat -626px -627px; border: 2px solid #fff; -moz-border-radius: 25px; -webkit-border-radius: 25px; border-radius: 25px; box-shadow: 2px 3px 5px rgba(0,0,0,.3); outline: none; text-indent: -500000px; }
+
+.Image1 { float: left; margin: 0 20px 10px 0; }
+.Image2 { float: right; margin: 0 0 10px 20px; }
+.Figure { display: block; text-align: center; }
+
+.Show { display: block; }
+.Hide { display: none; }
+
+/* =Layout
+--------------------------------------------*/
+.Frame { position: relative; padding-top: 30px; background: url(/ui/wedding/images/background.png) no-repeat center -104px; }
+
+#Header, #details { text-align: center; }
+#Header { margin-bottom: 20px; }
+
+#Footer { position: relative; border: 1px solid #d4ddea; border-width: 0 1px 1px; }
+    #Footer .notice { position: absolute; top: 17px; left: -8px; font: italic 11px/1 BentonSansBook; text-transform: lowercase; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75); }
+
+/* @Section: Details */
+#details { position: relative; border-width: 0; padding: 0 20px; }
+    #details .vevent { margin: 20px 0 0; }
+    #details .summary { text-transform: lowercase; }
+    #details .organizer, #details .adr { display: block; }
+    #details .organizer { margin: 5px 0; border-bottom: none; font-style: normal; text-transform: capitalize; color: #5f82b2;  }
+    #details .us { display: block; position: absolute; top: -20px; right: -20px; -moz-transform: rotate(20deg); -webkit-transform: rotate(20deg); transform: rotate(20deg); box-shadow: 0 0 2px rgba(0,0,0,.12); border: 1px solid #d4ddea; padding: 9px 9px 5px; background-color: #fff; }
+    #details .invite { margin: 0 0 10px; }
+
+/* @Section: Our Story */
+#story { padding: 0 20px 20px; }
+    #story .header { padding: 20px 0 5px; }
+    #story .excerpt { display: inline; }
+    #story .more { margin-left: 5px; }
+    #story blockquote p { margin: 5px 0; }
+    #story .voice2 { font-style: italic; color: #f28423; }
+
+/* @Section: RSVP/Contact Us Form */
+#rsvp { position: relative; min-height: 190px; }
+#rsvp .emailText { float: left; width: 300px; }
+#countdown { position: absolute; top: 48px; right: 20px; width: 215px; border: 4px solid #e8edf4; padding: 2px; text-align: center; }
+    #countdown .frame { display: block; border: 1px solid #e8edf4; padding: 25px; }
+    #countdown #daysLeft { display: block; margin-bottom: 10px; border-bottom: none; font-size: 40px; }
+
+/* @Section: Registry */
+#registry .List { width: 333px; height: 20px; }
+
+/* @Section: Registry */
+#things-to-do .List { width: 561px; height: 16px; margin-bottom: 20px; }
+#things-to-do p:last-child { margin: 20px 0 0; }
+
+/* @Section: Map */
+#map { margin: 20px 0 0; }
+    #map p { margin: 10px 0 0; }
+    #map.Modal { width: 600px; height: 498px; margin: -249px 0 0 -311px; }
+    
+/* @Section: Resources */
+#resources .ResourceList .item { width: 199px; }

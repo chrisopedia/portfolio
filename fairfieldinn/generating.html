@@ -1,0 +1,16 @@
+---
+layout: fairfieldinn
+id: Generating
+stylesheet: null
+---
+
+<section class="Marketing">
+    <div class="Heading2 Slider" data-slider="slider">
+        <ul class="window">
+            {% for item in site.fairfieldinn.results %}
+                <li class="item">{{ item }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    <p class="Loading">Generating profile</p>
+</section>

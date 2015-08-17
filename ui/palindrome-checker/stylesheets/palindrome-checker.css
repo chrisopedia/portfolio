@@ -1,0 +1,142 @@
+html,
+body {
+    margin: 5em 2.5em;
+    background: url(../images/crosshatch-pattern.png) repeat left top;
+    color: rgb(156,156,156);
+    font-family: 'Helvetica Neue';
+    font-size: 100%;
+    text-align: center;
+    text-shadow: 1px 0 0 rgb(255,255,255);
+}
+body {
+    width: 60%;
+    margin: 0 auto;
+}
+.Header {
+    font-size: 1.625em;
+    font-weight: normal;
+    letter-spacing: -1px;
+    color: rgb(59,59,59);
+}
+.Description {
+    padding: 0 7em;
+    line-height: 1.4;
+}
+
+.Form {
+    margin: 1em 0;
+    box-shadow: 0 0 5px rgba(0,0,0,.28);
+    padding: 10px;
+    background-image: linear-gradient(bottom, rgb(230,230,230) 40%, rgb(245,245,245) 40%);
+    background-image: -o-linear-gradient(bottom, rgb(230,230,230) 40%, rgb(245,245,245) 40%);
+    background-image: -moz-linear-gradient(bottom, rgb(230,230,230) 40%, rgb(245,245,245) 40%);
+    background-image: -webkit-linear-gradient(bottom, rgb(230,230,230) 40%, rgb(245,245,245) 40%);
+    background-image: -ms-linear-gradient(bottom, rgb(230,230,230) 40%, rgb(245,245,245) 40%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.4, rgb(230,230,230)), color-stop(0.4, rgb(245,245,245)));
+    border: 1px solid rgb(212,212,212);
+    border-radius: 5px;
+}
+    .Form .text {
+        width: 85%;
+        box-shadow: 0 0 5px rgba(0,0,0,.38) inset;
+        border: 1px solid rgb(197,197,197);
+        border-radius: 4px;
+        padding: 20px 15px;
+        font-size: inherit;
+        font-family: inherit;
+        font-weight: bold;
+    }
+    .Form .button {
+        display: inline-block;
+        border: 1px solid rgb(140,165,94);
+        border-radius: 5px;
+        padding: 20px 15px;
+        background-image: linear-gradient(bottom, rgb(178,207,123) 35%, rgb(206,236,148) 35%);
+        background-image: -o-linear-gradient(bottom, rgb(178,207,123) 35%, rgb(206,236,148) 35%);
+        background-image: -moz-linear-gradient(bottom, rgb(178,207,123) 35%, rgb(206,236,148) 35%);
+        background-image: -webkit-linear-gradient(bottom, rgb(178,207,123) 35%, rgb(206,236,148) 35%);
+        background-image: -ms-linear-gradient(bottom, rgb(178,207,123) 35%, rgb(206,236,148) 35%);
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.35, rgb(178,207,123)), color-stop(0.35, rgb(206,236,148)));
+        color: rgb(60,73,35);
+        font-size: inherit;
+        font-family: inherit;
+        font-weight: bold;
+        text-shadow: 0 1px 1px rgba(233,255,191,.7);
+        cursor: pointer;
+    }
+    .Form .text:focus {
+        outline: 0;
+    }
+    #msg.error,
+    #msg.success {
+        padding-left: 28px;
+        text-align: left;
+        font-weight: bold;
+    }
+    .error {
+        color: rgb(169,59,59);
+    }
+    .success {
+        color: rgb(41,154,96);
+    }
+    .Form.error {
+        -webkit-animation-name: vibrateErr;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-duration: 2s;
+    }
+    .Form.error .button {
+        border-color: rgb(219,82,82);
+        background-image: linear-gradient(bottom, rgb(237,109,109) 0, rgb(240,124,124) 100%);
+        background-image: -o-linear-gradient(bottom, rgb(237,109,109) 0, rgb(240,124,124) 100%);
+        background-image: -moz-linear-gradient(bottom, rgb(237,109,109) 0, rgb(240,124,124) 100%);
+        background-image: -webkit-linear-gradient(bottom, rgb(237,109,109) 0, rgb(240,124,124) 100%);
+        background-image: -ms-linear-gradient(bottom, rgb(237,109,109) 0, rgb(240,124,124) 100%);
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(237,109,109)), color-stop(1, rgb(240,124,124)));
+        color: rgb(169,59,59);
+        text-shadow: 0 1px 1px rgba(255,255,255,.42);
+    }
+@-webkit-keyframes vibrateErr {  
+    from { 
+        box-shadow: 0 0 0px rgba(219,82,82,0);
+    }
+    50% {
+        box-shadow: 0 0 5px rgba(219,82,82,.5);
+    }
+    to { 
+        box-shadow: 0 0 10px rgba(219,82,82,.9);
+    }
+}
+    .Form.success {
+        -webkit-animation-name: vibrateSuccess;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-duration: 2s;
+    }
+    .Form.success .button {
+        border-color: rgb(73,207,139);
+        background-image: linear-gradient(bottom, rgb(73,207,139) 0, rgb(102,225,163) 100%);
+        background-image: -o-linear-gradient(bottom, rgb(73,207,139) 0, rgb(102,225,163) 100%);
+        background-image: -moz-linear-gradient(bottom, rgb(73,207,139) 0, rgb(102,225,163) 100%);
+        background-image: -webkit-linear-gradient(bottom, rgb(73,207,139) 0, rgb(102,225,163) 100%);
+        background-image: -ms-linear-gradient(bottom, rgb(73,207,139) 0, rgb(102,225,163) 100%);
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(73,207,139)), color-stop(1, rgb(102,225,163)));
+        color: rgb(41,154,96);
+        text-shadow: 0 1px 1px rgba(255,255,255,.42);
+    }
+@-webkit-keyframes vibrateSuccess {
+    from { 
+        box-shadow: 0 0 0px rgba(73,207,139,0);
+    }
+    50% {
+        box-shadow: 0 0 5px rgba(73,207,139,,5);
+    }
+    to { 
+        box-shadow: 0 0 10px rgba(73,207,139,.9);
+    }
+}
+.Github {
+	position: absolute; 
+	top: 0; 
+	right: 0;
+}

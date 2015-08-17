@@ -1,0 +1,68 @@
+/*--------------------------------------------
+ * Global Common
+ *
+ * version:     1.0
+ * author:      Chris Newton
+ * website:     Fairfield Inn Infographic
+ * --------------------------------------------*/
+
+/* =Reset 
+ * --------------------------------------------*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, figure, pre, a, abbr, button, address, cite, code, del, dfn, img, ins, kbd, q, samp, strike, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, header, nav, article, section, aside, footer {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+header, 
+nav, 
+article, 
+section, 
+figure, 
+aside, 
+footer { 
+	display: block; 
+}
+
+a { 
+	cursor: pointer; 
+}
+a img { 
+	vertical-align: bottom;
+	border: none; 
+}
+
+button { 
+	cursor: pointer; 
+	background-color: transparent; 
+}
+
+table { 
+	border-collapse: collapse; 
+}
+th { 
+	text-align: left; 
+	font-weight: normal; 
+}
+ol { 
+	margin-left: 25px; 
+}
+
+/* =Float Container */
+.FLC { 
+	clear: both; 
+}
+.FLC:after { 
+	display: block; 
+	visibility: hidden; 
+	clear: both; 
+	height: 0; 
+	font-size: 0; 
+	content: " "; 
+}

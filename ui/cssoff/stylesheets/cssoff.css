@@ -1,0 +1,406 @@
+/* -----Typography----- */
+#navigation .url, .tagline .subheader, #footer {
+    font-family: "Open Sans", sans-serif;
+}
+
+@font-face {
+    font-family: 'KomikaTitle-PaintRegular';
+    src: url('../fonts/komikatitle-paint-webfont.eot');
+    src: url('../fonts/komikatitle-paint-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/komikatitle-paint-webfont.woff') format('woff'),
+        url('../fonts/komikatitle-paint-webfont.ttf') format('truetype'),
+        url('../fonts/komikatitle-paint-webfont.svg#KomikaTitle-PaintRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DigitaldreamFatRegular';
+    src: url('../fonts/digitaldreamfat-webfont.eot');
+    src: url('../fonts/digitaldreamfat-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/digitaldreamfat-webfont.woff') format('woff'),
+        url('../fonts/digitaldreamfat-webfont.ttf') format('truetype'),
+        url('../fonts/digitaldreamfat-webfont.svg#DigitaldreamFatRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* -----Layout----- */
+html, body, a, small {
+    text-decoration: none;
+    color: rgb(255,255,255);
+    font-size: 14px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: rgb(128,193,214) url(../images/textures/blue.png);
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+article .Frame, #footer {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.Frame:after { 
+    display: block; 
+    visibility: hidden; 
+    clear: both; 
+    height: 0; 
+    font-size: 0; 
+    content: " "; 
+}
+#header {
+    padding: 40px 0;
+    background: url(../images/sprite.png) no-repeat center top;
+}
+    #header .heading {
+        margin: 0;
+        padding: 40px 0 25px;
+    }
+    #header .heading .url {
+        display: block;
+        width: 487px;
+        height: 425px;
+        margin: 0 auto;
+        background: url(../images/sprite.png) no-repeat -4px -914px;
+        text-indent: -999em;
+    }
+.tagline {
+    text-align: center;
+}
+    .tagline .header {
+        margin: 0;
+        font-size: 52px;
+        font-family: "KomikaTitle-PaintRegular";
+        text-shadow: 0 3px 0 rgb(255,255,255);
+        color: rgb(254,101,55);
+    }
+    .tagline .subheader {
+        margin: 0;
+        font-size: 22px;
+    }
+#navigation {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: rgb(15,40,48);
+    background-color: rgba(15,40,48,.05);
+}
+    #navigation .list {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    #navigation .item {
+        display: inline-block;
+        font-size: 18px;
+        text-transform: uppercase;
+        list-item: none;
+    }
+    #navigation .url {
+        display: block;
+        padding: 10px 25px;
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        -o-transition: all 1s ease-in-out;
+        -ms-transition: all 1s ease-in-out;
+    }
+    #navigation .url:hover {
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+    }
+
+article {
+    border-width: 7px 0;
+    border-style: solid;
+    border-color: rgb(0,0,0);
+    border-color: rgba(0,0,0,.06);
+    padding: 60px 0 80px;
+    font-family: "KomikaTitle-PaintRegular";
+}
+article h1 {
+    position: relative;
+    margin: 0 0 80px;
+}
+    article h1::after {
+        display: block;
+        position: absolute;
+        top: 16px;
+        right: 0;
+        width: 661px;
+        height: 40px;
+        background: url(../images/sprite.png) no-repeat right -1507px;
+        content: '';
+    }
+    #prizes h1::after {
+        width: 741px;
+    }
+    #be-a-contestant h1::after {
+        width: 520px;
+    }
+    #be-a-contestant .countdown h1::after {
+        content: none;
+    }
+article h1, #obstacles .window h2 {
+    font-size: 40px;
+    text-shadow: 3px 5px 0 rgb(0,0,0);
+    text-shadow: 3px 5px 0 rgba(0,0,0,.2);
+}
+
+/* -----Obstacles Section----- */
+#obstacles, #obstacles h1 {
+    background: rgb(254,102,56) url(../images/textures/orange.png);
+}
+#obstacles {
+}
+    .listing, .window {
+        float: left;
+        position: relative;
+        width: 470px;
+        text-align: center;
+    }
+    .listing li {
+        float: left;
+        width: 225px;
+        margin: 10px 20px 10px 0;
+    }
+    .listing li:nth-child(even) {
+        margin: 10px 0;
+    }
+    .listing a {
+        display: block;
+        border: 1px solid transparent;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -o-border-radius: 8px;
+        -ms-border-radius: 8px;
+        border-radius: 8px;
+        padding-top: 170px;
+        padding: 200px 15px 25px;
+        background: rgb(126,176,54) url(../images/sprite.png) no-repeat 34px -1700px;
+        
+    }
+    .listing a:hover, .listing .active {
+        background-color: rgb(238,241,63);
+    }
+    .listing .sundaeslide a {
+        background-position-x: -216px;
+    }
+    .listing .humanhampsterwheel a {
+        background-position-x: -452px;
+    }
+    .listing .downthehatch a {
+        background-position-x: -710px;
+    }
+    .listing .pickit a {
+        background-position-x: -960px;
+    }
+    .listing .thewringer a {
+        background-position-x: -1200px;
+    }
+    .window li {
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    .window hgroup {
+        height: 206px;
+        padding-top: 50px;
+        background: url(../images/sprite.png) no-repeat -1055px -915px;
+        -webkit-transform: rotate(-10deg);
+        -moz-transform: rotate(-10deg);
+        -o-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+    }
+    .window h2, .window h3 {
+        margin: 0;
+    }
+
+/* -----Prizes Section----- */
+#prizes {
+    background: rgb(126,176,54) url(../images/textures/green.png);
+    font-size: 16px;
+}
+    #prizes ul {
+        position: relative;
+        height: 727px;
+    }
+    #prizes .prize {
+        display: inline-block;
+        width: 467px;
+        background: url(../images/prizes.png) no-repeat center top;
+        text-align: center;
+    }
+    #prizes .camp {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-top: 388px;
+    }
+    #prizes .skateboard {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-top: 241px;
+        background-position-y: -425px;
+    }
+    #prizes .keyboard {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding-top: 163px;
+        background-position-y: -704px;
+    }
+    #prizes .tv {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding-top: 364px;
+        background-position-y: -905px;
+    }
+
+/* -----Be a Contestant Section----- */
+#be-a-contestant {
+    border-width: 1px 0 0;
+    margin-bottom: 60px;
+}
+    form {
+        position: relative;
+        min-height: 500px;
+    }
+    form li {
+        position: relative;
+        width: 360px;
+        height: 18px;
+        margin-bottom: 15px;
+        border: 1px solid rgb(254,99,54);
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -o-border-radius: 5px;
+        -ms-border-radius: 5px;
+        border-radius: 5px;
+        padding: 15px 10px;
+        background-color: rgb(254,99,54);
+        line-height: 18px;
+    }
+    form .select {
+        float: left;
+        width: 160px;
+        margin-right: 18px;
+    }
+    form label {
+        position: absolute;
+        z-index: 1;
+        left: 10px;
+    }
+    form input, form select {
+        position: absolute;
+        border: 0;
+        background-color: transparent;
+    }
+    form input {
+        top: 12px;
+        left: 10px;
+        width: 94%;
+        font-family: "KomikaTitle-PaintRegular";
+    }
+    form select {
+        top: -1px;
+        right: -1px;
+        left: inherit;
+        width: 50px;
+        height: 50px;
+        background: rgb(129,174,50) url(../images/sprite.png) no-repeat right -1589px;
+        -webkit-appearance: initial;
+        -moz-appearance: initial;
+        -o-appearance: initial;
+        -ms-appearance: initial;
+        text-align: center;
+        font-size: 0;
+    }
+    form .last {
+        clear: both;
+    }
+    form .submit {
+        clear: both;
+        position: static;
+        width: 360px;
+        height: 155px;
+        margin-top: 20px;
+        background: url(../images/sprite.png) no-repeat -1138px -1183px; 
+        font-size: 26px;
+        color: rgb(255,255,255);
+        text-shadow: 0 5px 0 rgb(0,0,0);
+        text-shadow: 0 5px 0 rgba(0,0,0,.2);
+        -webkit-transform: rotate(-10deg);
+        -moz-transform: rotate(-10deg);
+        -o-transform: rotate(-10deg);
+    }
+#be-a-contestant form, #be-a-contestant section {
+    float: left;
+    width: 470px;
+}
+#be-a-contestant section {
+    text-align: center;
+    line-height: 4em;
+}
+#be-a-contestant section time {
+    display: block;
+    width: 386px;
+    height: 329px;
+    margin: 0 auto 40px;
+    background: url(../images/sprite.png) no-repeat -544px -996px;
+    font-family: 'DigitaldreamFatRegular';
+    font-size: 140px;
+    text-align: center;
+    text-shadow: 7px 11px 0 rgb(0,0,0);
+    line-height: 329px;
+    color: rgb(245,235,0);
+}
+
+/* -----Footer----- */
+#footer, .copyright {
+    border-top: 7px solid rgb(0,0,0);
+    border-top: 7px solid rgba(0,0,0,.06);
+}
+#footer {
+    clear: both;
+    padding: 0 0 30px;
+    text-align: center;
+}
+    #footer h1, #footer dt {
+        margin: 0;
+        font-size: 20px;
+    }
+    #footer h1 {
+        margin-top: -45px;
+        padding-top: 100px;
+        background: url(../images/sprite.png) no-repeat center -1375px;
+    }
+    #footer address {
+        font-style: normal;
+    }
+    #footer .location, #footer .finePrint {
+        display: inline-block;
+        width: 29%;
+        margin: 10px;
+        text-align: right;
+    }
+    #footer .location:last-child, #footer .finePrint:nth-child(odd) {
+        text-align: left;
+    }
+    #footer .street {
+        display: block;
+    }
+    #footer .copyright {
+        padding: 20px 0 50px;
+        background: url(../images/sprite.png) no-repeat center -1581px;
+    }

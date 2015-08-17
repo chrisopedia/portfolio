@@ -1,0 +1,70 @@
+# The Wedding
+
+## Details
+- Who: Chris Newton & Kate Koumantzelis
+- What: Get Married
+- Where: Sheraton Hotel, Boston, MA
+
+## Possible Sections
+- Bridal Party (w/ pics)
+- Blog (newest post)
+- Resources
+	- Possible Hotels
+	- Car rentals
+	- Air Travel
+	- Discounts
+	- [iPhone app](http://itunes.apple.com/us/app/bostonusa-the-official-guide/id357606580?mt=8)
+- Things to Do
+	- Boston Red Sox game
+		- vs. Cleveland (Aug. 1-4, night game)
+		- vs. Yankees (Aug. 5-7)
+	- Boston Celtics game - NO GAMES!!!
+	- Boston Bruins - NO GAMES!!!
+	- New England Patriots NO GAMES!!!
+	- Boston Breakers
+	- Boston Cannons (lacrosse)
+	- Freedom Trail
+	- Tours around the city
+	- Golfing
+	- Museums
+		- [Boston Children's Museum](http://www.bostonchildrensmuseum.org/)
+		- [Boston Fire Museum](http://www.bostonfiremuseum.com/)
+		- [Boston Public Library](http://www.bpl.org/central/tours.htm)
+		- [The Commonwealth Museum](http://www.sec.state.ma.us/mus/museum/index.htm)
+		- [French Library and Cultural Center](http://www.frenchlib.org/)
+		- [Gibson House Museum](http://www.thegibsonhouse.org/)
+		- [Historic New England](http://www.historicnewengland.org/)
+		- [The Institute of Contemporary Art](http://www.icaboston.org/)
+		- [Isabella Stewart Gardner Museum](http://www.gardnermuseum.org/)
+		- [John F. Kennedy Presidential Library and Museum](http://www.jfklibrary.org/)
+		- Mary Baker Eddy Library
+		- Massachusetts Historical Society
+		- Museum of Afro-American History
+		- Museum of Fine Arts
+		- Museum of Science
+		- Nichols House Museum
+		- Old South Meeting House
+		- Old State House Museum
+		- Paul Revere House
+		- Sports Museum of New England
+		- Trinity Church
+		- USS Constitution Museum
+	- Tourist spots
+		- State House
+		- Cape Cod
+		- Charles River
+		- Boston Public Garden
+		- Boston Common
+		- Historic building
+		- art exhibits
+		- Salem, MA (witch town)
+		- Food spots
+			- Miss Woo (Worchester)
+		- Cheers
+		- Lowell, MA (mills)
+		- Harvard Yard
+		- Trip to brewery
+		- Trip to NYC
+	- Shows & Concerts
+- Contact Us forms
+

@@ -1,0 +1,192 @@
+<mockup version="1.0" skin="sketch" measuredW="1084" measuredH="2329" mockupW="1024" mockupH="2309">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="60" y="20" w="1024" h="2309" measuredW="450" measuredH="400" zOrder="0" locked="true" isInGroup="-1">
+      <controlProperties>
+        <text>Private%20Protective%20Services%0Ahttp%3A//privateprotectiveservices.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="97" y="107" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Title" x="230" y="118" w="-1" h="-1" measuredW="503" measuredH="56" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Private%20Protective%20Services</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="119" y="163" w="-1" h="-1" measuredW="31" measuredH="23" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Logo</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::HRule" x="63" y="202" w="1015" h="-1" measuredW="100" measuredH="5" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="16" controlTypeID="__group__" x="97" y="2156" w="281" h="143" measuredW="281" measuredH="143" zOrder="5" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="23" w="281" h="120" measuredW="200" measuredH="140" zOrder="0" locked="false" isInGroup="16">
+          <controlProperties>
+            <bold>false</bold>
+            <size>11</size>
+            <text>PO%20Box%2087%0AWoodland%20Hills%2C%20CA%2091365%0A%28818%29%20312-9666%0A%5Badmin@privateprotectiveservices.com%5D%0A%20%0A%28c%29%202009%20Private%20Protective%20Services%2C%20Inc.%0APPO%20%2316308</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="53" measuredH="24" zOrder="1" locked="false" isInGroup="16">
+          <controlProperties>
+            <size>14</size>
+            <text>Contact</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Paragraph" x="97" y="282" w="930" h="842" measuredW="200" measuredH="140" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <text>Private%20Protective%20Services%2C%20Inc.%20is%20a%20licensed%20private%20security%20firm%20represented%20by%20some%20fo%20the%20nation%27s%20most%20experienced%20and%20highly%20trained%20security%20agents.%20%20PPS%20agents%20are%20selected%20through%20a%20vigorous%20recuriting%20process%2C%20including%20a%20thorough%20background%20check.%20Our%20agents%20are%20required%20to%20pass%20two%20physical%20fitness%20tests%20measuring%20strength%20and%20endurance%3B%20they%20are%20also%20tested%20on%20threat%20assessment%2C%20scenario%20reaction%2C%20weapons%20retention%20and%20qualifications.%20Our%20goal%20is%20to%20make%20you%2C%20our%20client%2C%20feel%20we%20are%20part%20of%20your%20family.%20We%20will%20conduct%20ourselves%20as%20such%20using%20common%20sense%2C%20integrity%2C%20and%20utilization%20of%20proven%20successful%20hands-on%20experience.%0A%20%0AAgents%20must%20be%20willing%20to%20rotate%20shifts%2C%20travel%2C%20work%20irregular%20hours.%20The%20agents%20must%20be%20able%20to%20remain%20vigilant%20and%20aware%20of%20their%20surroundings%20at%20all%20times.%20Often%2C%20you%20may%20spend%20several%20uneventful%20hours%20guarding%20a%20location%20or%20clients.%20Agents%20must%20not%20become%20bored%20by%20this%20activity%2C%20but%20rather%20must%20always%20be%20ready%20to%20take%20action%20when%20needed.%20Quick%20responses%20in%20critical%20situations%2C%20emergency%20response%20skills%2C%20good%20vision%20to%20spot%20danger%2C%20stamina%20and%20endurance%2C%20communication%2C%20physical%20strength%2C%20people%20skills%20and%20negotiation%20skills%20are%20all%20assets.%0A%20%0AYou%20must%20have%20the%20following%20before%20you%20will%20be%20considered%3A%0A%20%0A1.%20B.S.I.S.%20Guard%20Card%0A2.%20Driver%27s%20License%0A3.%20Passport%0A4.%20CPR%2C%20First%20Aid%2C%20AED%20certifications%0A%20%0AWe%20encourage%20our%20agents%20to%20have%20the%20following%0A%20%0A-%20Baton%20certification%0A-%20Pepper%20Spray%20certification%0A-%20California%20B.S.I.S.%20Gun%20card%0A-%20Life%20Guard%20certification%0A-%20Firefighting%20training%20certification%0A-%20Hand%5C-to%5C-hand%20combat%20course%0A-%20Executive%20Protection%20course%0A-%20Emergency%20Vehicle%20Operation%20Course%20%28EVOC%29%0A-%20Taser%20certification%0A-%20Close%20Quarter%20Battle%20course%20%28CQB%29%0A-%20CPR%5C-PRO%0A-%20CCW%27s%0A-%20SCUBA%0A-%20EMT%0A-%20Minimum%20of%20an%20Associate%27s%20Degree%0A%20%0APlease%20submit%20your%0A%20%0A-%20Resume%0A-%202%20photos%20%28suite%20%26%20headshot%29%0A-%20Copies%20of%20your%20licensing%20%26%20training%20certificates%0A-%20A%20video%20of%20why%20you%20want%20to%20work%20for%20PPS%0A%20%0AYou%20must%20be%20able%20to%20complete%20the%20Physical%20Screening%20Test%20Requirements%20%28charts%20below%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Title" x="97" y="236" w="-1" h="-1" measuredW="388" measuredH="46" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>32</size>
+        <text>Employment%20Opportunities</text>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="__group__" x="97" y="1453" w="930" h="668" measuredW="930" measuredH="668" zOrder="6" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Title" x="180" y="1" w="-1" h="-1" measuredW="68" measuredH="37" zOrder="0" locked="false" isInGroup="42">
+          <controlProperties>
+            <bold>false</bold>
+            <size>24</size>
+            <text>Males</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Title" x="674" y="0" w="-1" h="-1" measuredW="90" measuredH="37" zOrder="1" locked="false" isInGroup="42">
+          <controlProperties>
+            <bold>false</bold>
+            <size>24</size>
+            <text>Females</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="__group__" x="0" y="53" w="423" h="300" measuredW="423" measuredH="300" zOrder="2" locked="false" isInGroup="42">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="__group__" x="0" y="0" w="423" h="269" measuredW="423" measuredH="269" zOrder="0" locked="false" isInGroup="2">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::DataGrid" x="0" y="29" w="423" h="240" measuredW="434" measuredH="236" zOrder="0" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <hLines>true</hLines>
+                    <text>Category%2C%20Level%2C%20Points%2C%20Curl%20Ups%2C%20Push%20Ups%2C%201.5-Mile%20Run%0AOutstanding%2C%20%20High%2C%20100%2C%2088%2C%2068%2C%209%3A33%0AOutstanding%2C%20Medium%2C%2095%2C%2086%2C%2066%2C%2010%3A08%0AOutstanding%2C%20Low%2C%2090%2C%2081%2C%2063%2C%2010%3A30%0AExcellent%2C%20High%2C%2085%2C%2080%2C%2057%2C%2011%3A08%0AExcellent%2C%20Medium%2C%2080%2C%2078%2C%2054%2C%2011%3A38%0AExcellent%2C%20Low%2C%2075%2C%2073%2C%2052%2C%2012%3A08%0AGood%2C%20High%2C%2070%2C%2065%2C%2046%2C%2013%3A00</text>
+                  </controlProperties>
+                </control>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="119" measuredH="29" zOrder="1" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <size>18</size>
+                    <text>Ages%3A%2045%20-%2049</text>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Link" x="301" y="277" w="-1" h="-1" measuredW="122" measuredH="23" zOrder="1" locked="false" isInGroup="2">
+              <controlProperties>
+                <text>Download%20the%20specs</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="3" controlTypeID="__group__" x="507" y="53" w="423" h="300" measuredW="423" measuredH="300" zOrder="3" locked="false" isInGroup="42">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="__group__" x="0" y="0" w="423" h="269" measuredW="423" measuredH="269" zOrder="0" locked="false" isInGroup="3">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::DataGrid" x="0" y="29" w="423" h="240" measuredW="434" measuredH="236" zOrder="0" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <hLines>true</hLines>
+                    <text>Category%2C%20Level%2C%20Points%2C%20Curl%20Ups%2C%20Push%20Ups%2C%201.5-Mile%20Run%0AOutstanding%2C%20%20High%2C%20100%2C%2088%2C%2068%2C%209%3A33%0AOutstanding%2C%20Medium%2C%2095%2C%2086%2C%2066%2C%2010%3A08%0AOutstanding%2C%20Low%2C%2090%2C%2081%2C%2063%2C%2010%3A30%0AExcellent%2C%20High%2C%2085%2C%2080%2C%2057%2C%2011%3A08%0AExcellent%2C%20Medium%2C%2080%2C%2078%2C%2054%2C%2011%3A38%0AExcellent%2C%20Low%2C%2075%2C%2073%2C%2052%2C%2012%3A08%0AGood%2C%20High%2C%2070%2C%2065%2C%2046%2C%2013%3A00</text>
+                  </controlProperties>
+                </control>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="119" measuredH="29" zOrder="1" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <size>18</size>
+                    <text>Ages%3A%2045%20-%2049</text>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Link" x="301" y="277" w="-1" h="-1" measuredW="122" measuredH="23" zOrder="1" locked="false" isInGroup="3">
+              <controlProperties>
+                <text>Download%20the%20specs</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="4" controlTypeID="__group__" x="0" y="368" w="423" h="300" measuredW="423" measuredH="300" zOrder="4" locked="false" isInGroup="42">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="__group__" x="0" y="0" w="423" h="269" measuredW="423" measuredH="269" zOrder="0" locked="false" isInGroup="4">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::DataGrid" x="0" y="29" w="423" h="240" measuredW="434" measuredH="236" zOrder="0" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <hLines>true</hLines>
+                    <text>Category%2C%20Level%2C%20Points%2C%20Curl%20Ups%2C%20Push%20Ups%2C%201.5-Mile%20Run%0AOutstanding%2C%20%20High%2C%20100%2C%2088%2C%2068%2C%209%3A33%0AOutstanding%2C%20Medium%2C%2095%2C%2086%2C%2066%2C%2010%3A08%0AOutstanding%2C%20Low%2C%2090%2C%2081%2C%2063%2C%2010%3A30%0AExcellent%2C%20High%2C%2085%2C%2080%2C%2057%2C%2011%3A08%0AExcellent%2C%20Medium%2C%2080%2C%2078%2C%2054%2C%2011%3A38%0AExcellent%2C%20Low%2C%2075%2C%2073%2C%2052%2C%2012%3A08%0AGood%2C%20High%2C%2070%2C%2065%2C%2046%2C%2013%3A00</text>
+                  </controlProperties>
+                </control>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="119" measuredH="29" zOrder="1" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <size>18</size>
+                    <text>Ages%3A%2045%20-%2049</text>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Link" x="301" y="277" w="-1" h="-1" measuredW="122" measuredH="23" zOrder="1" locked="false" isInGroup="4">
+              <controlProperties>
+                <text>Download%20the%20specs</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="5" controlTypeID="__group__" x="507" y="368" w="423" h="300" measuredW="423" measuredH="300" zOrder="5" locked="false" isInGroup="42">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="__group__" x="0" y="0" w="423" h="269" measuredW="423" measuredH="269" zOrder="0" locked="false" isInGroup="5">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::DataGrid" x="0" y="29" w="423" h="240" measuredW="434" measuredH="236" zOrder="0" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <hLines>true</hLines>
+                    <text>Category%2C%20Level%2C%20Points%2C%20Curl%20Ups%2C%20Push%20Ups%2C%201.5-Mile%20Run%0AOutstanding%2C%20%20High%2C%20100%2C%2088%2C%2068%2C%209%3A33%0AOutstanding%2C%20Medium%2C%2095%2C%2086%2C%2066%2C%2010%3A08%0AOutstanding%2C%20Low%2C%2090%2C%2081%2C%2063%2C%2010%3A30%0AExcellent%2C%20High%2C%2085%2C%2080%2C%2057%2C%2011%3A08%0AExcellent%2C%20Medium%2C%2080%2C%2078%2C%2054%2C%2011%3A38%0AExcellent%2C%20Low%2C%2075%2C%2073%2C%2052%2C%2012%3A08%0AGood%2C%20High%2C%2070%2C%2065%2C%2046%2C%2013%3A00</text>
+                  </controlProperties>
+                </control>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="119" measuredH="29" zOrder="1" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <size>18</size>
+                    <text>Ages%3A%2045%20-%2049</text>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Link" x="301" y="277" w="-1" h="-1" measuredW="122" measuredH="23" zOrder="1" locked="false" isInGroup="5">
+              <controlProperties>
+                <text>Download%20the%20specs</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Paragraph" x="97" y="1144" w="450" h="335" measuredW="200" measuredH="140" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <text>Phase%201%0A-%20Run%201.5%20miles%0A-%20Push%20Ups%0A-%20Sit%20Ups%0A-%20Retrieve%20a%2010%20lb%20dive%20brick%20from%20the%20bottom%20of%20a%20pool%20%28clothes%20on%29%0A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::Paragraph" x="591" y="1144" w="451" h="126" measuredW="200" measuredH="140" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <text>Phase%202%0A-%20250%5C-yard%20swim%20in%208%20minutes%20or%20less%20%2810%5C-minute%20rest%29%0A-%20A%20minimum%20of%2050%20push%20ups%20in%202%20minutes%20%282%5C-minute%20rest%29%0A-%20A%20minimum%20of%2060%20sit%20ups%20in%202%20minutes%20%282%5C-minute%20rest%29%0A-%20A%20minimum%20of%203%20dead%5C-hang%20pull%20ups%20%28no%20time%20limit%2C%2010%5C-minute%20rest%29%0A-%20Run%201%20mile%20in%2012%20minutes</text>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Paragraph" x="97" y="1256" w="437" h="28" measuredW="200" measuredH="140" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <text>Scoring%20for%20Phase%201%20%28add%20your%20push%20ups%2C%20sit%20ups%2C%20and%20run%3B%20divide%20by%203%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::Paragraph" x="97" y="1286" w="223" h="140" measuredW="200" measuredH="140" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <text>Outstanding%20-%20High%20%3D%20100%20points%0AOutstanding%20-%20Medium%20%3D%2095%20points%0AOutstanding%20-%20Low%20%3D%2090%20points%0AExcellent%20-%20High%20%3D%2085%20points%0AExcellent%20-%20Medium%20%3D%2080%20points%0AExcellent%20-%20Low%20%3D%2075%20points%0AFail%20%3D%2070%20points%20and%20below</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

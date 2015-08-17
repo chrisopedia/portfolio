@@ -1,0 +1,164 @@
+/*--------------------------------------------
+Global Common (for FF3, Safari 3, Chrome 1)
+
+version:     1.0
+author:      eHow UI Team (Chris Newton)
+website:     http://www.ehow.com/ http://www.ehow.co.uk
+--------------------------------------------*/
+
+/* =Reset 
+--------------------------------------------*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, figure, pre, a, abbr, button, address, cite, code, del, dfn, img, ins, kbd, q, samp, strike, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, header, nav, article, section, aside, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+:-moz-any-link:focus, input:focus, textarea:focus, a, a:active, a:focus { outline: none; }
+
+header, nav, article, section, figure, aside, footer { display: block; }
+
+a { cursor:pointer; }
+	a img { border:none; }
+
+button { cursor: pointer; background-color: transparent; }
+
+p { margin: 10px 0; }
+
+h1, h2, h3, h4, h5, h6 { font-weight:normal; }	
+table { border-collapse:collapse; }
+th { text-align: left; font-weight: normal; }
+ol { margin-left: 25px; }
+
+/* =Float Container */
+.FLC { clear:both; }
+.FLC:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+/* =Debug Classes - used to help debug missing or broken elements */
+.Debug1 { border: 1px solid red; background-color: red; }
+.Debug2 { border: 1px solid green; background-color: green; }
+
+/* =Typography
+--------------------------------------------*/
+/* =Global: */
+html { color:#232323; }
+body { font-family: Georgia; font-style: italic; font-size: small; color: #333; }
+
+a { text-decoration: none; color: #ee5917; }
+a:hover { text-decoration: underline; }
+
+/* =Global: Headings */
+.Heading1, .Heading2, .Heading3, .Heading4, .Heading5, .Heading6 { font-style: normal; }
+.Heading1 { font-size: 30px; }
+.Heading2 { font-size: 24px; }
+.Heading3 { font-size: 21px; }
+.Heading4 { font-size: 18px; }
+.Heading5 { font-size: 16px; }
+.Heading6 { font-size: 14px; }
+.Note { font-size: 12px; }
+p { line-height: 1.4em; }
+/* =Layout
+--------------------------------------------*/
+html { background-color: #d3efec; }
+body { width: 990px; box-shadow: 0 5px 5px rgba(0,0,0,.3); margin: 0 auto; background-color: #fff; }
+.PrimaryContent, .SecondaryContent { display: inline; float: left; margin: 0 10px 20px; }
+.PrimaryContent { width: 620px; margin-left: 25px; }
+.SecondaryContent { width: 300px; margin-right: 25px; }
+#Header { margin-bottom: 5px; padding-bottom: 14px; background: url(/ui/images/header-shadow.png) no-repeat bottom center; }
+	#Header .network { position: relative; z-index: 1; height: 30px; box-shadow: 0 5px 5px rgba(0,0,0,.3); margin: 0; padding: 0 25px; background-color: #b80d19; line-height: 30px; font-family: Futura, Helvetica, Arial, sans-serif; }
+	#Header .ehow { position: relative; top: 0; margin: 0 5px; }
+	#Header .text { float: left; color: #fbb0b6; }
+	#Header .branding { float: left; position: relative; width: 965px; margin-top: -21px; padding: 10px 0 15px 25px; background: #faf6f0 url(/ui/images/site-header-bg.png) no-repeat right bottom; }
+	#Header .logo { padding: 10px 0 0; font: 60px/1 Futura, Helvetica, Arial, sans-serif; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15), 0 2px 0 rgba(255, 255, 255, 0.8); color: #b80d19; }
+	#Header .logo:hover { text-decoration: none; }
+	#Header .tagline { margin: 0 0 10px; font-family: Futura, Helvetica, Arial, sans-serif; font-style: normal; }
+	#Header .moreLikeThis { position: absolute; top: 0; right: 0; height: 40px; background: url(/ui/images/members-shadow.png) no-repeat bottom left; padding: 0 0 10px 4px; }
+	#Header .team { float: left; padding-left: 10px; background-color: #7b0e15; line-height: 40px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+		#Header .team .label, #Header .team .pro, #Header .team .member { display: inline; float: left; }
+			#Header .team .label { margin-right: 10px; color: #e1e6e9; }
+			#Header .member { width: 40px; overflow: hidden; }
+			#Header .member a { display: block; width: 300px; }
+				#Header .member .thumbnail { float: left; width: 40px; opacity: .5; }
+			#Header .member .text { display: block; float: left; margin: 0 5px; font-style: normal; color: #e2ddcd; }
+#Body { clear: both; margin-top: 15px; }
+	.FBLogin { display: block; margin: 0 25px 10px; padding-right: 19px; background: url(/ui/images/facebook.jpg) no-repeat right center; font-family: Arial; font-style: normal; text-align: right; }
+#Footer { clear: both; border-top: 20px solid #b80d19; padding-bottom: 20px; text-align: center; font-family: Arial; font-style: normal; }
+	#Footer .List { padding: 10px 0; background-color: #f6f6f6; }
+	#Footer .item { display: inline; margin-right: 5px; border-right: 1px solid #959595; padding-right: 5px; font-weight: bold; }
+	#Footer .item:last-child { border-right: none; }
+	#Footer .title { color: #959595; }
+	#Footer .copyright { display: block; margin: 10px 0; color: #666; }
+
+/* =Modules
+--------------------------------------------*/
+.Module { margin-bottom: 20px; }
+	.Module .header { margin-bottom: 5px; }
+
+.Listing .item, .Slider .page { list-style: none; }
+
+.ArticlePreview { display: block; }
+.ArticlePreview:hover { text-decoration: none; }
+	.ArticlePreview .title {}
+	.ArticlePreview .byline { display: block; color: #333; }
+	.ArticlePreview:hover .title { text-decoration: underline; }
+	.ArticlePreview .excerpt { display: block; margin: 5px 0; color: #333; }
+	.Inline .ArticlePreview .content { float: right; margin: 0; }
+	.Inline .ArticlePreview .thumbnail { float: left; }
+
+#Hero {}
+	#Hero #MainStage { position: relative; width: 620px; height: 455px; overflow: hidden; }
+	#Hero .ArticlePreview { position: absolute; top: 0; width: 620px; }
+	#Hero .ArticlePreview .thumbnail { position: relative; padding-bottom: 19px; background: url(/ui/images/hero-main-shadow.png) no-repeat bottom right; }
+		#Hero .ArticlePreview .content { position: relative; margin: -17px 10px 0; padding: 10px 15px; background: #faf6f0 url(/ui/images/hero_thumbs_top_shadow.png) no-repeat center bottom; }
+		#Hero .ArticlePreview .heading, #Hero .ArticlePreview .excerpt, #Hero .ArticlePreview .ShareTools { margin-left: 56px; }
+		#Hero .ArticlePreview .excerpt .more { font-family: Arial; font-style: normal; }
+		#Hero .ArticlePreview .avatar { float: left; position: absolute; top: 17px; }
+		#Hero .ArticlePreview .fb_iframe_widget { top: -3px; }
+	#Hero #SideStage { padding-bottom: 8px; background: url(/ui/images/hero_thumbs_bottom_shadow.png) no-repeat bottom center; }
+	#Hero .staging { width: 580px; height: 100px; margin-left: 10px; padding: 12px 10px 10px; background-color: #faf6f0; overflow: hidden; }
+	#Hero .staging .item { display: inline; float: left; position: relative; margin: 0 5px; }
+		#Hero .staging .item  .thumbnail { display: block; border: 2px solid transparent; font-size: 0; }
+	#Hero .staging .current .thumbnail, #Hero .staging .thumbnail:hover { border: 2px solid #ee5917; }
+		#Hero .staging .current .tick { display: block; position: absolute; top: -9px; left: 20px; width: 0; height: 0; border-bottom: 9px solid #ee5917; border-left: 9px solid transparent; border-right: 9px solid transparent; }
+	#Hero .staging .next { display: none; }
+	#Hero .staging .current .next { display: block; position: absolute; bottom: -28px; width: 560px; margin: 0; }
+
+.Slider { position: relative; }
+	.Slider .window { position: relative; width: 620px; height: 250px; overflow: hidden; }
+	.Slider .prev, .Slider .next, .Slider .prevDisabled, .Slider .nextDisabled { display: block; position: absolute; top: 0; width: 15px; height: 100%; margin-top: -11px; text-indent: -50000px; }
+	.Slider .prev { left: -15px; background: url(/ui/images/left-arrow.png) no-repeat center center; }
+	.Slider .next { right: -15px; background: url(/ui/images/right-arrow.png) no-repeat center center; }
+	.Slider .prevDisabled { left: -15px; background: url(/ui/images/left-arrow-disabled.png) no-repeat center center; cursor: default; }
+	.Slider .nextDisabled { right: -15px; background: url(/ui/images/right-arrow-disabled.png) no-repeat center center; cursor: default; }
+	.Slider .Listing { position: absolute; left: 0; width: 900000px; }
+	.Slider .item { display: inline; float: left; width: 203px; margin-right: 5px; }
+
+#Comments { margin-left: 10px; }
+	#Comments .fbFeedbackContent .composer { background-color: #fff; }
+
+.Related .ArticlePreview .title { margin-bottom: 2px; }
+.Related .ArticlePreview .thumbnail { border: 1px solid #a9a9a9; border-radius: 2px; padding: 5px; }
+
+.FBLikeBox { height: 271px; margin-top: -13px; padding-bottom: 13px; background: url(/ui/images/fb-like-bottom-shadow.png) no-repeat bottom center; }
+	.FBLikeBox .inner { padding-top: 13px; background: url(/ui/images/fb-like-top-shadow.png) no-repeat top center; }
+
+.Aside { padding-bottom: 8px; background: url(/ui/images/aside-shadow.png) no-repeat right bottom; }
+	.Aside .container { border: 1px solid #e9e9e9; padding: 10px; background-color: #faf6f0; }
+	.Aside .Listing { border-top: 1px dotted #a9a9a9; }
+	.Aside .Listing .item { border-bottom: 1px dotted #a9a9a9; }
+	.Aside .Listing .item:last-child { border: none; }
+	.Aside .ArticlePreview { padding: 10px 15px; }
+		.Aside .ArticlePreview .content { width: 200px; }
+		.Aside .ArticlePreview .thumbnail { width: 30px; }
+
+/* =Page Specific
+--------------------------------------------*/
+#intro { min-height: 175px; border: 1px solid #e9e9e9; padding: 15px 15px 15px 200px; background: #fafaf6 url(/ui/images/intro.png) no-repeat left bottom; }
+	#intro .author { font-family: Futura, Helvetica, Arial; }
+	#intro .name { font-family: Georgia; color: #b80d19; }
+	#intro .bio .Heading4 { font-weight: normal; font-style: italic; }
