@@ -12,8 +12,8 @@ site_stylesheet: ocea
             <div class="Container FLC">
 
                 <div class="logo">
-                    <a href="/">
-                        <img src="/ui/ocea/images/logos/logo.png" alt="Orange County Enrolled Agents logo" width="110" height="106" />
+                    <a href="{{ site.github.url }}/ocea/">
+                        <img src="{{ site.github.url }}/ui/ocea/images/logos/logo.png" alt="Orange County Enrolled Agents logo" width="110" height="106" />
                         <h1>Orange County Enrolled Agents</h1>
                     </a>
                 </div>
@@ -35,14 +35,14 @@ site_stylesheet: ocea
 
                 <!-- Nav1 : start -->
                 <ul class="Nav1">
-                    <li><a href="/ocea/">Home</a></li>
-                    <li><a href="/ocea/about/">About</a></li>
-                    <li><a href="/ocea/resources/">Resources</a></li>
-                    <li><a href="/ocea/contact-us.html">Contact</a></li>
+                    <li><a href="{{ site.github.url }}/ocea/">Home</a></li>
+                    <li><a href="{{ site.github.url }}/ocea/about/">About</a></li>
+                    <li><a href="{{ site.github.url }}/ocea/resources/">Resources</a></li>
+                    <li><a href="{{ site.github.url }}/ocea/contact-us.html">Contact</a></li>
                 </ul>
                 <!-- Nav1 : end -->
 
-                <form action="/ocea/search.html" id="cse-search-box">
+                <form action="{{ site.github.url }}/ocea/search.html" id="cse-search-box">
                     <input type="hidden" name="cx" value="000146299394850461925:--teuzgdvky" />
                     <input type="hidden" name="cof" value="FORID:9" />
                     <input type="hidden" name="ie" value="UTF-8" />
@@ -91,7 +91,7 @@ site_stylesheet: ocea
 
                 {% if page.breadcrumb_enabled %}
                 <ul class="Breadcrumb">
-                    <li><a href="/ocea/">Home</a> &raquo;</li>
+                    <li><a href="{{ site.github.url }}/ocea/">Home</a> &raquo;</li>
                     {% if page.directory %}
                     <li><a href="{{ page.directory | downcase }}/">{{ page.directory }}</a> &raquo;</li>
                     {% endif %}
