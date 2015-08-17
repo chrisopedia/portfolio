@@ -4,12 +4,11 @@ body {
 	font-weight: bold;
 	color: rgb(255,255,255);
 	text-shadow: 1px -1px 0 rgb(0,0,0);
-	background: url(noise.png) repeat left top, radial-gradient(50% 50%, 0, 50% 50%,800, from(#cde6f9), to(#6191bf));
-	background: url(noise.png) repeat left top, -o-radial-gradient(50% 50%, 0, 50% 50%,800, from(#cde6f9), to(#6191bf));
-	background: url(noise.png) repeat left top, -moz-radial-gradient(50% 50%, 0, 50% 50%,800, from(#cde6f9), to(#6191bf));
-	background: url(noise.png) repeat left top, -webkit-radial-gradient(50% 50%, 0, 50% 50%,800, from(#cde6f9), to(#6191bf));
-	background: url(noise.png) repeat left top, -ms-radial-gradient(50% 50%, 0, 50% 50%,800, from(#cde6f9), to(#6191bf));
-	background: url(noise.png) repeat left top, -webkit-gradient(radial, 50% 50%, 0, 50% 50%,800, from(#cde6f9), to(#6191bf));
+	background: url(../images/noise.png) repeat left top, radial-gradient(50% 50%, 0, 50% 50%,800, from(#cde6f9), to(#6191bf));
+	background: url(../images/noise.png) repeat left top, -moz-radial-gradient(50% 50%, 0, 50% 50%,800, from(#cde6f9), to(#6191bf));
+	background: url(../images/noise.png) repeat left top, -webkit-radial-gradient(50% 50%, 0, 50% 50%,800, from(#cde6f9), to(#6191bf));
+	background: url(../images/noise.png) repeat left top, -ms-radial-gradient(50% 50%, 0, 50% 50%,800, from(#cde6f9), to(#6191bf));
+	background: url(../images/noise.png) repeat left top, -webkit-gradient(radial, 50% 50%, 0, 50% 50%,800, from(#cde6f9), to(#6191bf));
 }
 #Calculator {
 	position: relative;
@@ -19,12 +18,12 @@ body {
     margin: 0 auto;
     border-radius: 10px;
     padding: 14px 14px 80px;
-    background: url(noise.png) repeat left top, linear-gradient(bottom, rgb(133,134,136) 100%, rgb(99,99,99) 50%, rgb(37,37,37) 0%);
-    background: url(noise.png) repeat left top, -o-linear-gradient(bottom, rgb(133,134,136) 100%, rgb(99,99,99) 50%, rgb(37,37,37) 0%);
-    background: url(noise.png) repeat left top, -moz-linear-gradient(bottom, rgb(133,134,136) 100%, rgb(99,99,99) 50%, rgb(37,37,37) 0%);
-    background: url(noise.png) repeat left top, -webkit-linear-gradient(bottom, rgb(133,134,136) 100%, rgb(99,99,99) 50%, rgb(37,37,37) 0%);
-    background: url(noise.png) repeat left top, -ms-linear-gradient(bottom, rgb(133,134,136) 100%, rgb(99,99,99) 50%, rgb(37,37,37) 0%);
-    background: url(noise.png) repeat left top, -webkit-gradient(
+    background: url(../images/noise.png) repeat left top, linear-gradient(bottom, rgb(133,134,136) 100%, rgb(99,99,99) 50%, rgb(37,37,37) 0%);
+    background: url(../images/noise.png) repeat left top, -o-linear-gradient(bottom, rgb(133,134,136) 100%, rgb(99,99,99) 50%, rgb(37,37,37) 0%);
+    background: url(../images/noise.png) repeat left top, -moz-linear-gradient(bottom, rgb(133,134,136) 100%, rgb(99,99,99) 50%, rgb(37,37,37) 0%);
+    background: url(../images/noise.png) repeat left top, -webkit-linear-gradient(bottom, rgb(133,134,136) 100%, rgb(99,99,99) 50%, rgb(37,37,37) 0%);
+    background: url(../images/noise.png) repeat left top, -ms-linear-gradient(bottom, rgb(133,134,136) 100%, rgb(99,99,99) 50%, rgb(37,37,37) 0%);
+    background: url(../images/noise.png) repeat left top, -webkit-gradient(
         linear,
             left bottom,
             left top,
@@ -105,12 +104,12 @@ body {
 		border-radius: 10px;
 		padding: 6px;
 		background: ;
-		background: url(noise.png) repeat left top, linear-gradient(bottom, rgb(79,80,82) 100%, rgb(29,29,29) 0%);
-		background: url(noise.png) repeat left top, -o-linear-gradient(bottom, rgb(79,80,82) 100%, rgb(29,29,29) 0%);
-		background: url(noise.png) repeat left top, -moz-linear-gradient(bottom, rgb(79,80,82) 100%, rgb(29,29,29) 0%);
-		background: url(noise.png) repeat left top, -webkit-linear-gradient(bottom, rgb(79,80,82) 100%, rgb(29,29,29) 0%);
-		background: url(noise.png) repeat left top, -ms-linear-gradient(bottom, rgb(79,80,82) 100%, rgb(29,29,29) 0%);
-		background: url(noise.png) repeat left top, -webkit-gradient(
+		background: url(../images/noise.png) repeat left top, linear-gradient(bottom, rgb(79,80,82) 100%, rgb(29,29,29) 0%);
+		background: url(../images/noise.png) repeat left top, -o-linear-gradient(bottom, rgb(79,80,82) 100%, rgb(29,29,29) 0%);
+		background: url(../images/noise.png) repeat left top, -moz-linear-gradient(bottom, rgb(79,80,82) 100%, rgb(29,29,29) 0%);
+		background: url(../images/noise.png) repeat left top, -webkit-linear-gradient(bottom, rgb(79,80,82) 100%, rgb(29,29,29) 0%);
+		background: url(../images/noise.png) repeat left top, -ms-linear-gradient(bottom, rgb(79,80,82) 100%, rgb(29,29,29) 0%);
+		background: url(../images/noise.png) repeat left top, -webkit-gradient(
 			linear,
 			left bottom,
 			left top,
