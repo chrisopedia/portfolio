@@ -4,7 +4,7 @@
             <a href="{{ item.url }}">{{ item.title }}</a>
             <ul class="listing">
                 {% for site in item.sites %}
-                    <li class="item"><a href="{{ site.url }}">{{ site.title }}</a></li>
+                    <li class="item"><a href="{{ site.github.url}}/{{ site.url }}">{{ site.title }}</a></li>
                 {% endfor %}
             </ul>
         </li>

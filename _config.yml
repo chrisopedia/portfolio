@@ -6,12 +6,11 @@ timezone:       America/Los_Angeles
 
 # Serve Command Options
 port:           4000
-baseurl:        /
 
 # Projects Listing
 projects:
-    - url: "http://wrck.me/"
-      title: "A Permanent Wreck"
+    - url: "http://chrisnewton.me/"
+      title: "Chrisopedia"
       sites:
         - url: /cssoff/
           title: "CSS Off Competition"
