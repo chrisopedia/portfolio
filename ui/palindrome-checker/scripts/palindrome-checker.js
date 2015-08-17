@@ -92,7 +92,7 @@ var settings,
                 el.setAttribute( 'class', err );
             } else {
                 settings.frag.appendChild( textNode );
-                document.getElementsByTagName( 'body' )[0].insertBefore( settings.frag );
+                document.getElementsByTagName( 'body' )[0].insertBefore( textNode, settings.frag );
                 settings.frag.setAttribute( 'class', err );
             }
         }
