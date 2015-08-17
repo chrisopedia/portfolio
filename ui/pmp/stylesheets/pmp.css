@@ -29,14 +29,14 @@ header { position: fixed; width: 80%; top: 0; left: 0; z-index: 100; opacity: .7
 
 section { min-height: 980px; clear: both; background-color: #000; background-position: center center; background-repeat: no-repeat; background-attachment: fixed; -moz-background-size: cover; background-size: cover; padding: 10% 10% 0; }
     section div { width: 50%; background: #000; opacity: .8; -moz-box-shadow: 5px 5px 5px rgba(0,0,0,.5), 5px 5px 5px rgba(255,255,255,.1) inset; border-radius: 5px; -moz-border-radius: 5px; padding: 20px; }
-        h2 { background: url(/ui/pmp/images/text-decoration.png) no-repeat center bottom; margin: 0 0 20px; padding: 0 0 20px; font: normal 24px/1 'Times New Roman'; text-align: center; text-transform: uppercase; }
+        h2 { background: url(../images/text-decoration.png) no-repeat center bottom; margin: 0 0 20px; padding: 0 0 20px; font: normal 24px/1 'Times New Roman'; text-align: center; text-transform: uppercase; }
         section p { line-height: 1.4em; }
         section li { list-style: none; margin: 10px 0; line-height: 1.4em; }
         
-.section1 { background-image: url(/ui/pmp/images/section-1_bg.png) }
-.section2 { background-image: url(/ui/pmp/images/section-2_bg.png) }
-.section3 { background-image: url(/ui/pmp/images/section-3_bg.png) }
-.section4 { background-image: url(/ui/pmp/images/section-4_bg.png) }
+.section1 { background-image: url(../images/section-1_bg.png) }
+.section2 { background-image: url(../images/section-2_bg.png) }
+.section3 { background-image: url(../images/section-3_bg.png) }
+.section4 { background-image: url(../images/section-4_bg.png) }
 
 footer { position: fixed; bottom: 0; left: 0; z-index: 100; padding: 1% 10% .5%; font-size: small; text-shadow: 2px 2px 5px rgba(0,0,0,.85); }
     footer small { font-size: small; margin-right: 2px; }
