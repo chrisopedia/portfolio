@@ -34,15 +34,15 @@ section h1 { margin: 0 0 20px; font: bold 2.0em/1 'Trebuchet MS'; color: #000; t
 
 
 .Masthead { background-color: #32C5FF; background: -moz-linear-gradient(top, #84ddff, #33c5ff); background: -webkit-gradient(linear, left top, left bottom, from(#84ddff), to(#33c5ff));  }
-    .Masthead .Frame { min-height: 100px; background: url(/ui/happynin/images/layout/blue-swoosh.png) no-repeat center top; padding: 20px 0; }
+    .Masthead .Frame { min-height: 100px; background: url(../images/layout/blue-swoosh.png) no-repeat center top; padding: 20px 0; }
     .Masthead .logo { float: left; }
     .Masthead nav { float: right; height: 100px; line-height: 100px; }
         .Masthead nav li { display:inline; }
-            .Masthead nav a { display:inline-block; width: auto; overflow :visible; position: relative; padding: 6px 16px 8px; margin: 0 4px;  background: #000 url(/ui/happynin/images/layout/buttons-bg.png) repeat-x left top; -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.5); -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.5); border-bottom: 1px solid rgba(0,0,0,0.25); -moz-border-radius: 5px; -webkit-border-radius: 5px; font: bold 1.2em/1 'Trebuchet MS'; text-shadow:0 -1px 0 rgba(0,0,0,0.25), 0 1px 0 rgba(255,255,255,0.5); color: #fff; }
+            .Masthead nav a { display:inline-block; width: auto; overflow :visible; position: relative; padding: 6px 16px 8px; margin: 0 4px;  background: #000 url(../images/layout/buttons-bg.png) repeat-x left top; -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.5); -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.5); border-bottom: 1px solid rgba(0,0,0,0.25); -moz-border-radius: 5px; -webkit-border-radius: 5px; font: bold 1.2em/1 'Trebuchet MS'; text-shadow:0 -1px 0 rgba(0,0,0,0.25), 0 1px 0 rgba(255,255,255,0.5); color: #fff; }
             .Masthead nav a:hover { background-color: #111; text-decoration: none; }
             .Masthead nav a:active { -moz-transform: translateY(2px); -webkit-transform: translateY(2px); }
 
-.Featured { padding: 40px 0; background: url(/ui/happynin/images/layout/featured-border-top.png) repeat-x center top, url(/ui/happynin/images/layout/white-noise.png) repeat left top; border-top: 3px solid #404040; position: relative; }
+.Featured { padding: 40px 0; background: url(../images/layout/featured-border-top.png) repeat-x center top, url(../images/layout/white-noise.png) repeat left top; border-top: 3px solid #404040; position: relative; }
     .Featured .Carousel { float: left; width: 50%; }
     .Featured .description { float: right; width: 45%; }
         .Featured .description h2 { font: bold 2.2em/1 'Trebuchet MS'; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255, 255, 255, 0.8); }
@@ -60,11 +60,11 @@ section h1 { margin: 0 0 20px; font: bold 2.0em/1 'Trebuchet MS'; color: #000; t
             .Carousel .navigation a { display: block; background-color: #333; border: 1px solid #fff; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.40); -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.40); width: 8px; height: 8px; text-indent: -50000px; }
             .Carousel .navigation .selected a { background-color: #32C5FF; border-color: #333; }
 
-.Body { clear: both; min-height: 100px; padding: 40px 0 20px; background: url(/ui/happynin/images/layout/content-bg.png) repeat-x center top; border-top: 1px solid #aaa; }
+.Body { clear: both; min-height: 100px; padding: 40px 0 20px; background: url(../images/layout/content-bg.png) repeat-x center top; border-top: 1px solid #aaa; }
     .Body footer { clear: both; float: right; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255, 255, 255, 0.8) }
         .Body footer a { font-size: .9em; color: #333; }
 
-.News { clear: both; padding: 20px 0; background: #80ddff url(/ui/happynin/images/layout/border-top.png) repeat-x center top; }
+.News { clear: both; padding: 20px 0; background: #80ddff url(../images/layout/border-top.png) repeat-x center top; }
     .News h1 { text-shadow: 1px 1px 0 rgba(255,255,255,0.5); }
     .News .Press { float: left; width: 60%; }
     .News .Twitter { float: right; width: 35%; }
@@ -84,7 +84,7 @@ section h1 { margin: 0 0 20px; font: bold 2.0em/1 'Trebuchet MS'; color: #000; t
         .twtr-widget em { font-style: italic !important; font-size: 0.8em  !important; color: #3a6372; text-shadow: 1px 1px 0 rgba(255,255,255,0.25); }
         .Twitter #twtr-widget-1 .twtr-tweet em a { color: #3a6372 !important; }
         .twtr-hd, .twtr-ft { display: none !important; }
-    .Twitter .followUs { display: block; width: 160px; height:27px; margin: 20px 0; background: url(/ui/happynin/images/icons/twitter-buttons.png) no-repeat left top; text-indent: -5000px; }
+    .Twitter .followUs { display: block; width: 160px; height:27px; margin: 20px 0; background: url(../images/icons/twitter-buttons.png) no-repeat left top; text-indent: -5000px; }
     .Twitter .followUs:visited { background-position: left -27px; }
     .Twitter .followUs:hover { background-position: left -54px; }
     .Twitter .followUs:active { -moz-transform: translateY(2px); -webkit-transform: translateY(2px); }
@@ -96,7 +96,7 @@ section h1 { margin: 0 0 20px; font: bold 2.0em/1 'Trebuchet MS'; color: #000; t
 
 .SocialLinks { float: right; }
     .SocialLinks li { display: inline; }
-        .SocialLinks a { display: inline-block; width: 30px; height: 30px; margin: 0 2px; background: url(/ui/happynin/images/icons/icons.png) no-repeat left top; text-indent: -50000px; }
+        .SocialLinks a { display: inline-block; width: 30px; height: 30px; margin: 0 2px; background: url(../images/icons/icons.png) no-repeat left top; text-indent: -50000px; }
         .SocialLinks .twitter { background-position: 0 0; }
         .SocialLinks .facebook { background-position: -30px -30px; }
         .SocialLinks .linkedin { background-position: -60px -60px; margin: 0 0 0 2px; }
