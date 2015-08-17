@@ -93,7 +93,7 @@ site_stylesheet: ocea
                 <ul class="Breadcrumb">
                     <li><a href="{{ site.github.url }}/ocea/">Home</a> &raquo;</li>
                     {% if page.directory %}
-                    <li><a href="{{ page.directory | downcase }}/">{{ page.directory }}</a> &raquo;</li>
+                    <li><a href="{{ site.github.url }}/{{ page.directory | downcase }}/">{{ page.directory }}</a> &raquo;</li>
                     {% endif %}
                     <li>{{ page.title}}</li>
                 </ul>
