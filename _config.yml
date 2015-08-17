@@ -13,71 +13,71 @@ projects:
     - url: "http://chrisnewton.me/"
       title: "Chrisopedia"
       sites:
-        - url: /cssoff/
+        - url: cssoff/
           title: "CSS Off Competition"
-        - url: /clonebot/
+        - url: clonebot/
           title: "Clonebot"
-        - url: /eanewton/
+        - url: eanewton/
           title: "Lisa Newton, EA"
-        - url: /happynin/
+        - url: happynin/
           title: "Happynin Games, Inc."
-        - url: /keycounter/
+        - url: keycounter/
           title: "Key Counter"
-        - url: /ocea/
+        - url: ocea/
           title: "Orange County Enrolled Agents"
-        - url: /pmp/
+        - url: pmp/
           title: "Parking Meter Productions"
-        - url: /palindrome-checker/
+        - url: palindrome-checker/
           title: "Palindrome Checker"
-        - url: /pps/
+        - url: pps/
           title: "Private Protective Services"
-        - url: /seamless/
+        - url: seamless/
           title: "Seamless Blog"
-        - url: /threadless/
+        - url: threadless/
           title: "Threadless Clothing"
-        - url: /wedding/
+        - url: wedding/
           title: "My Wedding"
     - url: "http://demandmedia.com/"
       title: "Demand Media"
       sites:
-        - url: /answerbag/
+        - url: answerbag/
           title: "Answerbag"
-        - url: /cracked/
+        - url: cracked/
           title: "Cracked"
-        - url: /eatwhatwhy/
+        - url: eatwhatwhy/
           title: "Eat.What.Why. on eHow.com"
-        - url: /ehow/
+        - url: ehow/
           title: "eHow"
-        - url: "/ehow-ui/"
+        - url: "ehow-ui/"
           title: "eHow UI"
-        - url: /glass/
+        - url: glass/
           title: "Project: Glass"
     - url: "http://hyfn.com/"
       title: "HyFn"
       sites:
-        - url: "/battle-of-the-sexes/"
+        - url: "battle-of-the-sexes/"
           title: "Spinmasters's Battle of the Sexes"
-        - url: /connections/
+        - url: connections/
           title: "Springhill Suites Connections"
-        - url: /fairfieldinn/
+        - url: fairfieldinn/
           title: "Fairfield Inn Infographic"
-        - url: "/ge-capital/"
+        - url: "ge-capital/"
           title: "GE Capital Mobile"
-        - url: /peak/
+        - url: peak/
           title: "Peak Auto Mobile"
-        - url: /petcarerx/
+        - url: petcarerx/
           title: "Petcare Rx"
-        - url: "/travel-libs/"
+        - url: "travel-libs/"
           title: "Residence Inn's Travel Libs"
     - url: "http://dealer.com/"
       title: "Dealer.com"
       sites:
-        - url: /srm/
+        - url: srm/
           title: "SRM 2.4"
     - url: "http://firstandthird.com/"
       title: "First + Third"
       sites:
-        - url: /leanin/
+        - url: leanin/
           title: "Lean In"
 
 fairfieldinn:
