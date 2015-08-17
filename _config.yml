@@ -1,11 +1,12 @@
-# Global configuration
-source:         .
-destination:    ./_site
-safe:           true
-timezone:       America/Los_Angeles
+# Permalinks
+permalink: pretty
 
-# Serve Command Options
-port:           4000
+highlighter: pygments
+kramdown:
+  input: GFM
+
+gems:
+  - jekyll-sitemap
 
 # Projects Listing
 projects:
