@@ -73,7 +73,7 @@
 
         <link href="/ui{{ page.site_ui_dir }}stylesheets/{{page.site_stylesheet}}.css" rel="stylesheet" />
         {% if page.stylesheet %}
-            <link href="/ui/{{ page.site_ui_dir }}/stylesheets/pages/{{ page.stylesheet }}.css" rel="stylesheet" />
+            <link href="{{ site.github.url }}/ui/{{ page.site_ui_dir }}/stylesheets/pages/{{ page.stylesheet }}.css" rel="stylesheet" />
         {% endif %}
         {% if page.font_link %}
             <link href="http://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet" />
