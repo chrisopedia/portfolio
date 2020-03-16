@@ -1,0 +1,71 @@
+- url: "http://iamnewton.github.io/portfolio"
+  title: "Personal"
+  sites:
+  - url: cssoff/
+    id: 'cssoff'
+    title: "CSS Off Competition"
+    description: "Triple Dare - The Web's Messiest Challenge. Airing Thursdays on the Knucklelodeon Network&trade;"
+  - url: clonebot/
+    title: "Clonebot"
+  - url: eanewton/
+    title: "Lisa Newton, EA"
+  - url: happynin/
+    title: "Happynin Games, Inc."
+  - url: keycounter/
+    title: "Key Counter"
+  - url: ocea/
+    title: "Orange County Enrolled Agents"
+  - url: pmp/
+    title: "Parking Meter Productions"
+  - url: palindrome-checker/
+    title: "Palindrome Checker"
+  - url: pps/
+    title: "Private Protective Services"
+  - url: seamless/
+    title: "Seamless Blog"
+  - url: threadless/
+    title: "Threadless Clothing"
+  - url: wedding/
+    title: "My Wedding"
+- url: "http://demandmedia.com/"
+  title: "Demand Media"
+  sites:
+  - url: answerbag/
+    title: "Answerbag"
+  - url: cracked/
+    title: "Cracked"
+  - url: eatwhatwhy/
+    title: "Eat.What.Why. on eHow.com"
+  - url: ehow/
+    title: "eHow"
+  - url: "ehow-ui/"
+    title: "eHow UI"
+  - url: glass/
+    title: "Project: Glass"
+- url: "http://hyfn.com/"
+  title: "HyFn"
+  sites:
+  - url: "battle-of-the-sexes/"
+    title: "Spinmasters's Battle of the Sexes"
+  - url: connections/
+    title: "Springhill Suites Connections"
+  - url: fairfieldinn/
+    title: "Fairfield Inn Infographic"
+  - url: "ge-capital/"
+    title: "GE Capital Mobile"
+  - url: peak/
+    title: "Peak Auto Mobile"
+  - url: petcarerx/
+    title: "Petcare Rx"
+  - url: "travel-libs/"
+    title: "Residence Inn's Travel Libs"
+- url: "http://dealer.com/"
+  title: "Dealer.com"
+  sites:
+  - url: srm/
+    title: "SRM 2.4"
+- url: "http://firstandthird.com/"
+  title: "First + Third"
+  sites:
+  - url: leanin/
+    title: "Lean In"

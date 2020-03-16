@@ -1,10 +1,21 @@
 ---
 layout: base
-id: Home
+id: home
 ---
 
 <h1>Projects</h1>
-{% include projects.html %}
+<ul class="listing">
+	{% for project in site.data.projects %}
+		<li class="item">
+			<a href="{{ project.url }}">{{ project.title }}</a>
+			<ul class="listing">
+				{% for item in project.sites %}
+					<li class="item"><a href="{{ site.github.url }}/{{ item.url }}">{{ item.title }}</a></li>
+				{% endfor %}
+			</ul>
+		</li>
+	{% endfor %}
+</ul>
 
 <h2>Gists</h2>
 <ul id="gists"></ul>

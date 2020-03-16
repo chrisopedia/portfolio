@@ -1,96 +1,16 @@
-<!DOCTYPE html>
-<html id="{{ page.site_id }}">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="author" content="Newton" />
-        {% if page.description %}
-            <meta name="description" content="{{ page.description }}" />
-	{% else %}
-            <meta name="description" content="{{ site.github.project_tagline }}" />
-        {% endif %}
+<!doctype html>
+<html id="{{ page.id }}">
+	<head>
+		{% include meta.html %}
 
-	<!-- IE meta tag, force it to Edge compatibility -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<!-- not sure what this is, found it in HTML5 Boilerplate -->
-	<meta http-equiv="cleartype" content="on" />
+		<link rel="canonical" href="{{ site.github.url }}" />
+		<link rel="copyright" href="{{ site.github.repository_url }}/blob/master/LICENSE" title="Copyright" />
 
-	<!-- BlackBerry meta tags (http://docs.blackberry.com/en/developers/deliverables/6176/HTML_ref_meta_564143_11.jsp) -->
-	<meta name="HandheldFriendly" content="True" />
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:600" />
+		<link rel="stylesheet" href="{{ site.github.url }}/ui/{{ page.id }}/stylesheets/{{ page.id }}.css" />
 
-	<!-- Windows Phone 7 meta tag (http://bowdenweb.com/wp/2011/05/meta-name-mobileoptimized-element.html) -->
-	<meta name="MobileOptimized" content="320" />
+		<title>{% if page.title %}{{ page.title }}{% endif %}</title>
+	</head>
 
-	<!-- Windows Phone 8 meta (Pinned Sites title to be shortenend) -->
-	<meta name="title" content="{{ site.github.project_title }}" />
-	<!-- Windows Phone 8 meta (needs to be 144x144, should have transparent png) -->
-	<meta name="msapplication-TileImage" content="ui/favions/144x144.png" />
-	<!-- Windows Phone 8 meta (should be most prominent color, [rgb, keywords, hex]) -->
-	<meta name="msapplication-TileColor" content="rgb(2,94,172)" />
-
-	<!-- iPhone meta tag (width=device-width letterboxes on iPhone 5) -->
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!-- iPhone meta tag (Smart Banner) -->
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="white" />
-	<meta name="apple-mobile-web-app-title" content="{{ site.github.project_title }}" />
-
-	<!-- Facebook og tags -->
-	<meta property="og:site_name" content="{{ site.github.owner_name }}'s {{ site.github.project_title }}" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="{{ site.github.url }}" />
-	<meta property="og:title" content="@{{ site.github.project_title }}" />
-	<meta property="og:description" content="{{ site.github.project_tagline }}">
-	<meta property="og:image" content="{{ site.github.url}}/media/me.png" />
-
-	<!-- Twitter card -->
-	<meta name="twitter:card" content="website">
-	<meta name="twitter:site" content="@chrisOHpedia">
-	<meta name="twitter:creator" content="chrisOHpedia">
-	<meta name="twitter:title" content="{{ site.github.project_title }}">
-	<meta name="twitter:description" content="{{ site.github.project_tagline }}">
-	<meta name="twitter:image:src" content="{{ site.github.url }}/media/favicons/512x512.png">
-	<meta name="twitter:data2" content="Fullerton, CA">
-	<meta name="twitter:label2" content="Location">
-	<meta name="twitter:domain" content="{{ site.github.url }}">
-
-	<!-- Pinterest -->
-	<meta name="p:domain_verify" content="" />
-	<!-- Google Direct Connect -->
-	<link rel="author" href="https://plus.google.com/+ChrisNewtonChrisopedia/" />
-
-	<!-- Profile information -->
-	<link rel="author" href="humans.txt" type="text/plain" />
-
-	<!-- Canonical -->
-	<link rel="canonical" href="{{ site.github.url }}" itemprop="codeRepository" />
-
-	<!-- Meta Links -->
-	<link rel="top" href="#" title="top" />
-	<link rel="home" href="{{ site.github.url }}" title="Home Page" />
-	<link rel="copyright" href="{{ site.github.repository_url }}/blob/master/LICENSE.md" title="Copyright" />
-
-        <title>{% if page.site_title %}{{ page.site_title }} | {% endif %}{% if page.title %}{{ page.title }}{% endif %}</title>
-
-        <link href="{{ site.github.url }}/ui{{ page.site_ui_dir }}stylesheets/{{page.site_stylesheet}}.css" rel="stylesheet" />
-        {% if page.stylesheet %}
-            <link href="{{ site.github.url }}/ui/{{ page.site_ui_dir }}/stylesheets/pages/{{ page.stylesheet }}.css" rel="stylesheet" />
-        {% endif %}
-        {% if page.font_link %}
-            <link href="http://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet" />
-        {% endif %}
-        {% if page.profile_links %}
-            <link rel="profile" href="http://microformats.org/profile/hcard">
-            <link rel="profile" href="http://microformats.org/profile/hcalendar">
-        {% endif %}
-
-        <link rel="shortcut" href="favicon.ico" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-    </head>
-
-    <body{% if page.id %} id="{{ page.id }}"{% endif %}{% if page.metadata %} {{ page.metadata }}{% endif %}>
-
-        {{ content }}
-
-    </body>
+	<body>{{ content }}</body>
 </html>

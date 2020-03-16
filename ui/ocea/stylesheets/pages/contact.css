@@ -1,9 +1,0 @@
-#Contact {}
-	#Contact .Content form {}
-		#Contact .Heading2a { margin: 0 0 20px; }
-		
-	#Contact .NewsletterSignUp { margin-left: 10px; }
-		#Contact .NewsletterSignUp form {}
-			#Contact .NewsletterSignUp form input[type="text"] { width: 205px; margin-right: 7px; font-size: 1em; }
-			#Contact .NewsletterSignUp form input[type="text"]:focus { color: #000; }
-			#Contact .NewsletterSignUp form input[type="submit"] { padding: 0 5px; }

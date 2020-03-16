@@ -1,2 +1,0 @@
-// Hero Module
-$(".heroFeature").hero();

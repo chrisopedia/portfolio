@@ -4,83 +4,12 @@ kramdown:
 gems:
   - jekyll-sitemap
 
-# Projects Listing
-projects:
-    - url: "http://chrisnewton.me/"
-      title: "Chrisopedia"
-      sites:
-        - url: cssoff/
-          title: "CSS Off Competition"
-        - url: clonebot/
-          title: "Clonebot"
-        - url: eanewton/
-          title: "Lisa Newton, EA"
-        - url: happynin/
-          title: "Happynin Games, Inc."
-        - url: keycounter/
-          title: "Key Counter"
-        - url: ocea/
-          title: "Orange County Enrolled Agents"
-        - url: pmp/
-          title: "Parking Meter Productions"
-        - url: palindrome-checker/
-          title: "Palindrome Checker"
-        - url: pps/
-          title: "Private Protective Services"
-        - url: seamless/
-          title: "Seamless Blog"
-        - url: threadless/
-          title: "Threadless Clothing"
-        - url: wedding/
-          title: "My Wedding"
-    - url: "http://demandmedia.com/"
-      title: "Demand Media"
-      sites:
-        - url: answerbag/
-          title: "Answerbag"
-        - url: cracked/
-          title: "Cracked"
-        - url: eatwhatwhy/
-          title: "Eat.What.Why. on eHow.com"
-        - url: ehow/
-          title: "eHow"
-        - url: "ehow-ui/"
-          title: "eHow UI"
-        - url: glass/
-          title: "Project: Glass"
-    - url: "http://hyfn.com/"
-      title: "HyFn"
-      sites:
-        - url: "battle-of-the-sexes/"
-          title: "Spinmasters's Battle of the Sexes"
-        - url: connections/
-          title: "Springhill Suites Connections"
-        - url: fairfieldinn/
-          title: "Fairfield Inn Infographic"
-        - url: "ge-capital/"
-          title: "GE Capital Mobile"
-        - url: peak/
-          title: "Peak Auto Mobile"
-        - url: petcarerx/
-          title: "Petcare Rx"
-        - url: "travel-libs/"
-          title: "Residence Inn's Travel Libs"
-    - url: "http://dealer.com/"
-      title: "Dealer.com"
-      sites:
-        - url: srm/
-          title: "SRM 2.4"
-    - url: "http://firstandthird.com/"
-      title: "First + Third"
-      sites:
-        - url: leanin/
-          title: "Lean In"
 
 fairfieldinn:
-    results: 
-        - Did Grandma just friend you? Now over half of all Americans have a profile on a social networking site.  
-        - Staying in touch or a waste of time? 25% of Americans hit social networking sites multiple times per day.  
-        - Much ado about to-dos – more than 70% of successful business owners say a to-do list is the one organizational must to keep all of their the plates spinning.  
-        - Boldly go! - 67% of business travelers are visiting new destinations. 
+    results:
+        - Did Grandma just friend you? Now over half of all Americans have a profile on a social networking site.
+        - Staying in touch or a waste of time? 25% of Americans hit social networking sites multiple times per day.
+        - Much ado about to-dos – more than 70% of successful business owners say a to-do list is the one organizational must to keep all of their the plates spinning.
+        - Boldly go! - 67% of business travelers are visiting new destinations.
         - File your expense reports! Sales trips account for 21% of all domestic business travel.
-        - Bring your Rubik's Cube - Generation X (those born between 1965 and 1980) makes up 36% of all business travelers. 
+        - Bring your Rubik's Cube - Generation X (those born between 1965 and 1980) makes up 36% of all business travelers.
